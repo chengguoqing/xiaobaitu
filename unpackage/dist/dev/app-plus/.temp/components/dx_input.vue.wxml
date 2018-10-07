@@ -1,0 +1,8 @@
+<template name="457d8f16">
+  <view class="_view data-v-eb66477a bgff btm df_hh_ddr pr">
+    <input type="text" placeholder="{{placeholder}}" value="{{visible}}" bindinput="handleProxy" wx:if="{{!type}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-eb66477a" />
+    <input type="number" placeholder="{{placeholder}}" value="{{visible}}" bindinput="handleProxy" wx:if="{{type==2}}" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_input data-v-eb66477a" />
+    <input type="text" password="true" placeholder="{{placeholder}}" value="{{visible}}" bindinput="handleProxy" wx:if="{{type==3}}" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_input data-v-eb66477a" />
+    <view class="_view data-v-eb66477a rigt_dfg ls" wx:if="{{rightText}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"> {{rightText}} </view>
+  </view>
+</template>
