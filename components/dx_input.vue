@@ -3,6 +3,7 @@
 
 		<input type="text"  :placeholder="placeholder"  v-model="visible"  v-if="!type"/>
 		
+        
 		<input type="number"  :placeholder="placeholder"  v-model="visible" v-if="type==2"/>
 		<input type="text" password="true" :placeholder="placeholder"  v-model="visible" v-if="type==3"/>
 		<view class="rigt_dfg ls" v-if="rightText" @click="rTextCabat">
