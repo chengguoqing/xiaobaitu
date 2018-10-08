@@ -3,7 +3,7 @@
 	<view class="pt20">
 
 		<dx_input v-model="form.pid" placeholder="请输入邀请人ID" class="bbm" v-if="isYaoqing==1"></dx_input>
-		<view class="pl20 fz15 pt10 pm10" v-if="isYaoqing==1">
+		<view class="pl30 fz26 pt10 pm10" v-if="isYaoqing==1">
 			官方邀请人ID：100000
 		</view>
 
@@ -17,7 +17,7 @@
 			<dx_input v-model="form.password" type="3" placeholder="请确认密码"></dx_input>
 		</view>
 
-		<button class="ls fz15 mt20 bgff">注册</button>
+		<button class="ls fz26 mt20 bgff">注册</button>
 
 
 

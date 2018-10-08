@@ -1,0 +1,6 @@
+<import src="/components/dx_list.vue.wxml" />
+<template name="06f224c3">
+  <view class="_view data-v-4477ed2a tefd_d">
+    <template data="{{...$root[$kk+'0-'+index], $root}}" is="bdcd01f4" wx:for="{{forw}}" wx:for-index="index" wx:for-item="sd"></template>
+  </view>
+</template>

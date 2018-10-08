@@ -6,10 +6,10 @@
 			<dx_input v-model="form.password" type="3" placeholder="密码" rightText="忘记密码" @rTextCabat="rTextCabat"></dx_input>
 		</view>
 		<button class="ls fz15 mt20 bgff">登录</button>
-		<view class="mt20 cen fz14 pm5" @click="zhuce_btn()">
+		<view class="mt20 cen fz26 pm5" @click="zhuce_btn()">
 			<ins class="z9">还没有注册账号，注册点这里！</ins>
 		</view>
-		<view class="cen ls  fz12">新手咨询群：520043520</view>
+		<view class="cen ls  fz24">新手咨询群：520043520</view>
 	</view>
 </template>
 <script>

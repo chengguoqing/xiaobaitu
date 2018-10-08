@@ -3,8 +3,10 @@ body{
 }
 button{
 	border-radius: 0px !important;
-	height: 40px;
+	height: 70rpx;
 }
 ins{
 	  text-decoration:underline 
 }
+
+
