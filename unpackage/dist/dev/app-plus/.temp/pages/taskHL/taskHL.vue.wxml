@@ -1,0 +1,56 @@
+<template name="880c9898">
+  <view class="_view data-v-c7955e62">
+    <view class="_view data-v-c7955e62 renWU_row bgff">
+      <view class="_view data-v-c7955e62 title_df z3 pd"> 已接垫付任务 </view>
+      <view class="_view data-v-c7955e62 btm pt20 pm20">
+        <view class="_view data-v-c7955e62 cen ">
+          <view class="_view data-v-c7955e62 cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 未完成 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task1.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 blm cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 已完成 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task2.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 blm cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 已撤销 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task3.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 qc"></view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-c7955e62 renWU_row bgff mt20">
+      <view class="_view data-v-c7955e62 title_df z3 pd"> 已接浏览任务 </view>
+      <view class="_view data-v-c7955e62 btm pt20 pm20">
+        <view class="_view data-v-c7955e62 cen ">
+          <view class="_view data-v-c7955e62 cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 未完成 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task1.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 blm cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 已完成 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task2.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 blm cls_3">
+            <view class="_view data-v-c7955e62 fz28 z6"> 已撤销 </view>
+            <view class="_view data-v-c7955e62 mt20">
+              <image src="../../static/img/task3.png" class="_image data-v-c7955e62 sd_drrrtty"></image>
+            </view>
+          </view>
+          <view class="_view data-v-c7955e62 qc"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

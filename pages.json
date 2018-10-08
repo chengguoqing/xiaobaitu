@@ -2,9 +2,62 @@
 	
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/test/index",
+			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"app-plus": {
+					"titleNView": "transparent"
+				}
+			}
+		},{
+			"path": "pages/tutorial/tutorial",
+			"style": {
+				
+			}
+		},{
+			"path": "pages/versions/versions",
+			"style": {
+				"navigationBarTitleText": "版本信息"
+			}
+		},{
+			"path": "pages/expandGold/expandGold",
+			"style": {
+				"navigationBarTitleText": "规则说明"
+			}
+		},{
+			"path": "pages/percentageComplete/percentageComplete",
+			"style": {
+				"navigationBarTitleText": "规则说明"
+			}
+		},{
+			"path": "pages/bind_account/bind_account",
+			"style": {
+				"navigationBarTitleText": "账号绑定"
+			}
+		},{
+			"path": "pages/settingUp/settingUp",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},{
+			"path": "pages/user_center/user_center",
+			"style": {
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"app-plus": {
+					"titleNView": "transparent"
+				}
+			}
+		},{
+			"path": "pages/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "申诉中心",
+				"enablePullDownRefresh":true
+			}
+		},{
+			"path": "pages/taskHL/taskHL",
+			"style": {
+				"navigationBarTitleText": "已接任务",
+				"enablePullDownRefresh":true
 			}
 		},{
 			"path": "pages/Login/Login",
@@ -48,7 +101,7 @@
 					"bounce": "none", //关闭窗口回弹效果
 					"titleNView": {
 						"buttons": [ //原生标题栏按钮配置,
-							{ 
+							{  
 								"text": "\ue60f",
 								"fontSize":"26",
 								"fontSrc":"static/fonts/iconfont.ttf"
@@ -64,5 +117,37 @@
 		"navigationBarTitleText": "小白兔",
 		"navigationBarBackgroundColor": "#4DA994",
 		"backgroundColor": "#4DA994"
+	},
+	"tabBar": {
+		"color": "#7C7C7C",
+		"selectedColor": "#45AE93",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/bottom/index.png",
+			"selectedIconPath": "static/img/bottom/indexHL.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/taskHL/taskHL",
+			"iconPath": "static/img/bottom/task.png",
+			"selectedIconPath": "static/img/bottom/taskHL.png",
+			"text": "已接任务"
+		}, {
+			"pagePath": "pages/complaint/complaint",
+			"iconPath": "static/img/bottom/complaint.png",
+			"selectedIconPath": "static/img/bottom/complaintHL.png",
+			"text": "申诉中心"
+		}, {
+			"pagePath": "pages/message/message",
+			"iconPath": "static/img/bottom/message.png",
+			"selectedIconPath": "static/img/bottom/messageHL.png",
+			"text": "我的消息"
+		}, {
+			"pagePath": "pages/user_center/user_center",
+			"iconPath": "static/img/bottom/center.png",
+			"selectedIconPath": "static/img/bottom/centerHL.png",
+			"text": "个人中心"
+		}]
 	}
 }

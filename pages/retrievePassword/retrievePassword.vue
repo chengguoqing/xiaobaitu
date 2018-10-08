@@ -3,8 +3,6 @@
 	<view class="pt20">
 
 		<view class="bbm">
-
-
 			<dx_input v-model="form.mobile" type="2" placeholder="手机号码"></dx_input>
 			<dx_input v-model="form.verifyCode" type="2" placeholder="请输入验证码" rightText="获取验证码" @rTextCabat="rTextCabat"></dx_input>
 		</view>
@@ -15,7 +13,7 @@
 			<dx_input v-model="form.password" type="3" placeholder="请确认新密码"></dx_input>
 		</view>
 
-		<button class="ls fz15 mt20 bgff">确认</button>
+		<button class="ls fz32 mt20 bgff">确认</button>
 
 	</view>
 </template>
@@ -39,7 +37,6 @@
 				console.log(223)
 			},
 			zhuce_btn() { //注册按钮点击
-				console.log(3)
 				uni.showModal({
 					title: '用户注册',
 					content: '请选择注册类型',

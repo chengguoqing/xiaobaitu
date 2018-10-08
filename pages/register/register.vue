@@ -17,7 +17,7 @@
 			<dx_input v-model="form.password" type="3" placeholder="请确认密码"></dx_input>
 		</view>
 
-		<button class="ls fz26 mt20 bgff">注册</button>
+		<button class="ls fz26 mt20 bgff fz32">注册</button>
 
 
 

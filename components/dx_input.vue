@@ -46,19 +46,19 @@
 </script>
 <style scoped>
 	.df_hh_ddr input {
-		height: 70upx;
+		height: 80upx;
 		text-indent: 0px;
 		padding-left: 20upx !important;
-		font-size: 26upx;
+		font-size: 30upx;
 	}
 
 	.rigt_dfg {
-		font-size: 22upx;
+		font-size: 26upx;
 		position: absolute;
 		right: 10upx;
 		top: 0upx;
 		background: #fff;
-		line-height: 70upx;
+		line-height: 80upx;
 		z-index: 99;
 	}
 </style>

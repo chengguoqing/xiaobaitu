@@ -1,8 +1,8 @@
 <template>
-<div class="dx_col" :class="'dx_col_'+num" :style="{'padding-left':gutter+'px','padding-right':gutter+'px'}" >
+<view class="dx_col" :class="'dx_col_'+num" :style="{'padding-left':gutter+'px','padding-right':gutter+'px'}" >
 
     <slot></slot>
-</div>
+</view>
 </template>
 <script>
     export default {

@@ -1,12 +1,145 @@
-body{
+body {
 	background: #EFEFF4;
 }
-button{
+
+button {
 	border-radius: 0px !important;
-	height: 70rpx;
+	height: 80upx;
+	line-height: 80upx;
 }
-ins{
-	  text-decoration:underline 
+
+ins {
+	text-decoration: underline
+}
+
+.jieDanBtn {
+	width: 160upx;
+	height: 160upx;
+	background: #5EBB9E;
+	text-align: center;
+	line-height: 160upx;
+	font-size: 46upx;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 160upx;
+	border-radius: 50%;
+	color: #fff;
+}
+
+.dd_ijh_der {
+	padding-top: 140upx;
+	background: #5EBB9E;
+}
+
+.fg_jgh_drrt {
+	background: #4FA994;
+
+}
+
+.h_dfg_le icon {
+	font-size: 36upx;
+	position: relative;
+	bottom: 6upx;
+}
+	.h_dfg_le {
+		width: 62upx;
+		height: 62upx;
+		text-align: center;
+		line-height: 62upx;
+		color: #fff;
+		display: inline-block;
+		background: #B8D982;
+		border-radius: 8upx;
+	}
+	.h_dfg_le.yj{
+		border-radius: 50%;
+	}
+.sd_lh_der {
+	line-height: 90upx;
+}
+
+.sd_lh_der:active,.list_dfg:active {
+	background: #f8f8f8 !important;
+}
+
+.sd_lh_der.ab .h_dfg_le {
+	background: #91D7CC;
+}
+
+.sd_lh_der.ac .h_dfg_le {
+	background: #66C0A6
+}
+
+.sd_lh_der.ad .h_dfg_le {
+	background: #88B9D6
+}
+
+.sd_lh_der.ae .h_dfg_le {
+	background: #D2A077
+}
+
+.sd_lh_der.af .h_dfg_le {
+	background: #C68492
+}
+
+.sd_lh_der.ag .h_dfg_le {
+	background: #D4C081
+}
+
+.sd_lh_der.ag icon {
+	font-size: 34upx;
+}
+.sd_lh_der.ah .h_dfg_le {
+	background: #88A5DC
+}
+.sd_lh_der.aj .h_dfg_le {
+	background: #B295C7
+}
+.sd_lh_der.ah icon{
+	font-size: 40upx;
+}
+.sd_lh_der.aj icon{
+	font-size: 34upx;
 }
 
 
+.sd_dfth {
+	position: absolute;
+	right: 20upx;
+	top: 0upx;
+}
+.list_dfg{
+	line-height: 80upx;
+	background: #fff;
+	position: relative;
+}
+.df_right{
+	position: absolute;
+	right: 20upx;
+	top: 0upx;
+}
+.df_right{
+	top: 6upx;
+}
+
+.sd_lh_der.ba .h_dfg_le {
+	background: #EC8548
+}
+
+.sd_lh_der.bb .h_dfg_le {
+	background: #EC669F
+}
+.sd_lh_der.bc .h_dfg_le {
+	background: #B52F2C
+}
+.sd_lh_der.bd .h_dfg_le {
+	background: #EA3274
+}
+.sd_lh_der.ba .h_dfg_le {
+	background: #C02E29
+}
+.dx_btn{
+	line-height: 80upx;
+}

@@ -1,7 +1,7 @@
 
       !(function(){
         var uniAppViewReadyCallback = function(){
-          setCssToHead([".",[1],"df_cdeeert.",[1],"data-v-4eaba50a { background: #fff !important; }\n",],undefined,{path:"./pages/register/register.wxss"})();
+          setCssToHead([".",[1],"df_cdeeert.",[1],"data-v-01ec588f { background: #fff !important; }\n",],undefined,{path:"./pages/register/register.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/register/register.wxml') } }));
         }
         if(window.__uniAppViewReady__){

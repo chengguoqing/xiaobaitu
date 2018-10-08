@@ -1,0 +1,7 @@
+<import src="/components/slots" />
+<template name="3259802a">
+  <view class="_view data-v-02717f39 dx_col {{'dx_col_' + num}}" style=" {{(  'padding-left:' +  (gutter + 'px') +  ';' +  'padding-right:' +  (gutter + 'px') +  ';')}}">
+    <template name="default"></template>
+    <template data="{{...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+  </view>
+</template>

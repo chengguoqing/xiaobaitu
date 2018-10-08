@@ -1,2 +1,1 @@
-<import src="/components/dx_list.vue.wxml" />
 <import src="/components/dx_input.vue.wxml" />

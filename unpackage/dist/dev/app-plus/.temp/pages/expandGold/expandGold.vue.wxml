@@ -1,0 +1,20 @@
+<template name="02bb3594">
+  <view class="_view data-v-6ea3092f">
+    <view class="_view data-v-6ea3092f list_dfg pd fz32 btm"> 推广总数
+      <view class="_view data-v-6ea3092f df_right fz26 z9">
+        <text class="_text data-v-6ea3092f cz ls">0个</text>
+        <icon class="_icon data-v-6ea3092f dx icon-right1 cz fz30 ml10"></icon>
+      </view>
+    </view>
+    <view class="_view data-v-6ea3092f list_dfg pd fz32 btm"> 累计奖励
+      <view class="_view data-v-6ea3092f df_right fz26 z9">
+        <text class="_text data-v-6ea3092f cz ls">0个金</text>
+        <icon class="_icon data-v-6ea3092f dx icon-right1 cz fz30 ml10"></icon>
+      </view>
+    </view>
+    <image src="../../static/img/sd_dre_w.jpg" class="_image data-v-6ea3092f w100 mt20" mode="widthFix"></image>
+    <view class="_view data-v-6ea3092f pd mt80">
+      <view class="_view data-v-6ea3092f  dx_btn bgls cen cf fz32 yj4"> pr分析给朋友 </view>
+    </view>
+  </view>
+</template>

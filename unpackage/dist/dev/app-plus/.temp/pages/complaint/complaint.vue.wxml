@@ -1,0 +1,3 @@
+<template name="7ef5279c">
+  <view wx:if="{{is_show}}" class="_view data-v-ee01c372"></view>
+</template>
