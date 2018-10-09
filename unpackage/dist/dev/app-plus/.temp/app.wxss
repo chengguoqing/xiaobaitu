@@ -1689,3 +1689,39 @@ page {
   display: table;
   clear: both;
 }
+.df_jh_drrt.data-v-5cafaf89 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.sd_fggrd.data-v-5cafaf89 {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+}
+.thg_sfg.data-v-5cafaf89 {
+  width: 50%;
+  float: left;
+  line-height: 80rpx;
+}
+.sd_fggrd.bca .thg_sfg.data-v-5cafaf89 {
+  width: 33.3%;
+}
+.sd_fggrd.bcb .thg_sfg.data-v-5cafaf89 {
+  width: 25%;
+}
+.sd_fggrd.bcc .thg_sfg.data-v-5cafaf89 {
+  width: 20%;
+}
+.thg_sfg.act.data-v-5cafaf89 {
+  color: #4DA994;
+  border-bottom: 2px solid #4DA994;
+}
+.s_kgfg_dr.data-v-5cafaf89 {
+  padding-top: 80rpx;
+}

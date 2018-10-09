@@ -1,0 +1,14 @@
+<import src="/components/dx_list.vue.wxml" />
+<template name="42d86add">
+  <view class="_view data-v-5cafaf89 page_index">
+    <view class="_view data-v-5cafaf89 sd_fggrd bgff cen bbm {{da_lef}}">
+      <view class="_view data-v-5cafaf89 thg_sfg fz32 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-5cafaf89 qc"></view>
+    </view>
+    <swiper current="{{index_d}}" class="_swiper data-v-5cafaf89 s_kgfg_dr df_jh_drrt" duration="300" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <swiper-item wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd" class="_swiper-item data-v-5cafaf89">
+        <template data="{{...$root[$kk+'0-'+idx+'-'+inx_er], $root}}" is="bdcd01f4" wx:for="{{sd.date_df}}" wx:for-index="inx_er" wx:for-item="sd"></template>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

@@ -1,49 +1,48 @@
 <template>
-	<view  class="tefd_d">
-	<dx_list :title='sd.id' v-for="sd in forw"></dx_list>
-	
+	<view class="">
+		<dx_tab :title_d="title_d"></dx_tab>
 	</view>
+	 
 </template>
 <script>
-	import {
-		config
-	} from "../../static/js/config.js"
 	export default {
 		data() {
 			return {
-				forw:[
-					{id:0},
-					{id:1},
-					{id:2},
-					{id:3},
-					{id:4},
-				]
+				title_d: [{
+					name: "我发起的申诉",
+					cls: "act",
+					page: 1,
+					date_df: [{
+						id: 0
+					}, {
+						id: 1
+					}]
+				}, {
+					name: "我收到的申诉",
+					cls: "",
+					page: 1,
+					date_df: [{
+						id: 3
+					}, {
+						id: 4
+					}]
+				}]
 			}
 		},
-		computed: {
-			tefd_d(){
-				let sd_df=['a','b','c','d','e','f','g','h']
-				this.forw.map(a=>{
-					a.id=sd_df[a.id]
-				})
-				return  this.forw
-			}
+		components: {
+
 		},
-		components: {},
+		computed : {
+			
+		},
 		methods: {
-			test_sd() {
-				return '55658777'
-			}
+		
 		},
-		mounted() {
-			setTimeout(a=>{
-				this.forw[2].id=0
-			},5000)
-			console.log(this.car_number)
-		},
+	
+
 	}
 </script>
+
 <style scoped>
-
-
+	
 </style>

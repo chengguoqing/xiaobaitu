@@ -20,6 +20,11 @@ Vue.component('dx_col',dx_col)
 
 import dx_row from './components/dx_row.vue'
 Vue.component('dx_row',dx_row)
+
+import dx_tab from './components/dx_tab.vue'
+Vue.component('dx_tab',dx_tab)
+
+
 App.mpType = 'app'
 Vue.use(base)
 const app = new Vue({
