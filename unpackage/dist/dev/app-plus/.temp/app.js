@@ -45,7 +45,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });var _vue =
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("var uni = __webpack_require__(0).default;exports.base = {\n\tinstall: function install(Vue, options) {\n\t\tVue.prototype.car_number = \"515\";\n\t} };\n\n//////////////////\n// WEBPACK FOOTER\n// E:/uni_app/xiaobaitu/static/js/base.js\n// module id = 11\n// module chunks = 0\n\n//# sourceURL=uni-app:///static/js/base.js?0fa3");
+eval("var uni = __webpack_require__(0).default;exports.base = {\n\tinstall: function install(Vue, options) {\n\t\tVue.prototype.car_number = \"515\";\n\t\tVue.prototype.keFu = function () {\n\t\t\tuni.showActionSheet({\n\t\t\t\titemList: ['返款问题：993768343', '客服一：993768343', '客服er：993768343', '客服三：993768343'],\n\t\t\t\tsuccess: function success(res) {\n\t\t\t\t\tconsole.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n\t\t\t\t},\n\t\t\t\tfail: function fail(res) {\n\t\t\t\t\tconsole.log(res.errMsg);\n\t\t\t\t} });\n\n\t\t};\n\t} };\n\n//////////////////\n// WEBPACK FOOTER\n// E:/uni_app/xiaobaitu/static/js/base.js\n// module id = 11\n// module chunks = 0\n\n//# sourceURL=uni-app:///static/js/base.js?0fa3");
 
 /***/ }),
 /* 12 */
