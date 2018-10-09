@@ -1,39 +1,39 @@
-<template name="46cd13c0">
-  <view class="_view data-v-11dc4756">
-    <view class="_view data-v-11dc4756 dd_ijh_der cen pm20">
-      <view class="_view data-v-11dc4756 cls_2">
-        <view class="_view data-v-11dc4756 fz32 cf"> 佣金收益(金) </view>
-        <view class="_view data-v-11dc4756 fz70 cf mt30"> 0.00 </view>
+<template name="37f9131d">
+  <view class="_view data-v-33123de0">
+    <view class="_view data-v-33123de0 dd_ijh_der cen pm20">
+      <view class="_view data-v-33123de0 cls_2">
+        <view class="_view data-v-33123de0 fz32 cf"> 佣金收益(金) </view>
+        <view class="_view data-v-33123de0 fz70 cf mt30"> 0.00 </view>
       </view>
-      <view class="_view data-v-11dc4756 cls_2">
-        <view class="_view data-v-11dc4756 s_jh_right">
-          <view class="_view data-v-11dc4756 fz32 cf"> 本金收益(金) </view>
-          <view class="_view data-v-11dc4756 fz70 cf mt30"> 0.00 </view>
+      <view class="_view data-v-33123de0 cls_2">
+        <view class="_view data-v-33123de0 s_jh_right">
+          <view class="_view data-v-33123de0 fz32 cf"> 本金收益(金) </view>
+          <view class="_view data-v-33123de0 fz70 cf mt30"> 0.00 </view>
         </view>
       </view>
-      <view class="_view data-v-11dc4756 qc"></view>
+      <view class="_view data-v-33123de0 qc"></view>
     </view>
-    <view class="_view data-v-11dc4756 cf fz26 fg_jgh_drrt cen pt20 pm20">
-      <view class="_view data-v-11dc4756 cls_3"> 今日收入0.00金 </view>
-      <view class="_view data-v-11dc4756 cls_3">
-        <view class="_view data-v-11dc4756 s_jh_right"> 任务收入0.00金 </view>
+    <view class="_view data-v-33123de0 cf fz26 fg_jgh_drrt cen pt20 pm20">
+      <view class="_view data-v-33123de0 cls_3"> 今日收入0.00金 </view>
+      <view class="_view data-v-33123de0 cls_3">
+        <view class="_view data-v-33123de0 s_jh_right"> 任务收入0.00金 </view>
       </view>
-      <view class="_view data-v-11dc4756 cls_3">
-        <view class="_view data-v-11dc4756 s_jh_right"> 推广奖励0.00金 </view>
+      <view class="_view data-v-33123de0 cls_3">
+        <view class="_view data-v-33123de0 s_jh_right"> 推广奖励0.00金 </view>
       </view>
-      <view class="_view data-v-11dc4756 qc"></view>
+      <view class="_view data-v-33123de0 qc"></view>
     </view>
-    <view class="_view data-v-11dc4756 gonggao pd bgff dian">
-      <icon class="_icon data-v-11dc4756 dx icon-systemprompt_fill ye laBa cz"></icon>
-      <text class="_text data-v-11dc4756 ye fz30 cz">公共</text>
-      <text class="_text data-v-11dc4756 z6 fz28 ml10 cz">国庆期间体检，银行处理延迟通知</text>
+    <view class="_view data-v-33123de0 gonggao pd bgff dian">
+      <icon class="_icon data-v-33123de0 dx icon-systemprompt_fill ye laBa cz"></icon>
+      <text class="_text data-v-33123de0 ye fz30 cz">公共</text>
+      <text class="_text data-v-33123de0 z6 fz28 ml10 cz">国庆期间体检，银行处理延迟通知</text>
     </view>
-    <view class="_view data-v-11dc4756 mt20 bgff pd xinShoujiao">
-      <view class="_view data-v-11dc4756 jiao_leyf cz">
-        <icon class="_icon data-v-11dc4756 dx icon-remind_fill"></icon>
+    <view class="_view data-v-33123de0 mt20 bgff pd xinShoujiao">
+      <view class="_view data-v-33123de0 jiao_leyf cz">
+        <icon class="_icon data-v-33123de0 dx icon-remind_fill"></icon>
       </view>
-      <text class="_text data-v-11dc4756 fz34 cz z6 ml10">新手教学</text>
+      <text class="_text data-v-33123de0 fz34 cz z6 ml10">新手教学</text>
     </view>
-    <view class="_view data-v-11dc4756 jieDanBtn"> 接 单 </view>
+    <view class="_view data-v-33123de0 jieDanBtn"> 接 单 </view>
   </view>
 </template>

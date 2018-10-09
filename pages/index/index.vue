@@ -82,7 +82,7 @@
 
 		},
 		mounted() {
-
+			console.log(this.$store.state.test_df)
 		},
 		onPullDownRefresh() {
 			setTimeout(function() {
