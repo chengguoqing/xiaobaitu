@@ -1,3 +1,24 @@
 <template name="5e1ebe8f">
-  <view wx:if="{{is_show}}" class="_view data-v-b9c58ffc"></view>
+  <view class="_view data-v-b9c58ffc page_index">
+    <view class="_view data-v-b9c58ffc sd_fggrd bgff cen bbm {{da_lef}}">
+      <view class="_view data-v-b9c58ffc thg_sfg fz32 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-b9c58ffc qc"></view>
+    </view>
+    <swiper current="{{index_d}}" class="_swiper data-v-b9c58ffc s_kgfg_dr df_jh_drrt" duration="300" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <swiper-item class="_swiper-item data-v-b9c58ffc sd_jh_drrt" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
+        <view class="_view data-v-b9c58ffc sdf_dfrtyy h100">
+          <view class="_view data-v-b9c58ffc bgff bbm pd pt20 pm20" wx:for="{{sd.date_df}}" wx:for-index="index" wx:for-item="sd">
+            <view class="_view data-v-b9c58ffc dx_row df_jh_deet">
+              <view class="_view data-v-b9c58ffc dx_col_16 fz32 z6"> 订单编号：62907145 </view>
+              <view class="_view data-v-b9c58ffc dx_col_8 z9  fz26"> 2018-10-06 11:26:50 </view>
+            </view>
+            <view class="_view data-v-b9c58ffc dx_row mt15">
+              <view class="_view data-v-b9c58ffc dx_col_20 z9 fz30"> [类型]文字文字文字文字文字文字文字文 </view>
+              <view class="_view data-v-b9c58ffc dx_col_4 z9 tr fz30"> 已完结 </view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
 </template>

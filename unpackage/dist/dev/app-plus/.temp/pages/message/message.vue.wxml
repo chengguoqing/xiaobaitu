@@ -1,0 +1,9 @@
+<template name="43438b87">
+  <view class="_view data-v-1b35873a">
+    <view class="_view data-v-1b35873a bgff pd pt10 pm15 bbm" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
+      <icon class="_icon data-v-1b35873a dx icon-systemprompt z9  fz34 cz"></icon>
+      <text class="_text data-v-1b35873a z9 fz26 ml5 ">2018-10-05 16:04:02</text>
+      <view class="_view data-v-1b35873a fz32 z6 mt5"> 很遗憾，很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾 </view>
+    </view>
+  </view>
+</template>

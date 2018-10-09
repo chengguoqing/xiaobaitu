@@ -143,3 +143,49 @@ ins {
 .dx_btn{
 	line-height: 80upx;
 }
+
+.df_jh_drrt {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		padding-bottom: 100upx;
+	}
+
+	.sd_fggrd {
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+		width: 100%;
+		left: 0;
+		z-index: 100;
+	}
+
+	.thg_sfg {
+		width: 50%;
+		float: left;
+		line-height: 80upx;
+	}
+
+	.sd_fggrd.bca .thg_sfg {
+		width: 33.3%;
+	}
+
+	.sd_fggrd.bcb .thg_sfg {
+		width: 25%;
+	}
+
+	.sd_fggrd.bcc .thg_sfg {
+		width: 20%;
+	}
+
+	.thg_sfg.act {
+		color: #4DA994;
+		border-bottom: 2px solid #4DA994;
+	}
+
+	.s_kgfg_dr {
+		padding-top: 80upx;
+		padding-bottom: 80upx;
+	}
