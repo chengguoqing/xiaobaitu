@@ -1,9 +1,10 @@
+<!-- 申诉中心 -->
 <template>
 
-	<view class="page_index">
+	<view class="">
 		<view class="sd_fggrd bgff cen bbm" :class="da_lef">
 			<view class="thg_sfg fz32" :class="sd.cls" v-for="(sd,idx) in title_d" @click="qiehuan_d(sd,idx)">
-				{{sd.name}} 
+				{{sd.name}}
 			</view>
 			<view class="qc">
 
@@ -12,9 +13,39 @@
 
 
 
-		<swiper :current="index_d" class="s_kgfg_dr df_jh_drrt" duration="300" @change="bindChange">
+		<swiper :current="index_d" class=" df_jh_drrt" duration="300" @change="bindChange">
 			<swiper-item v-for="(sd,idx) in title_d">
-				<dx_list :title='sd.id' v-for="(sd,inx_er) in sd.date_df"></dx_list>
+
+				<scroll-view class="scroll-view_H h100 sdf_dfrtyy" scroll-y="true">
+					
+					<view class="sdf_dfrtyy_e">
+						&nbsp;
+					</view>
+					<view class="bgff bbm pd pt20 pm20" v-for="(sd,idx_e) in sd.date_df">
+						<view class="dx_row df_jh_deet">
+							<view class="dx_col_15 fz32 z6">
+								订单编号：62907145
+							</view>
+							<view class="dx_col_9 z9  fz26">
+								2018-10-06 11:26:50
+							</view>
+						</view>
+
+						<view class="dx_row mt5">
+							<view class="dx_col_20 z9 fz26">
+								[类型]文字文字文字文字文字文字文字文
+							</view>
+							<view class="dx_col_4 z9 tr fz26">
+								已完结
+							</view>
+						</view>
+
+					</view>
+
+				</scroll-view>
+
+
+
 			</swiper-item>
 		</swiper>
 
@@ -25,47 +56,37 @@
 </template>
 <script>
 	export default {
-		props:{
-			title_d:""
-		},
 		data() {
 			return {
 				index_d: 0,
+
 				title_d: [{
 					name: "我发起的申诉",
 					cls: "act",
 					page: 1,
-					date_df: [{
-						id: 0
-					}, {
-						id: 1
-					}]
+					date_df: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 				}, {
 					name: "我收到的申诉",
 					cls: "",
 					page: 1,
-					date_df: [{
-						id: 3
-					}, {
-						id: 4
-					}]
+					date_df: [{}, {}]
 				}]
 			}
 		},
 		components: {
 
 		},
-		computed : {
-			da_lef(){
-				let sd_df=""
-				if(this.title_d.length==3){
-					sd_df="bca"
+		computed: {
+			da_lef() {
+				let sd_df = ""
+				if (this.title_d.length == 3) {
+					sd_df = "bca"
 				}
-				if(this.title_d.length==4){
-					sd_df="bcb"
+				if (this.title_d.length == 4) {
+					sd_df = "bcb"
 				}
-				if(this.title_d.length==5){
-					sd_df="bcc"
+				if (this.title_d.length == 5) {
+					sd_df = "bcc"
 				}
 				return sd_df
 			}
@@ -105,44 +126,6 @@
 </script>
 
 <style scoped>
-	.df_jh_drrt {
-		position: fixed;
-		left: 0px;
-		top: 0px;
-		width: 100%;
-		height: 100%;
-	}
 
-	.sd_fggrd {
-		position: fixed;
-		z-index: 1000;
-		top: 0;
-		width: 100%;
-		left: 0;
-		z-index: 100;
-	}
 
-	.thg_sfg {
-		width: 50%;
-		float: left;
-		line-height: 80upx;
-	}
-	.sd_fggrd.bca .thg_sfg{
-		width: 33.3%;
-	}
-	.sd_fggrd.bcb .thg_sfg{
-		width: 25%;
-	}
-	.sd_fggrd.bcc .thg_sfg{
-		width: 20%;
-	}
-	
-	.thg_sfg.act {
-		color: #4DA994;
-		border-bottom: 2px solid #4DA994;
-	}
-
-	.s_kgfg_dr {
-		padding-top: 80upx;
-	}
 </style>

@@ -1,8 +1,22 @@
 
-.df_jh_deet.data-v-b9c58ffc {
-  line-height: 32rpx;
+.d_hg_derrty.data-v-ee01c372 {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
 }
-.sdf_dfrtyy.data-v-b9c58ffc {
-  overflow: auto;
-  padding-bottom: 100rpx;
+.down_icon.data-v-ee01c372 {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: -120rpx;
+  top: 10rpx;
+}
+.df_df_drt.data-v-ee01c372 {
+  width: 200rpx;
+}
+.down_icon.act.data-v-ee01c372 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }

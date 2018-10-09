@@ -1,13 +1,24 @@
-<import src="/components/dx_list.vue.wxml" />
-<template name="42d86add">
-  <view class="_view data-v-5cafaf89 page_index">
-    <view class="_view data-v-5cafaf89 sd_fggrd bgff cen bbm {{da_lef}}">
-      <view class="_view data-v-5cafaf89 thg_sfg fz32 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
-      <view class="_view data-v-5cafaf89 qc"></view>
+<template name="51ac6b80">
+  <view class="_view data-v-6d4aaace">
+    <view class="_view data-v-6d4aaace sd_fggrd bgff cen bbm {{da_lef}}">
+      <view class="_view data-v-6d4aaace thg_sfg fz32 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-6d4aaace qc"></view>
     </view>
-    <swiper current="{{index_d}}" class="_swiper data-v-5cafaf89 s_kgfg_dr df_jh_drrt" duration="300" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
-      <swiper-item wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd" class="_swiper-item data-v-5cafaf89">
-        <template data="{{...$root[$kk+'0-'+idx+'-'+inx_er], $root}}" is="bdcd01f4" wx:for="{{sd.date_df}}" wx:for-index="inx_er" wx:for-item="sd"></template>
+    <swiper current="{{index_d}}" class="_swiper data-v-6d4aaace  df_jh_drrt" duration="300" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <swiper-item wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd" class="_swiper-item data-v-6d4aaace">
+        <scroll-view class="_scroll-view data-v-6d4aaace scroll-view_H h100 sdf_dfrtyy" scroll-y="true">
+          <view class="_view data-v-6d4aaace sdf_dfrtyy_e">   </view>
+          <view class="_view data-v-6d4aaace bgff bbm pd pt20 pm20" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
+            <view class="_view data-v-6d4aaace dx_row df_jh_deet">
+              <view class="_view data-v-6d4aaace dx_col_15 fz32 z6"> 订单编号：62907145 </view>
+              <view class="_view data-v-6d4aaace dx_col_9 z9  fz26"> 2018-10-06 11:26:50 </view>
+            </view>
+            <view class="_view data-v-6d4aaace dx_row mt5">
+              <view class="_view data-v-6d4aaace dx_col_20 z9 fz26"> [类型]文字文字文字文字文字文字文字文 </view>
+              <view class="_view data-v-6d4aaace dx_col_4 z9 tr fz26"> 已完结 </view>
+            </view>
+          </view>
+        </scroll-view>
       </swiper-item>
     </swiper>
   </view>

@@ -1,24 +1,31 @@
-<template name="5e1ebe8f">
-  <view class="_view data-v-b9c58ffc page_index">
-    <view class="_view data-v-b9c58ffc sd_fggrd bgff cen bbm {{da_lef}}">
-      <view class="_view data-v-b9c58ffc thg_sfg fz32 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
-      <view class="_view data-v-b9c58ffc qc"></view>
+<template name="7ef5279c">
+  <view class="_view data-v-ee01c372 page_index">
+    <view class="_view data-v-ee01c372 sd_fggrd bgff cen bbm {{da_lef}}">
+      <view class="_view data-v-ee01c372 thg_sfg fz30 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-ee01c372 qc"></view>
     </view>
-    <swiper current="{{index_d}}" class="_swiper data-v-b9c58ffc s_kgfg_dr df_jh_drrt" duration="300" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
-      <swiper-item class="_swiper-item data-v-b9c58ffc sd_jh_drrt" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
-        <view class="_view data-v-b9c58ffc sdf_dfrtyy h100">
-          <view class="_view data-v-b9c58ffc bgff bbm pd pt20 pm20" wx:for="{{sd.date_df}}" wx:for-index="index" wx:for-item="sd">
-            <view class="_view data-v-b9c58ffc dx_row df_jh_deet">
-              <view class="_view data-v-b9c58ffc dx_col_16 fz32 z6"> 订单编号：62907145 </view>
-              <view class="_view data-v-b9c58ffc dx_col_8 z9  fz26"> 2018-10-06 11:26:50 </view>
-            </view>
-            <view class="_view data-v-b9c58ffc dx_row mt15">
-              <view class="_view data-v-b9c58ffc dx_col_20 z9 fz30"> [类型]文字文字文字文字文字文字文字文 </view>
-              <view class="_view data-v-b9c58ffc dx_col_4 z9 tr fz30"> 已完结 </view>
-            </view>
-          </view>
+    <scroll-view class="_scroll-view data-v-ee01c372 scroll-view_H d_hg_derrty" bindtouchend="handleProxy" bindtouchstart="handleProxy" scroll-y="true" bindscroll="handleProxy" scroll-top="{{scrollTop}}" bindscrolltoupper="handleProxy" upper-threshold="50"
+      data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-ee01c372 sdf_dfrtyy_e cen fz32">
+        <view class="_view data-v-ee01c372 cen fz32 f_b z6 pr df_df_drt">
+          <image src="../../static/img/down.png" class="_image data-v-ee01c372 down_icon {{is_usod == 2 ? 'act' : ''}}" wx:if="{{is_usod!=3}}"></image>
+          <image src="../../static/img/load.gif" class="_image data-v-ee01c372 down_icon" wx:else></image>
+          <text wx:if="{{is_usod==1}}" class="_text data-v-ee01c372"> 下拉可以刷新 </text>
+          <text wx:if="{{is_usod==2}}" class="_text data-v-ee01c372"> 松开立即刷新 </text>
+          <text wx:if="{{is_usod==3}}" class="_text data-v-ee01c372"> 正在刷新 </text>
         </view>
-      </swiper-item>
-    </swiper>
+        <view class="_view data-v-ee01c372 fz26 z9 cen mt10"> 最后更新时间:10-09 23:33 </view>
+      </view>
+      <view class="_view data-v-ee01c372 bgff bbm pd pt15 pm10" wx:for="{{20}}" wx:for-index="idx_e" wx:for-item="sd">
+        <view class="_view data-v-ee01c372 dx_row df_jh_deet">
+          <view class="_view data-v-ee01c372 dx_col_15 fz32 z6"> 订单编号：62907145 </view>
+          <view class="_view data-v-ee01c372 dx_col_9 z9  fz26"> 2018-10-06 11:26:50 </view>
+        </view>
+        <view class="_view data-v-ee01c372 dx_row mt5">
+          <view class="_view data-v-ee01c372 dx_col_20 z9 fz26"> [类型]文字文字文字文字文字文字文字文 </view>
+          <view class="_view data-v-ee01c372 dx_col_4 z9 tr fz26 mt10"> 已完结 </view>
+        </view>
+      </view>
+    </scroll-view>
   </view>
 </template>

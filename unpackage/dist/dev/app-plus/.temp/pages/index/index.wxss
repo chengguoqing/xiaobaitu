@@ -1,17 +1,17 @@
 
-.s_jh_right.data-v-33123de0 {
+.s_jh_right.data-v-11dc4756 {
   border-left: 1px solid #fff;
 }
-.gonggao.data-v-33123de0 {
+.gonggao.data-v-11dc4756 {
   line-height: 80rpx;
 }
-.laBa.data-v-33123de0 {
+.laBa.data-v-11dc4756 {
   font-size: 70rpx;
 }
-.xinShoujiao.data-v-33123de0 {
+.xinShoujiao.data-v-11dc4756 {
   line-height: 120rpx;
 }
-.jiao_leyf.data-v-33123de0 {
+.jiao_leyf.data-v-11dc4756 {
   width: 80rpx;
   height: 80rpx;
   background: #8CB9D6;
@@ -20,7 +20,7 @@
   line-height: 80rpx;
   display: inline-block;
 }
-.jiao_leyf icon.data-v-33123de0 {
+.jiao_leyf icon.data-v-11dc4756 {
   font-size: 55rpx;
   color: #fff;
 }

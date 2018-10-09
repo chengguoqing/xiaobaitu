@@ -25,6 +25,8 @@ import dx_tab from './components/dx_tab.vue'
 Vue.component('dx_tab',dx_tab)
 
 
+
+
 App.mpType = 'app'
 Vue.use(base)
 const app = new Vue({

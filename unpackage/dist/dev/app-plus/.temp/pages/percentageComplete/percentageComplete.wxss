@@ -1,15 +1,15 @@
 
-.sd_jh_derterter.data-v-8a1a86ec {
+.sd_jh_derterter.data-v-655908e2 {
   border-top: 2px solid #000;
   padding-left: 8px;
   padding-right: 8px;
 }
-.sd_jh_derterter text.data-v-8a1a86ec {
+.sd_jh_derterter text.data-v-655908e2 {
   background: #fff;
   position: relative;
   bottom: 25rpx;
 }
-.bgff_dert.data-v-8a1a86ec {
+.bgff_dert.data-v-655908e2 {
   position: fixed;
   left: 0;
   top: 0;
@@ -17,6 +17,6 @@
   height: 100%;
   background: #fff;
 }
-.dfg_jfrrtt.data-v-8a1a86ec {
+.dfg_jfrrtt.data-v-655908e2 {
   line-height: 1.5;
 }
