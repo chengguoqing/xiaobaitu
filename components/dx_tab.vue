@@ -12,7 +12,7 @@
 		</view>
 		<view class="df_dertxr">
 			<slot></slot>
-<input auto-focus="" />
+
 		</view>
 	</view>
 </template>

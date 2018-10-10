@@ -1,17 +1,17 @@
 
-.s_jh_right.data-v-33123de0 {
+.s_jh_right.data-v-11dc4756 {
   border-left: 1px solid #fff;
 }
-.gonggao.data-v-33123de0 {
+.df_drrrty.data-v-11dc4756 {
+  line-height: 1.5;
+}
+.gonggao.data-v-11dc4756 {
   line-height: 80rpx;
 }
-.laBa.data-v-33123de0 {
+.laBa.data-v-11dc4756 {
   font-size: 70rpx;
 }
-.xinShoujiao.data-v-33123de0 {
-  line-height: 120rpx;
-}
-.jiao_leyf.data-v-33123de0 {
+.jiao_leyf.data-v-11dc4756 {
   width: 80rpx;
   height: 80rpx;
   background: #8CB9D6;
@@ -20,7 +20,64 @@
   line-height: 80rpx;
   display: inline-block;
 }
-.jiao_leyf icon.data-v-33123de0 {
+.jiao_leyf.ab.data-v-11dc4756 {
+  background: #63BD96;
+}
+.jiao_leyf icon.data-v-11dc4756 {
   font-size: 55rpx;
   color: #fff;
+}
+.right_dert.data-v-11dc4756 {
+  position: absolute;
+  right: 20rpx;
+  top: 30rpx;
+}
+.sd_jh_deertxe.data-v-635517c2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.guize_der.data-v-635517c2 {
+  width: 700rpx;
+  height: 1000rpx;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  border-radius: 4px;
+}
+.df_jdf_rt.data-v-635517c2 {
+  margin-top: 40rpx;
+}
+.colos_er.data-v-635517c2 {
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+.sd_jh_deettx.data-v-635517c2 {
+  margin-top: 20rpx;
+  height: 850rpx;
+}
+.diy_dertyxd view.data-v-635517c2 {
+  position: relative;
+}
+.diy_dertyxd view.data-v-635517c2 {
+  margin-bottom: 15rpx;
+}
+.diy_dertyxd view.data-v-635517c2::after {
+  content: ' ';
+  position: absolute;
+  left: -20rpx;
+  top: 15rpx;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background: #63BD96;
 }

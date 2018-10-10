@@ -212,3 +212,11 @@ ins {
 	height: 200upx;
 	padding-top: 100upx;
 }
+
+
+.dsf_dfrrtyx {
+		position: fixed;
+		left: 0;
+		width: 100%;
+		bottom: 40upx;
+	}

@@ -1,10 +1,8 @@
 
-.dfs_jh_dert.data-v-00196f60 {
+.dfs_jh_dert.data-v-1d7cef15 {
   line-height: 1.4;
 }
-.dsf_dfrrtyx.data-v-00196f60 {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  bottom: 40rpx;
+.df_deertxr.data-v-1d7cef15 {
+  position: relative;
+  top: -6rpx;
 }

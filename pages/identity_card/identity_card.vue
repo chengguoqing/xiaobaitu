@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="" v-if="false">
+		<view class="">
 			<view class="pt20 pm20 fz30 pd">
 				第一步输入您的真实姓名
 			</view>
@@ -26,7 +26,7 @@
 
 		</view>
 		
-		<view class="pd pt40">
+		<view class="pd pt40"  v-if="false">
 			<view class="fz40 z6">
 				身份证信息
 			</view>

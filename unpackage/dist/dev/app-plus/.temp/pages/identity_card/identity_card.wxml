@@ -1,1 +1,1 @@
-<import src="/pages/identity_card/identity_card.vue.wxml" /><template is="7f6fd41b" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/identity_card/identity_card.vue.wxml" /><template is="7b27a284" data="{{ ...$root['0'], $root }}"/>

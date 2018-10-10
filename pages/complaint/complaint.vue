@@ -3,7 +3,7 @@
 	<view class="page_index">
 		<dx_tab :title_d="title_d">
 		 <view class="df_ff_dff" v-for="(sd,idx) in title_d" v-if="index_d==idx">
-			<view class="bgff bbm pd pt15 pm10" v-for="(sd,idx_e) in sd.date_df">
+			<view class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in sd.date_df">
 				<view class="dx_row df_jh_deet">
 					<view class="dx_col_15 fz32 z6">
 						订单编号{{sd.id}}：62907145
@@ -16,7 +16,7 @@
 					<view class="dx_col_20 z9 fz26">
 						[类型]文字文字文字文字文字文字文字文
 					</view>
-					<view class="dx_col_4 z9 tr fz26 mt10">
+					<view class="dx_col_4 z9 tr fz26 ">
 						已完结
 					</view>
 				</view>

@@ -1,0 +1,21 @@
+
+.df_dffrf.data-v-15cc5b01 {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+.df_dffrf.act.data-v-15cc5b01::after {
+  content: ' ';
+  position: absolute;
+  width: 25rpx;
+  height: 25rpx;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  background: #63BD96;
+}

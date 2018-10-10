@@ -1,0 +1,31 @@
+<template name="77a2bcb6">
+  <view class="_view data-v-15cc5b01  pm20">
+    <view class="_view data-v-15cc5b01 z9 pt30 pm20 fz26 z9 cen"> 第{{dangqqi_idx}}题，共{{timu_s.length}}题 </view>
+    <view class="_view data-v-15cc5b01 pl30 pr30 ">
+      <view class="_view data-v-15cc5b01 fz32 z3 pm20"> {{dangqqi_idx}}.{{dangqqi.title}} </view>
+      <view class="_view data-v-15cc5b01 pt20 pm20 z9 fz28" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{dangqqi.xuanxiang}}" wx:for-index="index" wx:for-item="sd">
+        <view class="_view data-v-15cc5b01 df_dffrf yj cz {{sd.cls}}"></view>
+        <text class="_text data-v-15cc5b01 ml5 cz">{{sd.name}}</text>
+      </view>
+    </view>
+    <view class="_view data-v-15cc5b01 mt20" wx:if="{{dangqqi_idx==1}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-15cc5b01 dx_btn cen ls bgff">下一题</view>
+    </view>
+    <view class="_view data-v-15cc5b01 mt20 dx_row" wx:if="{{dangqqi_idx>1&&dangqqi_idx<timu_s.length}}">
+      <view class="_view data-v-15cc5b01 dx_col_12">
+        <view class="_view data-v-15cc5b01 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">上一题</view>
+      </view>
+      <view class="_view data-v-15cc5b01 dx_col_12">
+        <view class="_view data-v-15cc5b01 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">下一题</view>
+      </view>
+    </view>
+    <view class="_view data-v-15cc5b01 mt20 dx_row" wx:if="{{dangqqi_idx==timu_s.length}}">
+      <view class="_view data-v-15cc5b01 dx_col_12">
+        <view class="_view data-v-15cc5b01 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">上一题</view>
+      </view>
+      <view class="_view data-v-15cc5b01 dx_col_12">
+        <view class="_view data-v-15cc5b01 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">提交</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,15 +1,16 @@
-<import src="/components/dx_tab.vue.wxml" />
+<import src="/components/dx_guize.vue.wxml" />
 <import src="/components/dx_input.vue.wxml" />
-<template name="data-v-b9c58ffc-default-0">
-  <view class="_view data-v-b9c58ffc df_ff_dff" wx:if="{{index_d==idx}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
-    <view class="_view data-v-b9c58ffc bgff bbm pd pt15 pm10" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
-      <view class="_view data-v-b9c58ffc dx_row df_jh_deet">
-        <view class="_view data-v-b9c58ffc dx_col_15 fz32 z6"> 订单编号{{sd.id}}：62907145 </view>
-        <view class="_view data-v-b9c58ffc dx_col_9 z9  fz26"> 2018-10-06 11:26:50 </view>
+<import src="/components/dx_tab.vue.wxml" />
+<template name="data-v-ee01c372-default-0">
+  <view class="_view data-v-ee01c372 df_ff_dff" wx:if="{{index_d==idx}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
+    <view class="_view data-v-ee01c372 bgff bbm pd pt15 pm15" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
+      <view class="_view data-v-ee01c372 dx_row df_jh_deet">
+        <view class="_view data-v-ee01c372 dx_col_15 fz32 z6"> 订单编号{{sd.id}}：62907145 </view>
+        <view class="_view data-v-ee01c372 dx_col_9 z9  fz26"> 2018-10-06 11:26:50 </view>
       </view>
-      <view class="_view data-v-b9c58ffc dx_row mt5">
-        <view class="_view data-v-b9c58ffc dx_col_20 z9 fz26"> [类型]文字文字文字文字文字文字文字文 </view>
-        <view class="_view data-v-b9c58ffc dx_col_4 z9 tr fz26 mt10"> 已完结 </view>
+      <view class="_view data-v-ee01c372 dx_row mt5">
+        <view class="_view data-v-ee01c372 dx_col_20 z9 fz26"> [类型]文字文字文字文字文字文字文字文 </view>
+        <view class="_view data-v-ee01c372 dx_col_4 z9 tr fz26 "> 已完结 </view>
       </view>
     </view>
   </view>

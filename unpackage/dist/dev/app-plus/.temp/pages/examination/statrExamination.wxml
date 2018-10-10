@@ -1,0 +1,1 @@
+<import src="/pages/examination/statrExamination.vue.wxml" /><template is="77a2bcb6" data="{{ ...$root['0'], $root }}"/>

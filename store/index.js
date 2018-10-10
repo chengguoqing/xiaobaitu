@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
 	state: {
-		test_df:"5555"
+		is_guiz:true//活动规则
 	}
 })
 export default store

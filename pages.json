@@ -10,6 +10,32 @@
 				}
 			}
 		},{
+			"path": "pages/examination/result",
+			"style": {
+				"navigationBarTitleText": "新手考试"
+			}
+		},{
+			"path": "pages/examination/index",
+			"style": {
+				"navigationBarTitleText": "新手考试"
+			}
+		},{
+			"path": "pages/examination/statrExamination",
+			"style": {
+				"navigationBarTitleText": "新手考试"
+			}
+		},{
+			"path": "pages/index/noticeXq",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},{
+			"path": "pages/index/notice",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+		},{
 			"path": "pages/BindingTaobao/BindingTaobaoXq",
 			"style": {
 				"navigationBarTitleText": "绑定淘宝账号"
@@ -112,8 +138,8 @@
 					"titleNView": {
 						"buttons": [ //原生标题栏按钮配置,
 							{
-								"text": "\ue60f",
-								"fontSize": "26",
+								"text": "\ue80e",
+								"fontSize": "22",
 								"fontSrc": "static/fonts/iconfont.ttf"
 							}
 						]
@@ -129,8 +155,8 @@
 					"titleNView": {
 						"buttons": [ //原生标题栏按钮配置,
 							{
-								"text": "\ue60f",
-								"fontSize": "26",
+								"text": "\ue80e",
+								"fontSize": "22",
 								"fontSrc": "static/fonts/iconfont.ttf"
 							}
 						]
@@ -146,8 +172,8 @@
 					"titleNView": {
 						"buttons": [ //原生标题栏按钮配置,
 							{
-								"text": "\ue60f",
-								"fontSize": "26",
+								"text": "\ue80e",
+								"fontSize": "22",
 								"fontSrc": "static/fonts/iconfont.ttf"
 							}
 						]

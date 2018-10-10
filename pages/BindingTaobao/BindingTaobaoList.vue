@@ -6,8 +6,8 @@
 		<view class="bgff pd pt20 pm20 bbm" v-for="sd in 3">
 			<view class=" ">
 				<view class="z9">
-					<icon class="dx icon-wangwang cz fz40"></icon>
-					<text class="cz fz30 ml10">fhejmrd</text>
+					<icon class="dx icon-wangwang cz fz40 df_deertxr"></icon>
+					<text class="cz fz30 ">fhejmrd</text>
 					<text class="fz30 fr red mt5">账号未通过</text>
 					<view class="qc"></view>
 				</view>
@@ -51,11 +51,9 @@
 	.dfs_jh_dert {
 		line-height: 1.4;
 	}
-
-	.dsf_dfrrtyx {
-		position: fixed;
-		left: 0;
-		width: 100%;
-		bottom: 40upx;
+	.df_deertxr{
+		position: relative;
+		top: -6upx;
 	}
+	
 </style>
