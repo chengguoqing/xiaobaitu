@@ -21,7 +21,7 @@
 						jindu: "",
 						icon: "icon-icon-test", //图标名字
 						name: "密码修改",
-						url_er: "change_password" //跳转地址
+						url_er: "/pages/changeLogiNPassword/changeLogiNPassword" //跳转地址
 					},
 					{
 						size: "16",

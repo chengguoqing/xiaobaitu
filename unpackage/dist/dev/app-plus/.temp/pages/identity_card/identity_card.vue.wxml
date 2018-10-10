@@ -1,0 +1,32 @@
+<import src="/components/dx_input.vue.wxml" />
+<template name="7f6fd41b">
+  <view class="_view data-v-1cff8de4">
+    <view class="_view data-v-1cff8de4" wx:if="{{false}}">
+      <view class="_view data-v-1cff8de4 pt20 pm20 fz30 pd"> 第一步输入您的真实姓名 </view>
+      <template placeholder="请输入真实姓名" data="{{...$root[$kk+'0'], $root}}" is="336ad492"></template>
+      <view class="_view data-v-1cff8de4 pt20 pm20 fz30 pd"> 第二步输入您的身份证号码 </view>
+      <template placeholder="请输入身份证号" data="{{...$root[$kk+'1'], $root}}" is="336ad492"></template>
+      <view class="_view data-v-1cff8de4 pt20 pm20 fz30 pd"> 第三步上传身份信息 </view>
+      <view class="_view data-v-1cff8de4 pd">
+        <image src="../../static/img/addIcon.jpg" class="_image data-v-1cff8de4 addIcon" bindtap="handleProxy" wx:if="{{!img_df}}" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+        <image src="{{img_df}}" class="_image data-v-1cff8de4 addIcon" wx:if="{{img_df}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></image>
+        <view class="_view data-v-1cff8de4  z9 fz26 pt10"> 身份证正面图片 </view>
+      </view>
+      <button class="_button data-v-1cff8de4 ls fz32 mt80 bgff">保存</button>
+    </view>
+    <view class="_view data-v-1cff8de4 pd pt40">
+      <view class="_view data-v-1cff8de4 fz40 z6"> 身份证信息 </view>
+      <view class="_view data-v-1cff8de4 fz30 z6 mt20"> 审核状态：审核通过 </view>
+      <view class="_view data-v-1cff8de4 fz30 z6 mt20"> 姓名：独行工匠 </view>
+      <view class="_view data-v-1cff8de4 fz30 z6 mt20"> 身份证照：
+        <view class="_view data-v-1cff8de4 mt20">
+          <image src="../../static/img/addIcon.jpg" class="_image data-v-1cff8de4 addIcon"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1cff8de4 ll_uiy_eer" wx:if="{{isd_ou}}">
+      <text class="_text data-v-1cff8de4 xiugai_d" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"> 修改图片 </text>
+      <image src="{{img_df}}" mode="aspectFill" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_image data-v-1cff8de4"></image>
+    </view>
+  </view>
+</template>

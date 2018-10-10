@@ -24,7 +24,8 @@ Vue.component('dx_row',dx_row)
 import dx_tab from './components/dx_tab.vue'
 Vue.component('dx_tab',dx_tab)
 
-
+import dx_gd from './components/dx_gd.vue'
+Vue.component('dx_gd',dx_gd)
 
 
 App.mpType = 'app'

@@ -1,0 +1,24 @@
+<template name="f156d646">
+  <view class="_view data-v-00196f60">
+    <view class="_view data-v-00196f60 bgff pd pt20 pm20 bbm" wx:for="{{3}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-00196f60  ">
+        <view class="_view data-v-00196f60 z9">
+          <icon class="_icon data-v-00196f60 dx icon-wangwang cz fz40"></icon>
+          <text class="_text data-v-00196f60 cz fz30 ml10">fhejmrd</text>
+          <text class="_text data-v-00196f60 fz30 fr red mt5">账号未通过</text>
+          <view class="_view data-v-00196f60 qc"></view>
+        </view>
+        <view class="_view data-v-00196f60 dx_row mt10">
+          <view class="_view data-v-00196f60 dx_col_18 dfs_jh_dert fz28 z9"> 收货地址：广东省广州市广东省广州市广东省广州市广东省广州市广东省广州市
+            <view class="_br data-v-00196f60"></view> 手机:15011773191
+            <view class="_br data-v-00196f60"></view> 联系人:李宏伟 </view>
+          <navigator class="_navigator data-v-00196f60 dx_col_6 tr z9 pt30" url="/pages/BindingTaobao/BindingTaobaoXq">
+            <icon class="_icon data-v-00196f60 dx icon-bianji fz60"></icon>
+          </navigator>
+        </view>
+        <view class="_view data-v-00196f60 fz28 red mt10"> 审核未通过原因:最近购买量不稳定，请先养号后再绑定 </view>
+      </view>
+    </view>
+    <button class="_button data-v-00196f60 ls fz32 mt60 bgff dsf_dfrrtyx" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">新增一个淘宝账号</button>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/BindingTaobao/BindingTaobaoList.vue.wxml" /><template is="f156d646" data="{{ ...$root['0'], $root }}"/>
