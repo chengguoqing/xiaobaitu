@@ -1,0 +1,15 @@
+<import src="/components/dx_input.vue.wxml" />
+<template name="0d37e426">
+  <view class="_view data-v-1dc5e29f pt20">
+    <view class="_view data-v-1dc5e29f bbm">
+      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="手机号码" data-eventid="{{'v82-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YRU-0'],$root}}" is="6c94c82d"></template>
+      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="密码" rightText="忘记密码" bindrTextCabat="handleProxy" data-eventid="{{'0A0-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vaP-1'],$root}}"
+        is="6c94c82d"></template>
+    </view>
+    <button class="_button data-v-1dc5e29f ls fz32 mt20 bgff">登录</button>
+    <view class="_view data-v-1dc5e29f mt40 cen fz28 pm5" bindtap="handleProxy" data-eventid="{{'bih-2'}}" data-comkey="{{$k}}">
+      <view class="_ins data-v-1dc5e29f z9">还没有注册账号，注册点这里！</view>
+    </view>
+    <view class="_view data-v-1dc5e29f cen ls  fz26 mt10">新手咨询群：520043520</view>
+  </view>
+</template>

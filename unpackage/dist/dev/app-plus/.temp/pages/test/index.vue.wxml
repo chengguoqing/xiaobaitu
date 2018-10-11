@@ -1,6 +1,0 @@
-<import src="/components/dx_tab.vue.wxml" />
-<template name="06f224c3">
-  <view class="_view data-v-4477ed2a">
-    <template data="{{...$root[$kk+'0'], $root}}" is="42d86add"></template>
-  </view>
-</template>

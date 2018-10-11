@@ -2,7 +2,7 @@
 	<view>
 		<view class="dd_ijh_der cen pm20">
 
-			<navigator class="cls_2" url="/pages/commission/list">
+			<navigator class="cls_2" url="/pages/commission/list?title=佣金账户">
 				<view class="fz32 cf">
 					佣金收益(金)
 				</view>
@@ -10,7 +10,7 @@
 					0.00
 				</view>
 			</navigator>
-			<view class="cls_2">
+			<navigator class="cls_2" url="/pages/commission/list?title=本金账户">
 				<view class="s_jh_right">
 					<view class="fz32 cf">
 						本金收益(金)
@@ -19,7 +19,7 @@
 						0.00
 					</view>
 				</view>
-			</view>
+			</navigator>
 			<view class="qc">
 			</view>
 		</view>

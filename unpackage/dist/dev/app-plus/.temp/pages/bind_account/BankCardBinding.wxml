@@ -1,0 +1,1 @@
+<import src="/pages/bind_account/BankCardBinding.vue.wxml" /><template is="314747a8" data="{{ ...$root['0'], $root }}"/>

@@ -2,8 +2,9 @@
 <template>
 	<view class="page_index">
 		<dx_tab :title_d="title_d">
-		 <view class="df_ff_dff" v-for="(sd,idx) in title_d" v-if="index_d==idx">
-			<view class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in sd.date_df">
+		
+		 <view  class="df_ff_dff" v-for="(sd,idx) in title_d" v-if="index_d==idx">
+			<navigator url="/pages/complaint/complaintXq" class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in sd.date_df">
 				<view class="dx_row df_jh_deet">
 					<view class="dx_col_15 fz32 z6">
 						订单编号{{sd.id}}：62907145
@@ -20,8 +21,10 @@
 						已完结
 					</view>
 				</view>
-			</view>
+			</navigator>
 		</view> 
+		
+		
 		</dx_tab>
 	</view>
 </template>

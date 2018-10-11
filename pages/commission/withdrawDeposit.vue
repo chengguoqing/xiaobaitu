@@ -3,7 +3,7 @@
 	<view>
 		<view class="pd pt20">
 			<view class="tr ls fz28">
-				<navigator url="/pages/commission/particulars" class="xiahua_d">查看明细</navigator>
+				<navigator url="/pages/commission/withdrawalSubsidiary" class="xiahua_d">查看明细</navigator>
 			</view>
 			<view class="fz30 z3 mt10">
 				请选择提款金额，并输入登录密码
@@ -35,6 +35,11 @@
 		},
 		components: {},
 		methods: {},
+		onLoad:function(od){
+			uni.setNavigationBarTitle({
+				title:od.title
+			})
+		},
 		mounted() {},
 	}
 </script>

@@ -1,7 +1,7 @@
 <!-- 佣金列表 -->
 <template>
 	<view>
-		<navigator  v-if="false" class="pd bbm pt20 pm20 bgff dsf_rt_ce" v-for="sd in 20" url="/pages/commission/particulars">
+		<navigator  class="pd bbm pt20 pm20 bgff dsf_rt_ce" v-for="sd in 20" url="/pages/commission/particulars">
 			<view class="dx_row">
 				<view class="dx_col_18 dian fz30">
 					签到奖励
@@ -18,17 +18,30 @@
 			</view>
 		</navigator>
 		
-<dx_wujilu></dx_wujilu>
+<dx_wujilu  v-if="false"></dx_wujilu>
 	</view>
 </template>
 <script>
 	export default {
 		data() {
-			return {}
+			return {
+				titke_d:""
+			}
 		},
 		components: {},
 		methods: {},
 		mounted() {},
+		onLoad:function(zhi){
+			this.titke_d=zhi.title
+			uni.setNavigationBarTitle({
+				title:zhi.title
+			})
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url:"/pages/commission/withdrawDeposit?title="+this.titke_d
+			})
+		}
 	}
 </script>
 <style scoped>

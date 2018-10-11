@@ -1,6 +1,6 @@
 <!-- 已接任务 -->
 <template>
-	<view >
+	<view>
 
 		<view class="renWU_row bgff">
 			<view class="title_df z3 pd">
@@ -40,10 +40,10 @@
 
 					</view>
 
-<view class="qc"></view>
+					<view class="qc"></view>
 				</view>
 			</view>
-		</view> 
+		</view>
 
 
 
@@ -87,15 +87,15 @@
 
 					</view>
 
-<view class="qc"></view>
+					<view class="qc"></view>
 				</view>
 			</view>
 		</view>
-		
-		
-		
-		
-		
+
+
+
+
+
 
 
 	</view>
@@ -103,8 +103,7 @@
 <script>
 	export default {
 		data() {
-			return {
-			}
+			return {}
 		},
 		components: {},
 		methods: {},

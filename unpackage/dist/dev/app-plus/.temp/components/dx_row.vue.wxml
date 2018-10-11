@@ -1,7 +1,7 @@
 <import src="/components/slots" />
-<template name="1bd08abc">
-  <view class="_view data-v-0beeff4e dx_row dfdf_eert" style=" {{(  'margin-left:' +  (-(gutter / 2) + 'px') +  ';' +  'margin-right:' +  (-(gutter / 2) + 'px') +  ';')}}">
+<template name="0e604e06">
+  <view class="_view data-v-0bfd6f2f dx_row dfdf_eert" style=" {{(  'margin-left:' +  (-(gutter / 2) + 'px') +  ';' +  'margin-right:' +  (-(gutter / 2) + 'px') +  ';')}}">
     <template name="default"></template>
-    <template data="{{...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+    <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
   </view>
 </template>

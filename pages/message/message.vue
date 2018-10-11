@@ -1,7 +1,7 @@
 <!-- 我的消息 -->
 <template>
 	<view>
-		<view class="bgff pd pt10 pm15 bbm" v-for="sd in 20">
+		<navigator class="bgff pd pt10 pm15 bbm" v-for="sd in 20" url="/pages/message/messageXq">
 			<view class=" df_df_drertt">
 				
 		
@@ -12,7 +12,7 @@
 			<view class="fz30 z6  df_deeettxc">
 				很遗憾，很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾
 			</view>
-		</view>
+		</navigator>
 	</view>
 </template>
 <script>

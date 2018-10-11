@@ -9,17 +9,42 @@
 					"titleNView": "transparent"
 				}
 			}
-		},{
+		}, {
+			"path": "pages/user_center/newUserNmae",
+			"style": {
+				"navigationBarTitleText": "用户名修改"
+			}
+		}, {
+			"path": "pages/user_center/userNameModification",
+			"style": {
+				"navigationBarTitleText": "用户名修改"
+			}
+		}, {
+			"path": "pages/message/messageXq",
+			"style": {
+				"navigationBarTitleText": "系统消息"
+			}
+		}, {
+			"path": "pages/complaint/complaintXq",
+			"style": {
+				"navigationBarTitleText": "申诉详情"
+			}
+		}, {
+			"path": "pages/commission/withdrawalSubsidiary",
+			"style": {
+				"navigationBarTitleText": "提现明细"
+			}
+		}, {
 			"path": "pages/commission/withdrawDeposit",
 			"style": {
 				"navigationBarTitleText": "佣金提现"
 			}
-		},{
+		}, {
 			"path": "pages/commission/particulars",
 			"style": {
 				"navigationBarTitleText": "详情"
 			}
-		},{
+		}, {
 			"path": "pages/commission/list",
 			"style": {
 				"navigationBarTitleText": "佣金账户",
@@ -36,64 +61,64 @@
 					}
 				}
 			}
-		},{
+		}, {
 			"path": "pages/examination/result",
 			"style": {
 				"navigationBarTitleText": "新手考试"
 			}
-		},{
+		}, {
 			"path": "pages/examination/index",
 			"style": {
 				"navigationBarTitleText": "新手考试"
 			}
-		},{
+		}, {
 			"path": "pages/examination/statrExamination",
 			"style": {
 				"navigationBarTitleText": "新手考试"
 			}
-		},{
+		}, {
 			"path": "pages/index/noticeXq",
 			"style": {
 				"navigationBarTitleText": "公告"
 			}
-		},{
+		}, {
 			"path": "pages/index/notice",
 			"style": {
 				"navigationBarTitleText": "公告",
 				"enablePullDownRefresh": true //开启下拉刷新
 			}
-		},{
+		}, {
 			"path": "pages/BindingTaobao/BindingTaobaoXq",
 			"style": {
 				"navigationBarTitleText": "绑定淘宝账号"
 			}
-		},{
+		}, {
 			"path": "pages/BindingTaobao/BindingTaobaoList",
 			"style": {
 				"navigationBarTitleText": "绑定淘宝账号"
 			}
-		},{
-			"path": "pages/BankCardBinding/BankCardBinding",
+		}, {
+			"path": "pages/bind_account/BankCardBinding",
 			"style": {
 				"navigationBarTitleText": "绑定银行卡"
 			}
-		},{
-			"path": "pages/add_qq/add_qq",
+		}, {
+			"path": "pages/bind_account/add_qq",
 			"style": {
 				"navigationBarTitleText": "QQ号"
 			}
-		},{
+		}, {
 			"path": "pages/bind_account/bind_account",
 			"style": {
 				"navigationBarTitleText": "账号绑定"
 			}
-		},{
-			"path": "pages/identity_card/identity_card",
+		}, {
+			"path": "pages/bind_account/identity_card",
 			"style": {
 				"navigationBarTitleText": "身份证信息"
 			}
-		},{
-			"path": "pages/changeLogiNPassword/changeLogiNPassword",
+		}, {
+			"path": "pages/user_center/changeLogiNPassword",
 			"style": {
 				"navigationBarTitleText": "修改登录密码"
 
@@ -112,33 +137,28 @@
 				"navigationBarTitleText": "我的消息",
 				"enablePullDownRefresh": true
 			}
-		},  {
-			"path": "pages/test/index",
-			"style": {
-				"enablePullDownRefresh": true //开启下拉刷新
-			}
 		}, {
 			"path": "pages/tutorial/tutorial",
 			"style": {
 
 			}
 		}, {
-			"path": "pages/versions/versions",
+			"path": "pages/user_center/versions",
 			"style": {
 				"navigationBarTitleText": "版本信息"
 			}
 		}, {
-			"path": "pages/expandGold/expandGold",
+			"path": "pages/user_center/expandGold",
+			"style": {
+				"navigationBarTitleText": "推广赚金"
+			}
+		}, {
+			"path": "pages/user_center/percentageComplete",
 			"style": {
 				"navigationBarTitleText": "规则说明"
 			}
 		}, {
-			"path": "pages/percentageComplete/percentageComplete",
-			"style": {
-				"navigationBarTitleText": "规则说明"
-			}
-		},  {
-			"path": "pages/settingUp/settingUp",
+			"path": "pages/user_center/settingUp",
 			"style": {
 				"navigationBarTitleText": "设置"
 			}
@@ -157,7 +177,7 @@
 				"enablePullDownRefresh": true
 			}
 		}, {
-			"path": "pages/Login/Login",
+			"path": "pages/user_center/Login",
 			"style": {
 				"navigationBarTitleText": "登录",
 				"app-plus": {
@@ -174,7 +194,7 @@
 				}
 			}
 		}, {
-			"path": "pages/retrievePassword/retrievePassword",
+			"path": "pages/user_center/retrievePassword",
 			"style": {
 				"navigationBarTitleText": "找回密码",
 				"app-plus": {
@@ -191,7 +211,7 @@
 				}
 			}
 		}, {
-			"path": "pages/register/register",
+			"path": "pages/user_center/register",
 			"style": {
 				"navigationBarTitleText": "注册",
 				"app-plus": {

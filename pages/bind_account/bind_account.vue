@@ -4,14 +4,14 @@
 		<view class="list_dfg pd fz32">
 			账户信息 <text class="ls fz26">(账户信息必填,银行卡信息与身份证一致)</text>
 		</view>
-		<navigator class="list_dfg pd fz32 btm" url="/pages/identity_card/identity_card">
+		<navigator class="list_dfg pd fz32 btm" url="/pages/bind_account/identity_card">
 			身份证信息 <text class="red">必填</text>
 			<view class="df_right fz26 z9">
 				<text class="cz">已绑定</text>
 				<icon class="dx icon-right1 cz fz30 ml10"></icon>
 			</view>
 		</navigator>
-		<navigator class="list_dfg pd fz32 btm" url="/pages/BankCardBinding/BankCardBinding">
+		<navigator class="list_dfg pd fz32 btm" url="/pages/bind_account/BankCardBinding">
 			银行卡
 			<view class="df_right fz26 z9">
 				<text class="cz">修改</text>
@@ -29,7 +29,7 @@
 
 		</navigator>
 
-		<navigator class="list_dfg pd fz32 btm" url="/pages/add_qq/add_qq">
+		<navigator class="list_dfg pd fz32 btm" url="/pages/bind_account/add_qq">
 			QQ号 <text class="z9 fz26">515235416</text>
 			<view class="df_right fz26 z9">
 				<text class="cz">修改</text>

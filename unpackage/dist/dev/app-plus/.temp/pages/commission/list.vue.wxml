@@ -1,16 +1,16 @@
 <import src="/components/dx_wujilu.vue.wxml" />
-<template name="3a2f8678">
-  <view class="_view data-v-050cc6fd">
-    <navigator wx:if="{{false}}" class="_navigator data-v-050cc6fd pd bbm pt20 pm20 bgff dsf_rt_ce" url="/pages/commission/particulars" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-050cc6fd dx_row">
-        <view class="_view data-v-050cc6fd dx_col_18 dian fz30"> 签到奖励
-          <view class="_view data-v-050cc6fd fz28 z9"> 2018-10-07 14:38:02 </view>
+<template name="7963b59f">
+  <view class="_view data-v-76ae5e5e">
+    <navigator class="_navigator data-v-76ae5e5e pd bbm pt20 pm20 bgff dsf_rt_ce" url="/pages/commission/particulars" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-76ae5e5e dx_row">
+        <view class="_view data-v-76ae5e5e dx_col_18 dian fz30"> 签到奖励
+          <view class="_view data-v-76ae5e5e fz28 z9"> 2018-10-07 14:38:02 </view>
         </view>
-        <view class="_view data-v-050cc6fd dx_col_6 dian fz28 red tr"> +0.01
-          <view class="_view data-v-050cc6fd fz28 z9"> 余额 0.01 </view>
+        <view class="_view data-v-76ae5e5e dx_col_6 dian fz28 red tr"> +0.01
+          <view class="_view data-v-76ae5e5e fz28 z9"> 余额 0.01 </view>
         </view>
       </view>
     </navigator>
-    <template data="{{...$root[$kk+'0'], $root}}" is="a03ba564"></template>
+    <template wx:if="{{false}}" data="{{...$root['0'], ...$root[$kk+'VlQ-0'],$root}}" is="c812a5da"></template>
   </view>
 </template>

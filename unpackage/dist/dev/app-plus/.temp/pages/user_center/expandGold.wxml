@@ -1,0 +1,1 @@
+<import src="/pages/user_center/expandGold.vue.wxml" /><template is="0688800d" data="{{ ...$root['0'], $root }}"/>

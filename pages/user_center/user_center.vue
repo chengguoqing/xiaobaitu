@@ -8,12 +8,13 @@
 			</view>
 		</view>
 		<view class="cf fz25 fg_jgh_drrt cen pt20 pm20">
-			<view class="cls_2">
+			<navigator class="cls_2" url="/pages/user_center/userNameModification">
 				<view class="fz30">账号：135****0372</view>
 				<view class="fz24 mt5">
 					(点击可修改用户名)
 				</view>
-			</view>
+			</navigator>
+	
 			<view class="cls_2 blm">
 				<view class="fz30">等级：铜牌会员</view>
 				<view class="fz24 mt5">
@@ -55,7 +56,7 @@
 						icon: "icon-setup_fill", //图标名字
 						name: "设置",
 						jindu: "",
-						url_er: "/pages/settingUp/settingUp" //跳转地址
+						url_er: "/pages/user_center/settingUp" //跳转地址
 					},
 					{
 						size: "22",
@@ -63,7 +64,7 @@
 						icon: "icon-zhuyi", //图标名字
 						name: "完成率",
 						jindu: "33%",
-						url_er: "/pages/percentageComplete/percentageComplete" //跳转地址
+						url_er: "/pages/user_center/percentageComplete" //跳转地址
 					},
 					{
 						size: "18",
@@ -78,7 +79,7 @@
 						icon: "icon-llmenuwmnotice2", //图标名字
 						name: "推广赚金",
 						jindu: "",
-						url_er: "/pages/expandGold/expandGold" //跳转地址
+						url_er: "/pages/user_center/expandGold" //跳转地址
 					}, {
 						size: "20",
 						clsss_s: "af", //class名字
@@ -92,7 +93,7 @@
 						icon: "icon-banbenqiehuan", //图标名字
 						jindu: "",
 						name: "版本信息",
-						url_er: "/pages/versions/versions" //跳转地址
+						url_er: "/pages/user_center/versions" //跳转地址
 					}
 				],
 

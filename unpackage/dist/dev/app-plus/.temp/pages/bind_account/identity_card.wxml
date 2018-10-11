@@ -1,0 +1,1 @@
+<import src="/pages/bind_account/identity_card.vue.wxml" /><template is="e8b45c00" data="{{ ...$root['0'], $root }}"/>

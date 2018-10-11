@@ -1,0 +1,14 @@
+<template name="3f645083">
+  <view class="_view data-v-111b9b42">
+    <view class="_view data-v-111b9b42 pt20 pm20 bgff dx_row cen">
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 实际到账金额 </view>
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 状态 </view>
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 时间 </view>
+    </view>
+    <view class="_view data-v-111b9b42 pt20 pm20  dx_row cen" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 871.00 </view>
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 申请中 </view>
+      <view class="_view data-v-111b9b42 dx_col_8 z6 fz30"> 2018-10-04 </view>
+    </view>
+  </view>
+</template>

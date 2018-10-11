@@ -1,0 +1,32 @@
+<import src="/components/dx_input.vue.wxml" />
+<template name="e8b45c00">
+  <view class="_view data-v-900b09be">
+    <view class="_view data-v-900b09be">
+      <view class="_view data-v-900b09be pt20 pm20 fz30 pd"> 第一步输入您的真实姓名 </view>
+      <template placeholder="请输入真实姓名" data="{{...$root['0'], ...$root[$kk+'orj-0'],$root}}" is="6c94c82d"></template>
+      <view class="_view data-v-900b09be pt20 pm20 fz30 pd"> 第二步输入您的身份证号码 </view>
+      <template placeholder="请输入身份证号" data="{{...$root['0'], ...$root[$kk+'ORY-1'],$root}}" is="6c94c82d"></template>
+      <view class="_view data-v-900b09be pt20 pm20 fz30 pd"> 第三步上传身份信息 </view>
+      <view class="_view data-v-900b09be pd">
+        <image src="../../static/img/addIcon.jpg" class="_image data-v-900b09be addIcon" bindtap="handleProxy" wx:if="{{!img_df}}" data-eventid="{{'kNp-0'}}" data-comkey="{{$k}}"></image>
+        <image src="{{img_df}}" class="_image data-v-900b09be addIcon" wx:if="{{img_df}}" bindtap="handleProxy" data-eventid="{{'iA4-1'}}" data-comkey="{{$k}}"></image>
+        <view class="_view data-v-900b09be  z9 fz26 pt10"> 身份证正面图片 </view>
+      </view>
+      <button class="_button data-v-900b09be ls fz32 mt80 bgff">保存</button>
+    </view>
+    <view class="_view data-v-900b09be pd pt40" wx:if="{{false}}">
+      <view class="_view data-v-900b09be fz40 z6"> 身份证信息 </view>
+      <view class="_view data-v-900b09be fz30 z6 mt20"> 审核状态：审核通过 </view>
+      <view class="_view data-v-900b09be fz30 z6 mt20"> 姓名：独行工匠 </view>
+      <view class="_view data-v-900b09be fz30 z6 mt20"> 身份证照：
+        <view class="_view data-v-900b09be mt20">
+          <image src="../../static/img/addIcon.jpg" class="_image data-v-900b09be addIcon"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-900b09be ll_uiy_eer" wx:if="{{isd_ou}}">
+      <text class="_text data-v-900b09be xiugai_d" bindtap="handleProxy" data-eventid="{{'2Qo-2'}}" data-comkey="{{$k}}"> 修改图片 </text>
+      <image src="{{img_df}}" mode="aspectFill" bindtap="handleProxy" data-eventid="{{'w4e-3'}}" data-comkey="{{$k}}" class="_image data-v-900b09be"></image>
+    </view>
+  </view>
+</template>

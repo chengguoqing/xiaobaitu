@@ -1,43 +1,43 @@
-<template name="26a7f951">
-  <view class="_view data-v-542af90a">
-    <view class="_view data-v-542af90a list_dfg pd fz32"> 账户信息
-      <text class="_text data-v-542af90a ls fz26">(账户信息必填,银行卡信息与身份证一致)</text>
+<template name="9a5b4728">
+  <view class="_view data-v-40a38b2b">
+    <view class="_view data-v-40a38b2b list_dfg pd fz32"> 账户信息
+      <text class="_text data-v-40a38b2b ls fz26">(账户信息必填,银行卡信息与身份证一致)</text>
     </view>
-    <navigator class="_navigator data-v-542af90a list_dfg pd fz32 btm" url="/pages/identity_card/identity_card"> 身份证信息
-      <text class="_text data-v-542af90a red">必填</text>
-      <view class="_view data-v-542af90a df_right fz26 z9">
-        <text class="_text data-v-542af90a cz">已绑定</text>
-        <icon class="_icon data-v-542af90a dx icon-right1 cz fz30 ml10"></icon>
+    <navigator class="_navigator data-v-40a38b2b list_dfg pd fz32 btm" url="/pages/bind_account/identity_card"> 身份证信息
+      <text class="_text data-v-40a38b2b red">必填</text>
+      <view class="_view data-v-40a38b2b df_right fz26 z9">
+        <text class="_text data-v-40a38b2b cz">已绑定</text>
+        <icon class="_icon data-v-40a38b2b dx icon-right1 cz fz30 ml10"></icon>
       </view>
     </navigator>
-    <navigator class="_navigator data-v-542af90a list_dfg pd fz32 btm" url="/pages/BankCardBinding/BankCardBinding"> 银行卡
-      <view class="_view data-v-542af90a df_right fz26 z9">
-        <text class="_text data-v-542af90a cz">修改</text>
-        <icon class="_icon data-v-542af90a dx icon-right1 cz fz30 ml10"></icon>
+    <navigator class="_navigator data-v-40a38b2b list_dfg pd fz32 btm" url="/pages/bind_account/BankCardBinding"> 银行卡
+      <view class="_view data-v-40a38b2b df_right fz26 z9">
+        <text class="_text data-v-40a38b2b cz">修改</text>
+        <icon class="_icon data-v-40a38b2b dx icon-right1 cz fz30 ml10"></icon>
       </view>
-      <view class="_view data-v-542af90a df_jh_dewr pm10">
-        <view class="_view data-v-542af90a fz28 z9 "> 中国建设银行 </view>
-        <view class="_view data-v-542af90a fz26 z9"> 李宏伟 6236 6833 2002 1410 436 </view>
-      </view>
-    </navigator>
-    <navigator class="_navigator data-v-542af90a list_dfg pd fz32 btm" url="/pages/add_qq/add_qq"> QQ号
-      <text class="_text data-v-542af90a z9 fz26">515235416</text>
-      <view class="_view data-v-542af90a df_right fz26 z9">
-        <text class="_text data-v-542af90a cz">修改</text>
-        <icon class="_icon data-v-542af90a dx icon-right1 cz fz30 ml10"></icon>
+      <view class="_view data-v-40a38b2b df_jh_dewr pm10">
+        <view class="_view data-v-40a38b2b fz28 z9 "> 中国建设银行 </view>
+        <view class="_view data-v-40a38b2b fz26 z9"> 李宏伟 6236 6833 2002 1410 436 </view>
       </view>
     </navigator>
-    <view class="_view data-v-542af90a list_dfg pd fz32  mt20"> 账户信息
-      <text class="_text data-v-542af90a ls fz26">(账户信息任意绑定一个号)</text>
+    <navigator class="_navigator data-v-40a38b2b list_dfg pd fz32 btm" url="/pages/bind_account/add_qq"> QQ号
+      <text class="_text data-v-40a38b2b z9 fz26">515235416</text>
+      <view class="_view data-v-40a38b2b df_right fz26 z9">
+        <text class="_text data-v-40a38b2b cz">修改</text>
+        <icon class="_icon data-v-40a38b2b dx icon-right1 cz fz30 ml10"></icon>
+      </view>
+    </navigator>
+    <view class="_view data-v-40a38b2b list_dfg pd fz32  mt20"> 账户信息
+      <text class="_text data-v-40a38b2b ls fz26">(账户信息任意绑定一个号)</text>
     </view>
-    <view class="_view data-v-542af90a bgff sd_lh_der pd  pr btm {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-542af90a h_dfg_le cz yj">
-        <icon class="_icon data-v-542af90a dx  cz {{sd.icon}}"></icon>
+    <view class="_view data-v-40a38b2b bgff sd_lh_der pd  pr btm {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'cXg-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-40a38b2b h_dfg_le cz yj">
+        <icon class="_icon data-v-40a38b2b dx  cz {{sd.icon}}"></icon>
       </view>
-      <text class="_text data-v-542af90a ml10 fz30 z6">{{sd.name}}</text>
-      <text class="_text data-v-542af90a sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
-      <view class="_view data-v-542af90a df_right fz26 z9 ab">
-        <icon class="_icon data-v-542af90a dx icon-right1 cz fz30 ml10"></icon>
+      <text class="_text data-v-40a38b2b ml10 fz30 z6">{{sd.name}}</text>
+      <text class="_text data-v-40a38b2b sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
+      <view class="_view data-v-40a38b2b df_right fz26 z9 ab">
+        <icon class="_icon data-v-40a38b2b dx icon-right1 cz fz30 ml10"></icon>
       </view>
     </view>
   </view>
