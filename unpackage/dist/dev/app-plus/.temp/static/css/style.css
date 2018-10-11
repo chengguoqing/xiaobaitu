@@ -220,3 +220,6 @@ ins {
 		width: 100%;
 		bottom: 40upx;
 	}
+	.ln{
+		line-height: 1.5;
+	}

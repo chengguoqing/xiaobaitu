@@ -1,12 +1,12 @@
 <import src="/components/slots" />
-<template name="51ac6b80">
-  <view class="_view data-v-6d4aaace page_index">
+<template name="42d86add">
+  <view class="_view data-v-5cafaf89 page_index">
     <template name="default"></template>
-    <view class="_view data-v-6d4aaace sd_fggrd bgff cen bbm {{da_lef}}">
-      <view class="_view data-v-6d4aaace thg_sfg fz30 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
-      <view class="_view data-v-6d4aaace qc"></view>
+    <view class="_view data-v-5cafaf89 sd_fggrd bgff cen bbm {{da_lef}}">
+      <view class="_view data-v-5cafaf89 thg_sfg fz30 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-5cafaf89 qc"></view>
     </view>
-    <view class="_view data-v-6d4aaace df_dertxr">
+    <view class="_view data-v-5cafaf89 df_dertxr">
       <template data="{{...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
     </view>
   </view>

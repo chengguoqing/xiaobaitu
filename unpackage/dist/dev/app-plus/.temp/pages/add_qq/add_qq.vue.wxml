@@ -1,8 +1,8 @@
 <import src="/components/dx_input.vue.wxml" />
-<template name="2bd9ae14">
-  <view class="_view data-v-0c154b2f pt20">
-    <template type="2" placeholder="原QQ号" data="{{...$root[$kk+'0'], $root}}" is="457d8f16"></template>
-    <template type="2" placeholder="填写新的QQ号" data="{{...$root[$kk+'1'], $root}}" is="457d8f16"></template>
-    <button class="_button data-v-0c154b2f ls fz32 mt60 bgff">保存</button>
+<template name="fbf96b9e">
+  <view class="_view data-v-9367e5ac pt20">
+    <template type="2" placeholder="原QQ号" data="{{...$root[$kk+'0'], $root}}" is="336ad492"></template>
+    <template type="2" placeholder="填写新的QQ号" data="{{...$root[$kk+'1'], $root}}" is="336ad492"></template>
+    <button class="_button data-v-9367e5ac ls fz32 mt60 bgff">保存</button>
   </view>
 </template>

@@ -2,14 +2,14 @@
 	<view>
 		<view class="dd_ijh_der cen pm20">
 
-			<view class="cls_2">
+			<navigator class="cls_2" url="/pages/commission/list">
 				<view class="fz32 cf">
 					佣金收益(金)
 				</view>
 				<view class="fz70 cf mt30">
 					0.00
 				</view>
-			</view>
+			</navigator>
 			<view class="cls_2">
 				<view class="s_jh_right">
 					<view class="fz32 cf">

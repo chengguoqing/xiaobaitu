@@ -1,14 +1,14 @@
 <import src="/components/dx_input.vue.wxml" />
-<template name="554a446e">
-  <view class="_view data-v-058f0d03 pt20">
-    <view class="_view data-v-058f0d03 bbm">
-      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="手机号码" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="457d8f16"></template>
-      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="密码" rightText="忘记密码" bindrTextCabat="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="457d8f16"></template>
+<template name="467643cb">
+  <view class="_view data-v-1617dc84 pt20">
+    <view class="_view data-v-1617dc84 bbm">
+      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="手机号码" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="336ad492"></template>
+      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="密码" rightText="忘记密码" bindrTextCabat="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="336ad492"></template>
     </view>
-    <button class="_button data-v-058f0d03 ls fz32 mt20 bgff">登录</button>
-    <view class="_view data-v-058f0d03 mt40 cen fz28 pm5" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
-      <view class="_ins data-v-058f0d03 z9">还没有注册账号，注册点这里！</view>
+    <button class="_button data-v-1617dc84 ls fz32 mt20 bgff">登录</button>
+    <view class="_view data-v-1617dc84 mt40 cen fz28 pm5" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+      <view class="_ins data-v-1617dc84 z9">还没有注册账号，注册点这里！</view>
     </view>
-    <view class="_view data-v-058f0d03 cen ls  fz26 mt10">新手咨询群：520043520</view>
+    <view class="_view data-v-1617dc84 cen ls  fz26 mt10">新手咨询群：520043520</view>
   </view>
 </template>

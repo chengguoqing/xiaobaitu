@@ -1,0 +1,18 @@
+<import src="/components/dx_input.vue.wxml" />
+<template name="7f73df7e">
+  <view class="_view data-v-4efa30b6">
+    <view class="_view data-v-4efa30b6 pd pt20">
+      <view class="_view data-v-4efa30b6 tr ls fz28">
+        <navigator url="/pages/commission/particulars" class="_navigator data-v-4efa30b6 xiahua_d">查看明细</navigator>
+      </view>
+      <view class="_view data-v-4efa30b6 fz30 z3 mt10"> 请选择提款金额，并输入登录密码 </view>
+      <view class="_view data-v-4efa30b6 z9 fz28 mt20 ln"> 提现说明：佣金提现最低50金起且需要扣除手续费2金，提现100金起免费手续费，提现200金奖励2金，提现300金奖励3金...以此类推，1000封顶. </view>
+    </view>
+    <view class="_view data-v-4efa30b6 mt20 bgff dx_btn pd fz30 z6"> 银行：招商银行 </view>
+    <view class="_view data-v-4efa30b6 mt20">
+      <template type="2" placeholder="佣金提现金额" data="{{...$root[$kk+'0'], $root}}" is="336ad492"></template>
+      <template type="3" placeholder="输入登录密码" data="{{...$root[$kk+'1'], $root}}" is="336ad492"></template>
+    </view>
+    <view class="_view data-v-4efa30b6 mt40 dx_btn cen fz32 ls bgff"> 确认 </view>
+  </view>
+</template>

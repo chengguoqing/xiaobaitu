@@ -27,6 +27,8 @@ Vue.component('dx_tab',dx_tab)
 import dx_gd from './components/dx_gd.vue'
 Vue.component('dx_gd',dx_gd)
 
+import dx_wujilu from './components/dx_wujilu.vue'
+Vue.component('dx_wujilu',dx_wujilu)
 
 App.mpType = 'app'
 Vue.use(base)

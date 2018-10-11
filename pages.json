@@ -10,6 +10,33 @@
 				}
 			}
 		},{
+			"path": "pages/commission/withdrawDeposit",
+			"style": {
+				"navigationBarTitleText": "佣金提现"
+			}
+		},{
+			"path": "pages/commission/particulars",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},{
+			"path": "pages/commission/list",
+			"style": {
+				"navigationBarTitleText": "佣金账户",
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "提现",
+								"fontSize": "16"
+							}
+						]
+					}
+				}
+			}
+		},{
 			"path": "pages/examination/result",
 			"style": {
 				"navigationBarTitleText": "新手考试"
