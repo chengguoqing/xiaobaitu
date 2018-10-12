@@ -1,13 +1,18 @@
 {
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
+		 {
+		 	"path": "pages/index/index",
+		 	"style": {
+		 		"enablePullDownRefresh": true, //开启下拉刷新
+		 		"app-plus": {
+		 			"titleNView": "transparent"
+		 		}
+		 	}
+		 },{
+			"path": "pages/taskHL/taskList",
 			"style": {
-				"enablePullDownRefresh": true, //开启下拉刷新
-				"app-plus": {
-					"titleNView": "transparent"
-				}
+				"navigationBarTitleText": "任务列表"
 			}
 		}, {
 			"path": "pages/user_center/newUserNmae",

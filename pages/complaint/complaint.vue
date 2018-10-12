@@ -11,7 +11,7 @@
 					</view>
 					<view class="dx_col_9 z9  fz26">
 						2018-10-06 11:26:50
-					</view>
+					</view> 
 				</view>
 				<view class="dx_row mt5">
 					<view class="dx_col_20 z9 fz26">

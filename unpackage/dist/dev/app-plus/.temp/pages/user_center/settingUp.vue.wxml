@@ -1,11 +1,11 @@
-<template name="04160e68">
-  <view class="_view data-v-081e2861">
-    <view class="_view data-v-081e2861 bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'ylD-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-081e2861 h_dfg_le cz">
-        <icon class="_icon data-v-081e2861 dx  cz {{sd.icon}}"></icon>
+<template name="491fe5cd">
+  <view class="_view data-v-3b0d5dc0">
+    <view class="_view data-v-3b0d5dc0 bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'7Kc-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-3b0d5dc0 h_dfg_le cz">
+        <icon class="_icon data-v-3b0d5dc0 dx  cz {{sd.icon}}"></icon>
       </view>
-      <text class="_text data-v-081e2861 ml10 fz30 z6">{{sd.name}}</text>
-      <text class="_text data-v-081e2861 sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
+      <text class="_text data-v-3b0d5dc0 ml10 fz30 z6">{{sd.name}}</text>
+      <text class="_text data-v-3b0d5dc0 sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
     </view>
   </view>
 </template>

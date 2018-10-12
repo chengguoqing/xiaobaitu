@@ -1,13 +1,13 @@
-<template name="314747a8">
-  <view class="_view data-v-c9d3a6ee">
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 z6 fz30 fd_jh_der"> 姓名必须和身份证中填写的一致，请不要使用信用卡绑定！
-      <view class="_view data-v-c9d3a6ee mt20"> 点击查看支持银行列表 </view>
+<template name="0eb776ba">
+  <view class="_view data-v-3820fe4a">
+    <view class="_view data-v-3820fe4a pd pt20 pm20 z6 fz30 fd_jh_der"> 姓名必须和身份证中填写的一致，请不要使用信用卡绑定！
+      <view class="_view data-v-3820fe4a mt20"> 点击查看支持银行列表 </view>
     </view>
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 bgff fz30 btm"> 6236 6833 2002 1410 436 </view>
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 bgff fz30 btm"> 中国建设银行 </view>
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 bgff fz30 btm"> 广东省广州市 </view>
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 bgff fz30 btm"> 李宏伟 </view>
-    <view class="_view data-v-c9d3a6ee pd pt20 pm20 bgff fz30 btm"> 广州天河高新支行 </view>
-    <button class="_button data-v-c9d3a6ee ls fz32 mt60 bgff">修改</button>
+    <view class="_view data-v-3820fe4a pd pt20 pm20 bgff fz30 btm"> 6236 6833 2002 1410 436 </view>
+    <view class="_view data-v-3820fe4a pd pt20 pm20 bgff fz30 btm"> 中国建设银行 </view>
+    <view class="_view data-v-3820fe4a pd pt20 pm20 bgff fz30 btm"> 广东省广州市 </view>
+    <view class="_view data-v-3820fe4a pd pt20 pm20 bgff fz30 btm"> 李宏伟 </view>
+    <view class="_view data-v-3820fe4a pd pt20 pm20 bgff fz30 btm"> 广州天河高新支行 </view>
+    <button class="_button data-v-3820fe4a ls fz32 mt60 bgff">修改</button>
   </view>
 </template>

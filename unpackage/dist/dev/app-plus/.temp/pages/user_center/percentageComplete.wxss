@@ -1,15 +1,15 @@
 
-.sd_jh_derterter.data-v-15a9c68d {
+.sd_jh_derterter.data-v-c971a7e4 {
   border-top: 2px solid #000;
   padding-left: 8px;
   padding-right: 8px;
 }
-.sd_jh_derterter text.data-v-15a9c68d {
+.sd_jh_derterter text.data-v-c971a7e4 {
   background: #fff;
   position: relative;
   bottom: 25rpx;
 }
-.bgff_dert.data-v-15a9c68d {
+.bgff_dert.data-v-c971a7e4 {
   position: fixed;
   left: 0;
   top: 0;
@@ -17,6 +17,6 @@
   height: 100%;
   background: #fff;
 }
-.dfg_jfrrtt.data-v-15a9c68d {
+.dfg_jfrrtt.data-v-c971a7e4 {
   line-height: 1.5;
 }

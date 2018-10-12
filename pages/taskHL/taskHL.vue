@@ -9,16 +9,16 @@
 			<view class="btm pt20 pm20">
 				<view class="cen ">
 
-					<view class="cls_3">
+					<navigator class="cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							未完成
 						</view>
 						<view class="mt20">
 							<image src="../../static/img/task1.png" class="sd_drrrtty"></image>
 						</view>
-					</view>
+					</navigator>
 
-					<view class="blm cls_3">
+					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							已完成
 						</view>
@@ -26,10 +26,10 @@
 							<image src="../../static/img/task2.png" class="sd_drrrtty"></image>
 						</view>
 
-					</view>
+					</navigator>
 
 
-					<view class="blm cls_3">
+					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							已撤销
 						</view>
@@ -38,7 +38,7 @@
 						</view>
 
 
-					</view>
+					</navigator>
 
 					<view class="qc"></view>
 				</view>
@@ -56,16 +56,16 @@
 			<view class="btm pt20 pm20">
 				<view class="cen ">
 
-					<view class="cls_3">
+					<navigator class="cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							未完成
 						</view>
 						<view class="mt20">
 							<image src="../../static/img/task1.png" class="sd_drrrtty"></image>
 						</view>
-					</view>
+					</navigator>
 
-					<view class="blm cls_3">
+					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							已完成
 						</view>
@@ -73,10 +73,10 @@
 							<image src="../../static/img/task2.png" class="sd_drrrtty"></image>
 						</view>
 
-					</view>
+					</navigator>
 
 
-					<view class="blm cls_3">
+					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
 						<view class="fz28 z6">
 							已撤销
 						</view>
@@ -85,7 +85,7 @@
 						</view>
 
 
-					</view>
+					</navigator>
 
 					<view class="qc"></view>
 				</view>

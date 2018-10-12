@@ -1,30 +1,30 @@
-<template name="d8927404">
-  <view class="_view data-v-7e1531e5  pm20">
-    <view class="_view data-v-7e1531e5 z9 pt30 pm20 fz26 z9 cen"> 第{{dangqqi_idx}}题，共{{timu_s.length}}题 </view>
-    <view class="_view data-v-7e1531e5 pl30 pr30 ">
-      <view class="_view data-v-7e1531e5 fz32 z3 pm20"> {{dangqqi_idx}}.{{dangqqi.title}} </view>
-      <view class="_view data-v-7e1531e5 pt20 pm20 z9 fz28" bindtap="handleProxy" data-eventid="{{'z4J-0-'+index}}" data-comkey="{{$k}}" wx:for="{{dangqqi.xuanxiang}}" wx:for-index="index" wx:for-item="sd">
-        <view class="_view data-v-7e1531e5 df_dffrf yj cz {{sd.cls}}"></view>
-        <text class="_text data-v-7e1531e5 ml5 cz">{{sd.name}}</text>
+<template name="5b13c2f9">
+  <view class="_view data-v-1b2003a6  pm20">
+    <view class="_view data-v-1b2003a6 z9 pt30 pm20 fz26 z9 cen"> 第{{dangqqi_idx}}题，共{{timu_s.length}}题 </view>
+    <view class="_view data-v-1b2003a6 pl30 pr30 ">
+      <view class="_view data-v-1b2003a6 fz32 z3 pm20"> {{dangqqi_idx}}.{{dangqqi.title}} </view>
+      <view class="_view data-v-1b2003a6 pt20 pm20 z9 fz28" bindtap="handleProxy" data-eventid="{{'aNF-0-'+index}}" data-comkey="{{$k}}" wx:for="{{dangqqi.xuanxiang}}" wx:for-index="index" wx:for-item="sd">
+        <view class="_view data-v-1b2003a6 df_dffrf yj cz {{sd.cls}}"></view>
+        <text class="_text data-v-1b2003a6 ml5 cz">{{sd.name}}</text>
       </view>
     </view>
-    <view class="_view data-v-7e1531e5 mt20" wx:if="{{dangqqi_idx==1}}" bindtap="handleProxy" data-eventid="{{'4IY-1'}}" data-comkey="{{$k}}">
-      <view class="_view data-v-7e1531e5 dx_btn cen ls bgff">下一题</view>
+    <view class="_view data-v-1b2003a6 mt20" wx:if="{{dangqqi_idx==1}}" bindtap="handleProxy" data-eventid="{{'RaN-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-1b2003a6 dx_btn cen ls bgff">下一题</view>
     </view>
-    <view class="_view data-v-7e1531e5 mt20 dx_row" wx:if="{{dangqqi_idx>1&&dangqqi_idx<timu_s.length}}">
-      <view class="_view data-v-7e1531e5 dx_col_12">
-        <view class="_view data-v-7e1531e5 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'yVS-2'}}" data-comkey="{{$k}}">上一题</view>
+    <view class="_view data-v-1b2003a6 mt20 dx_row" wx:if="{{dangqqi_idx>1&&dangqqi_idx<timu_s.length}}">
+      <view class="_view data-v-1b2003a6 dx_col_12">
+        <view class="_view data-v-1b2003a6 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'XmZ-2'}}" data-comkey="{{$k}}">上一题</view>
       </view>
-      <view class="_view data-v-7e1531e5 dx_col_12">
-        <view class="_view data-v-7e1531e5 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'MyD-3'}}" data-comkey="{{$k}}">下一题</view>
+      <view class="_view data-v-1b2003a6 dx_col_12">
+        <view class="_view data-v-1b2003a6 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'2NE-3'}}" data-comkey="{{$k}}">下一题</view>
       </view>
     </view>
-    <view class="_view data-v-7e1531e5 mt20 dx_row" wx:if="{{dangqqi_idx==timu_s.length}}">
-      <view class="_view data-v-7e1531e5 dx_col_12">
-        <view class="_view data-v-7e1531e5 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'wN0-4'}}" data-comkey="{{$k}}">上一题</view>
+    <view class="_view data-v-1b2003a6 mt20 dx_row" wx:if="{{dangqqi_idx==timu_s.length}}">
+      <view class="_view data-v-1b2003a6 dx_col_12">
+        <view class="_view data-v-1b2003a6 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'ORn-4'}}" data-comkey="{{$k}}">上一题</view>
       </view>
-      <view class="_view data-v-7e1531e5 dx_col_12">
-        <view class="_view data-v-7e1531e5 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'bn8-5'}}" data-comkey="{{$k}}">提交</view>
+      <view class="_view data-v-1b2003a6 dx_col_12">
+        <view class="_view data-v-1b2003a6 dx_btn cen ls bgff" bindtap="handleProxy" data-eventid="{{'OmP-5'}}" data-comkey="{{$k}}">提交</view>
       </view>
     </view>
   </view>

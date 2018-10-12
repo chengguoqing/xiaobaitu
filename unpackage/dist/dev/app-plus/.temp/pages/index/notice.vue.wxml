@@ -1,10 +1,10 @@
-<template name="21e4f022">
-  <view class="_view data-v-7494bfc9">
-    <navigator class="_navigator data-v-7494bfc9 pd pt20 pm20 bbm bgff" url="/pages/index/noticeXq" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-7494bfc9 fz30 z3"> 标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
-        <text class="_text data-v-7494bfc9 red fz30">NEW</text>
+<template name="5199431d">
+  <view class="_view data-v-72d5338a">
+    <navigator class="_navigator data-v-72d5338a pd pt20 pm20 bbm bgff" url="/pages/index/noticeXq" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-72d5338a fz30 z3"> 标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+        <text class="_text data-v-72d5338a red fz30">NEW</text>
       </view>
-      <view class="_view data-v-7494bfc9 z9 fz26"> 2018-08-29 </view>
+      <view class="_view data-v-72d5338a z9 fz26"> 2018-08-29 </view>
     </navigator>
   </view>
 </template>

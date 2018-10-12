@@ -1,22 +1,22 @@
 
-.df_jh_deer.data-v-650526bc {
+.df_jh_deer.data-v-d01747ca {
   line-height: 80rpx;
 }
-.fengmian_dr.data-v-650526bc {
+.fengmian_dr.data-v-d01747ca {
   width: 180rpx;
   height: 180rpx;
 }
-.df_hg_der.data-v-650526bc {
+.df_hg_der.data-v-d01747ca {
   line-height: 60rpx;
 }
-.df_jh_deet.data-v-650526bc {
+.df_jh_deet.data-v-d01747ca {
   background: #74DE80;
 }
-.ouy_tilte.data-v-650526bc {
+.ouy_tilte.data-v-d01747ca {
   line-height: 70rpx;
   background: #F7F7F7;
 }
-.foyu_jhg_drrt.data-v-650526bc {
+.foyu_jhg_drrt.data-v-d01747ca {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -24,6 +24,6 @@
   z-index: 999;
   text-align: center;
 }
-.foyu_jhg_drrt .dx_col_8.data-v-650526bc {
+.foyu_jhg_drrt .dx_col_8.data-v-d01747ca {
   line-height: 100rpx;
 }
