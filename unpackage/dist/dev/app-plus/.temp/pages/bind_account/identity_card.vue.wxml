@@ -3,13 +3,13 @@
   <view class="_view data-v-1560c922">
     <view class="_view data-v-1560c922">
       <view class="_view data-v-1560c922 pt20 pm20 fz30 pd"> 第一步输入您的真实姓名 </view>
-      <template placeholder="请输入真实姓名" data="{{...$root['0'], ...$root[$kk+'Fcy-0'],$root}}" is="336ad492"></template>
+      <template placeholder="请输入真实姓名" data="{{...$root['0'], ...$root[$kk+'ymg-0'],$root}}" is="336ad492"></template>
       <view class="_view data-v-1560c922 pt20 pm20 fz30 pd"> 第二步输入您的身份证号码 </view>
-      <template placeholder="请输入身份证号" data="{{...$root['0'], ...$root[$kk+'dVO-1'],$root}}" is="336ad492"></template>
+      <template placeholder="请输入身份证号" data="{{...$root['0'], ...$root[$kk+'jjO-1'],$root}}" is="336ad492"></template>
       <view class="_view data-v-1560c922 pt20 pm20 fz30 pd"> 第三步上传身份信息 </view>
       <view class="_view data-v-1560c922 pd">
-        <image src="../../static/img/addIcon.jpg" class="_image data-v-1560c922 addIcon" bindtap="handleProxy" wx:if="{{!img_df}}" data-eventid="{{'c3P-0'}}" data-comkey="{{$k}}"></image>
-        <image src="{{img_df}}" class="_image data-v-1560c922 addIcon" wx:if="{{img_df}}" bindtap="handleProxy" data-eventid="{{'BAS-1'}}" data-comkey="{{$k}}"></image>
+        <image src="../../static/img/addIcon.jpg" class="_image data-v-1560c922 addIcon" bindtap="handleProxy" wx:if="{{!img_df}}" data-eventid="{{'i8F-0'}}" data-comkey="{{$k}}"></image>
+        <image src="{{img_df}}" class="_image data-v-1560c922 addIcon" wx:if="{{img_df}}" bindtap="handleProxy" data-eventid="{{'hYD-1'}}" data-comkey="{{$k}}"></image>
         <view class="_view data-v-1560c922  z9 fz26 pt10"> 身份证正面图片 </view>
       </view>
       <button class="_button data-v-1560c922 ls fz32 mt80 bgff">保存</button>
@@ -25,8 +25,8 @@
       </view>
     </view>
     <view class="_view data-v-1560c922 ll_uiy_eer" wx:if="{{isd_ou}}">
-      <text class="_text data-v-1560c922 xiugai_d" bindtap="handleProxy" data-eventid="{{'51L-2'}}" data-comkey="{{$k}}"> 修改图片 </text>
-      <image src="{{img_df}}" mode="aspectFill" bindtap="handleProxy" data-eventid="{{'BTo-3'}}" data-comkey="{{$k}}" class="_image data-v-1560c922"></image>
+      <text class="_text data-v-1560c922 xiugai_d" bindtap="handleProxy" data-eventid="{{'tT0-2'}}" data-comkey="{{$k}}"> 修改图片 </text>
+      <image src="{{img_df}}" mode="aspectFill" bindtap="handleProxy" data-eventid="{{'0G0-3'}}" data-comkey="{{$k}}" class="_image data-v-1560c922"></image>
     </view>
   </view>
 </template>

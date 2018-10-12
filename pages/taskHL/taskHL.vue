@@ -18,7 +18,7 @@
 						</view>
 					</navigator>
 
-					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
+					<navigator class="blm cls_3" url="/pages/taskHL/offStocksList">
 						<view class="fz28 z6">
 							已完成
 						</view>
@@ -29,7 +29,7 @@
 					</navigator>
 
 
-					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
+					<navigator class="blm cls_3" url="/pages/taskHL/HadWithdrawn">
 						<view class="fz28 z6">
 							已撤销
 						</view>
@@ -56,7 +56,7 @@
 			<view class="btm pt20 pm20">
 				<view class="cen ">
 
-					<navigator class="cls_3" url="/pages/taskHL/taskList">
+					<navigator class="cls_3" url="/pages/taskHL/taskList?type=2">
 						<view class="fz28 z6">
 							未完成
 						</view>
@@ -65,7 +65,7 @@
 						</view>
 					</navigator>
 
-					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
+					<navigator class="blm cls_3" url="/pages/taskHL/offStocksList?type=2">
 						<view class="fz28 z6">
 							已完成
 						</view>
@@ -76,7 +76,7 @@
 					</navigator>
 
 
-					<navigator class="blm cls_3" url="/pages/taskHL/taskList">
+					<navigator class="blm cls_3" url="/pages/taskHL/HadWithdrawn">
 						<view class="fz28 z6">
 							已撤销
 						</view>

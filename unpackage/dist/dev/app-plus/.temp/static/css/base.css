@@ -170,7 +170,10 @@ html {
 	background: #f8f6f7 !important;
 	border: 1px solid #f8f6f7 !important;
 }
-
+.bghser {
+	background: #BCC0C3 !important;
+	border: 1px solid #BCC0C3 !important;
+}
 .bgbs {
 	background: #fff;
 }

@@ -131,6 +131,10 @@ page {
   background: #f8f6f7 !important;
   border: 1px solid #f8f6f7 !important;
 }
+.bghser {
+  background: #BCC0C3 !important;
+  border: 1px solid #BCC0C3 !important;
+}
 .bgbs {
   background: #fff;
 }
@@ -1044,6 +1048,16 @@ page {
 }
 .ln {
   line-height: 1.5;
+}
+.u_fenmian {
+  width: 170rpx;
+  height: 170rpx;
+  float: left;
+}
+.sdf_h_der {
+  text-align: center;
+  line-height: 55rpx;
+  margin-top: 10rpx;
 }
 @font-face {
   font-family: "dx";

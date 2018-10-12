@@ -1,15 +1,25 @@
 {
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		 {
-		 	"path": "pages/index/index",
-		 	"style": {
-		 		"enablePullDownRefresh": true, //开启下拉刷新
-		 		"app-plus": {
-		 			"titleNView": "transparent"
-		 		}
-		 	}
-		 },{
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"titleNView": "transparent"
+				}
+			}
+		},{
+			"path": "pages/taskHL/HadWithdrawn",
+			"style": {
+				"navigationBarTitleText": "已撤销任务列表"
+			}
+		},{
+			"path": "pages/taskHL/offStocksList",
+			"style": {
+				"navigationBarTitleText": "已完成任务列表"
+			}
+		}, {
 			"path": "pages/taskHL/taskList",
 			"style": {
 				"navigationBarTitleText": "任务列表"

@@ -1,12 +1,12 @@
 <import src="/components/dx_input.vue.wxml" />
 <template name="6f916910">
   <view class="_view data-v-107b80aa">
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'rvn-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'1hW-0'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'LZH-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'QrF-1'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'Xme-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'OGw-2'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'nCh-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0SK-3'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'dRM-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'rGE-4'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'ysz-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'2XQ-5'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'ReO-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ovq-0'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'BgW-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'tap-1'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'5wk-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'MtX-2'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'E8M-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'89L-3'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'yIE-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'p8c-4'],$root}}" is="336ad492"></template>
+    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'rY1-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'J1b-5'],$root}}" is="336ad492"></template>
     <view class="_view data-v-107b80aa dx_row">
       <view class="_view data-v-107b80aa dx_col_8 pd mt20" wx:for="{{img_d}}" wx:for-index="index" wx:for-item="sd">
         <image src="{{sd.url}}" mode="scaleToFill" class="_image data-v-107b80aa sd_jh_drrt"></image>
