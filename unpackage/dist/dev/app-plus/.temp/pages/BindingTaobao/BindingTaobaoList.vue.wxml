@@ -19,6 +19,6 @@
         <view class="_view data-v-00196f60 fz28 red mt10"> 审核未通过原因:最近购买量不稳定，请先养号后再绑定 </view>
       </view>
     </view>
-    <button class="_button data-v-00196f60 ls fz32 mt60 bgff dsf_dfrrtyx" bindtap="handleProxy" data-eventid="{{'s5l-0'}}" data-comkey="{{$k}}">新增一个淘宝账号</button>
+    <button class="_button data-v-00196f60 ls fz32 mt60 bgff dsf_dfrrtyx" bindtap="handleProxy" data-eventid="{{'trO-0'}}" data-comkey="{{$k}}">新增一个淘宝账号</button>
   </view>
 </template>

@@ -1,9 +1,9 @@
 <import src="/components/dx_input.vue.wxml" />
 <template name="15e21b10">
   <view class="_view data-v-42516243">
-    <template type="2" placeholder="请填写新的手机号" data="{{...$root['0'], ...$root[$kk+'QYO-0'],$root}}" is="336ad492"></template>
-    <template type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'QnZ-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'P3d-1'],$root}}" is="336ad492"></template>
-    <template type="3" placeholder="填写登录密码" data="{{...$root['0'], ...$root[$kk+'ppf-2'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-42516243 dx_btn bgff ls fz32 yj4 mt40 cen" bindtap="handleProxy" data-eventid="{{'iXq-1'}}" data-comkey="{{$k}}"> 提交 </view>
+    <template type="2" placeholder="请填写新的手机号" data="{{...$root['0'], ...$root[$kk+'vn4-0'],$root}}" is="336ad492"></template>
+    <template type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'SsB-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'wWp-1'],$root}}" is="336ad492"></template>
+    <template type="3" placeholder="填写登录密码" data="{{...$root['0'], ...$root[$kk+'9CV-2'],$root}}" is="336ad492"></template>
+    <view class="_view data-v-42516243 dx_btn bgff ls fz32 yj4 mt40 cen" bindtap="handleProxy" data-eventid="{{'ukY-1'}}" data-comkey="{{$k}}"> 提交 </view>
   </view>
 </template>

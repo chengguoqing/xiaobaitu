@@ -15,7 +15,7 @@
       </view>
       <view class="_view data-v-e1262c84 qc"></view>
     </view>
-    <view class="_view data-v-e1262c84 bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'ArY-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+    <view class="_view data-v-e1262c84 bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'1wW-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
       <view class="_view data-v-e1262c84 h_dfg_le cz">
         <icon class="_icon data-v-e1262c84 dx  cz {{sd.icon}}"></icon>
       </view>

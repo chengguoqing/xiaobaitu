@@ -30,7 +30,7 @@
     <view class="_view data-v-542af90a list_dfg pd fz32  mt20"> 账户信息
       <text class="_text data-v-542af90a ls fz26">(账户信息任意绑定一个号)</text>
     </view>
-    <view class="_view data-v-542af90a bgff sd_lh_der pd  pr btm {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'Emu-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+    <view class="_view data-v-542af90a bgff sd_lh_der pd  pr btm {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'0fW-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
       <view class="_view data-v-542af90a h_dfg_le cz yj">
         <icon class="_icon data-v-542af90a dx  cz {{sd.icon}}"></icon>
       </view>

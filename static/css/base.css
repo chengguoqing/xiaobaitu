@@ -167,8 +167,9 @@ html {
 }
 
 .bghs {
-	background: #f8f6f7 !important;
-	border: 1px solid #f8f6f7 !important;
+	background: #F79729 !important;
+	border: 1px solid #F79729 !important;
+	color: #fff;
 }
 .bghser {
 	background: #BCC0C3 !important;

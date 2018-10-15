@@ -1,9 +1,9 @@
 <template>
 	<view class="bgff btm df_hh_ddr pr">
-		<input type="text" :placeholder="placeholder" v-model="visible" v-if="!type" />
-		<input type="number" :placeholder="placeholder" v-model="visible" v-if="type==2" />
-		<input type="text" password="true" :placeholder="placeholder" v-model="visible" v-if="type==3" />
-		<input type="search" password="true" :placeholder="placeholder" v-model="visible" v-if="type==4" />
+		<input type="text" :placeholder="placeholder" v-model="visible" :value="value" v-if="!type" />
+		<input type="number" :placeholder="placeholder" v-model="visible" :value="value" v-if="type==2" />
+		<input type="text" password="true" :placeholder="placeholder" v-model="value" :value="value" v-if="type==3" />
+		<input type="search" password="true" :placeholder="placeholder" v-model="value"  :value="value" v-if="type==4" />
 		<view class="rigt_dfg ls" v-if="rightText" @click="rTextCabat">
 			{{rightText}}
 		</view>
