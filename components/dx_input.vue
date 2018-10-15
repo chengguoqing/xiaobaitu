@@ -1,6 +1,6 @@
 <template>
 	<view class="bgff btm df_hh_ddr pr">
-		<input type="text" :placeholder="placeholder" v-model="visible" :value="value" v-if="!type" />
+		<input type="text" :placeholder="placeholder" v-model="visible" :value="value" v-if="!type"  />
 		<input type="number" :placeholder="placeholder" v-model="visible" :value="value" v-if="type==2" />
 		<input type="text" password="true" :placeholder="placeholder" v-model="value" :value="value" v-if="type==3" />
 		<input type="search" password="true" :placeholder="placeholder" v-model="value"  :value="value" v-if="type==4" />
@@ -45,8 +45,13 @@
 	}
 </script>
 <style scoped>
-	.df_hh_ddr input {
+	.df_hh_ddr{
 		height: 80upx;
+		padding-top: 17upx;
+		line-height: 80upx;
+		}
+	.df_hh_ddr input {
+		
 		text-indent: 0px;
 		padding-left: 20upx !important;
 		font-size: 30upx;

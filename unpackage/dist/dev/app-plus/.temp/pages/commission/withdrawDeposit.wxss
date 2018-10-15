@@ -1,5 +1,6 @@
+@import "../../common/vendor.wxss";
 
-.xiahua_d.data-v-4efa30b6 {
+.xiahua_d.data-v-7b1c99a4 {
   display: inline-block;
   text-decoration: underline;
 }

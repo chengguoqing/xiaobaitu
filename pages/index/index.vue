@@ -86,9 +86,8 @@
 		</navigator>
 
 
-		<view class="jieDanBtn">
-			接 单
-		</view>
+	
+		<navigator url="/pages/taskHL/orderReceiving" class="jieDanBtn">接 单</navigator>
 
  <dx_guize v-if="is_guiz" @close_d="is_guiz=false"></dx_guize> 
 	</view>

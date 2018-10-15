@@ -1,0 +1,6 @@
+<template name="28145c29">
+  <view class="_view data-v-447da5a2">
+    <textarea placeholder="回复内容..." class="_textarea data-v-447da5a2 ssdjh_deert fz30 bgff pt20 pd" />
+    <view class="_view data-v-447da5a2 mt40 dx_btn ls fz30 cen bgff"> 提交 </view>
+  </view>
+</template>

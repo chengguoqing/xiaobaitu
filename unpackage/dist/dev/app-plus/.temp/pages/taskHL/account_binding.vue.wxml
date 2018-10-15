@@ -1,0 +1,23 @@
+<template name="1134d840">
+  <view class="_view data-v-ef00907e">
+    <view class="_view data-v-ef00907e fz30 z3 pd pt20 pm20"> 接单账号选择(必选) </view>
+    <picker class="_picker data-v-ef00907e pd bgff pt20 pm20" bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'vqb-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-ef00907e h_dfg_le cz yj ">
+        <icon class="_icon data-v-ef00907e dx  cz icon-taobao"></icon>
+      </view>
+      <text class="_text data-v-ef00907e ml10">{{array[index].name}}</text>
+      <view class="_i data-v-ef00907e dx icon-down ls fr mt15"></view>
+    </picker>
+    <view wx:for="{{xsd_eer}}" wx:for-index="ix" wx:for-item="sd" class="_view data-v-ef00907e">
+      <view class="_view data-v-ef00907e pd pt10 pm10 z3"> {{sd.title}} </view>
+      <view class="_view data-v-ef00907e dx_row bgff pd pt10 pm10">
+        <view class="_view data-v-ef00907e dx_col_8" wx:for="{{sd.dete_s}}" wx:for-index="idx" wx:for-item="sf">
+          <text class="_text data-v-ef00907e sd_jh_dertse  {{sf.cls}}" bindtap="handleProxy" data-eventid="{{'TGd-1-'+ix+'-'+idx}}" data-comkey="{{$k}}"> {{sf.name}} </text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-ef00907e pd sdf_jh_baoc">
+      <view class="_view data-v-ef00907e dx_btn ls bgff fz30 cen br yj4"> 保存 </view>
+    </view>
+  </view>
+</template>

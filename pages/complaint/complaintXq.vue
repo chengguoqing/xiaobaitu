@@ -55,10 +55,10 @@
 			投诉内容 2018-10-06
 		</view>
 		<view class="pd pm20 bgff">
-			<view class="pt20 ln z6">
+			<view class="pt20 ln z6 fz30">
 				类型:其他问题
 			</view>
-			<view class="pt20 ln z6">
+			<view class="pt20 ln z6 fz30">
 				原因:我用错账号了这个账号不对
 			</view>
 		</view>
@@ -73,12 +73,12 @@
 				申诉人:我用错账号了这个账号不对
 			</view>
 		</view>
-		
+	
 		
 		<view class="btm dx_row fz30 foyu_jhg_drrt bgff">
-			<view class="dx_col_8 ls">
+			<navigator class="dx_col_8 ls"  url="/pages/complaint/reply">
 				回复申诉
-			</view>
+			</navigator>
 			<view class="dx_col_8 ls blm">
 				完结申诉
 			</view>

@@ -1,0 +1,25 @@
+@import "../../common/vendor.wxss";
+
+.h_dfg_le.data-v-ef00907e {
+  background: #FF4500;
+}
+.sd_jh_dertse.data-v-ef00907e {
+  display: block;
+  width: 100px;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+.sd_jh_dertse.act.data-v-ef00907e {
+  border: 1px solid #00AC92;
+  color: #00AC92;
+}
+.sdf_jh_baoc.data-v-ef00907e {
+  position: fixed;
+  left: 0;
+  bottom: 40rpx;
+  width: 100%;
+}

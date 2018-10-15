@@ -23,7 +23,7 @@ ins {
 	left: 0;
 	right: 0;
 	margin: auto;
-	bottom: 160upx;
+	bottom: 140upx;
 	border-radius: 50%;
 	color: #fff;
 }
@@ -239,3 +239,43 @@ ins {
 	line-height: 55upx;
 	margin-top: 10upx;
 }
+
+
+	.dx_select {
+		height: 80upx;
+		line-height: 80upx;
+		background: #fff;
+		text-indent: 0px;
+		padding-left: 20upx !important;
+		font-size: 30upx;
+	}
+	
+	.zhuyi_dsd {
+			line-height: 80upx;
+			font-size: 30upx;
+			background: #DFDFDF;
+		}
+	
+	
+	
+		.cjg_eyd {
+			line-height: 70upx;
+			text-align: center;
+			border: 1px solid #e0e0e0;
+	
+		}
+	
+		.cjg_eyd.act {
+			border: 1px solid #4DA994;
+			color: #4DA994;
+		}
+	
+		.sd_jh_drrt {
+			width: 100%;
+			height: 200upx;
+		}
+		
+		.sd_jh_drrt {
+			width: 100%;
+			height: 200upx;
+		}

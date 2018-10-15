@@ -1,0 +1,30 @@
+@import "../../common/vendor.wxss";
+
+.df_jh_dertx.data-v-ee4cac58 {
+  position: absolute;
+  right: 20rpx;
+  top: 0rpx;
+}
+.h_dfg_le.data-v-ee4cac58 {
+  width: 90rpx;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  background: #FF4500;
+}
+.h_dfg_le.ab.data-v-ee4cac58 {
+  background: #949494;
+}
+.h_dfg_le icon.data-v-ee4cac58 {
+  font-size: 60rpx;
+  top: 0px;
+}
+.dfg_cfrtt.data-v-ee4cac58 {
+  background: #E5F1ED;
+}
+.df_ccrf_rt.data-v-ee4cac58 {
+  background: #F5F7F6;
+}
+.df_right.data-v-ee4cac58 {
+  top: 40rpx;
+}

@@ -1,1 +1,1 @@
-<import src="/pages/user_center/percentageComplete.vue.wxml" /><template is="a56f3abe" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/user_center/percentageComplete.vue.wxml" /><template is="4936b866" data="{{ ...$root['0'], $root }}"/>

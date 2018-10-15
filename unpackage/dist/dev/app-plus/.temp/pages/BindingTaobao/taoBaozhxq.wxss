@@ -1,0 +1,10 @@
+@import "../../common/vendor.wxss";
+
+.dfsdfg.data-v-35f10d65 {
+  float: right;
+  width: 260rpx;
+  text-align: center;
+  position: relative;
+  top: -20rpx;
+  line-height: 60rpx;
+}

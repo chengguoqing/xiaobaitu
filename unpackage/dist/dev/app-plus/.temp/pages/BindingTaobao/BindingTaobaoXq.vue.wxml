@@ -1,17 +1,20 @@
 <import src="/components/dx_input.vue.wxml" />
-<template name="6f916910">
-  <view class="_view data-v-107b80aa">
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'ddb-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CeJ-0'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'iWY-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'SCf-1'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'Xxj-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0cn-2'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'HV2-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'GH9-3'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'4b4-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'TyR-4'],$root}}" is="336ad492"></template>
-    <template value="{{form.sex}}" bindchange="handleProxy" placeholder="性别" data-eventid="{{'uEq-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'QYK-5'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-107b80aa dx_row">
-      <view class="_view data-v-107b80aa dx_col_8 pd mt20" wx:for="{{img_d}}" wx:for-index="index" wx:for-item="sd">
-        <image src="{{sd.url}}" mode="scaleToFill" class="_image data-v-107b80aa sd_jh_drrt"></image>
-        <view class="_view data-v-107b80aa cen fz28 z9 mt10"> {{sd.name}} </view>
-      </view>
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<template name="b816adda">
+  <view class="_view data-v-191a4d68">
+    <view class="_view data-v-191a4d68 pt20 pm20 pd fz30 z3"> 账号信息 </view>
+    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'EF7-0'],$root}}" is="6c94c82d"></template>
+    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'EZx-1'],$root}}" is="6c94c82d"></template>
+    <view class="_view data-v-191a4d68 dx_select btm pr" bindtap="handleProxy" data-eventid="{{'TUN-0'}}" data-comkey="{{$k}}">
+      <text wx:if="{{!pickerText}}" class="_text data-v-191a4d68 z9"> 请选择省份、市、县级市 </text>
+      <text wx:else class="_text data-v-191a4d68 z3"> {{pickerText}} </text>
     </view>
+    <view class="_view data-v-191a4d68 pr">
+      <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'YkZ-2'],$root}}" is="6c94c82d"></template>
+    </view>
+    <view class="_view data-v-191a4d68 pd pm20 mt60">
+      <view class="_view data-v-191a4d68 mt20 dx_btn cen fz30 bgls"> 提交审核 </view>
+    </view>
+    <template bindclose_e="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'UZN-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'8l7-3'],$root}}" is="42c0f9f1"></template>
   </view>
 </template>

@@ -1,4 +1,5 @@
+@import "../../common/vendor.wxss";
 
-.dsf_rt_ce.data-v-050cc6fd {
+.dsf_rt_ce.data-v-76ae5e5e {
   line-height: 1.5;
 }

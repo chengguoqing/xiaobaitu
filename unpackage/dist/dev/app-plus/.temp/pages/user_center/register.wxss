@@ -1,4 +1,5 @@
+@import "../../common/vendor.wxss";
 
-.df_cdeeert.data-v-a14be704 {
+.df_cdeeert.data-v-6ba4e9bd {
   background: #fff !important;
 }

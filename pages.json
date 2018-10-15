@@ -2,17 +2,47 @@
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/BindingTaobao/addTB",
-			"style": {
-				"navigationBarTitleText": "绑定账号"
-			}
-		},{
 			"path": "pages/index/index",
 			"style": {
 				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus": {
 					"titleNView": "transparent"
 				}
+			}
+		},{
+			"path": "pages/taskHL/account_binding",
+			"style": {
+				"navigationBarTitleText": "淘宝账号绑定"
+			}
+		},{
+			"path": "pages/taskHL/orderReceiving",
+			"style": {
+				"navigationBarTitleText": "接任务"
+			}
+		},{
+			"path": "pages/complaint/reply",
+			"style": {
+				"navigationBarTitleText": "回复申诉"
+			}
+		},{
+			"path": "pages/BindingTaobao/taoBaozhxq",
+			"style": {
+				"navigationBarTitleText": "绑定账号"
+			}
+		},{
+			"path": "pages/BindingTaobao/BindingTaobaoList",
+			"style": {
+				"navigationBarTitleText": "绑定淘宝账号"
+			}
+		},{
+			"path": "pages/BindingTaobao/BindingRequirements",
+			"style": {
+				"navigationBarTitleText": "绑定淘宝账号说明"
+			}
+		},{
+			"path": "pages/BindingTaobao/addTB",
+			"style": {
+				"navigationBarTitleText": "绑定账号"
 			}
 		},{
 			"path": "pages/taskHL/HadWithdrawn",
@@ -112,12 +142,7 @@
 			"style": {
 				"navigationBarTitleText": "绑定淘宝账号"
 			}
-		}, {
-			"path": "pages/BindingTaobao/BindingTaobaoList",
-			"style": {
-				"navigationBarTitleText": "绑定淘宝账号"
-			}
-		}, {
+		},  {
 			"path": "pages/bind_account/BankCardBinding",
 			"style": {
 				"navigationBarTitleText": "绑定银行卡"

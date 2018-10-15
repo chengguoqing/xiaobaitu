@@ -1,20 +1,20 @@
-<template name="62b99548">
-  <view class="_view data-v-a309c896">
-    <view class="_view data-v-a309c896 list_dfg pd fz32 btm"> 推广总数
-      <view class="_view data-v-a309c896 df_right fz26 z9">
-        <text class="_text data-v-a309c896 cz ls">0个</text>
-        <icon class="_icon data-v-a309c896 dx icon-right1 cz fz30 ml10"></icon>
+<template name="0688800d">
+  <view class="_view data-v-f8f8b598">
+    <view class="_view data-v-f8f8b598 list_dfg pd fz32 btm"> 推广总数
+      <view class="_view data-v-f8f8b598 df_right fz26 z9">
+        <text class="_text data-v-f8f8b598 cz ls">0个</text>
+        <icon class="_icon data-v-f8f8b598 dx icon-right1 cz fz30 ml10"></icon>
       </view>
     </view>
-    <view class="_view data-v-a309c896 list_dfg pd fz32 btm"> 累计奖励
-      <view class="_view data-v-a309c896 df_right fz26 z9">
-        <text class="_text data-v-a309c896 cz ls">0个金</text>
-        <icon class="_icon data-v-a309c896 dx icon-right1 cz fz30 ml10"></icon>
+    <view class="_view data-v-f8f8b598 list_dfg pd fz32 btm"> 累计奖励
+      <view class="_view data-v-f8f8b598 df_right fz26 z9">
+        <text class="_text data-v-f8f8b598 cz ls">0个金</text>
+        <icon class="_icon data-v-f8f8b598 dx icon-right1 cz fz30 ml10"></icon>
       </view>
     </view>
-    <image src="../../static/img/sd_dre_w.jpg" class="_image data-v-a309c896 w100 mt20" mode="widthFix"></image>
-    <view class="_view data-v-a309c896 pd mt80">
-      <view class="_view data-v-a309c896  dx_btn bgls cen cf fz32 yj4"> pr分析给朋友 </view>
+    <image src="../../static/img/sd_dre_w.jpg" class="_image data-v-f8f8b598 w100 mt20" mode="widthFix"></image>
+    <view class="_view data-v-f8f8b598 pd mt80">
+      <view class="_view data-v-f8f8b598  dx_btn bgls cen cf fz32 yj4"> pr分析给朋友 </view>
     </view>
   </view>
 </template>

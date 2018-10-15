@@ -1,5 +1,6 @@
+@import "../../common/vendor.wxss";
 
-.los_err.data-v-1013a076 {
+.los_err.data-v-67430496 {
   width: 140rpx;
   height: 140rpx;
 }

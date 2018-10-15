@@ -1,17 +1,17 @@
 <import src="/components/dx_input.vue.wxml" />
-<template name="75ffced1">
-  <view class="_view data-v-a14be704 pt20">
-    <template value="{{form.pid}}" bindchange="handleProxy" placeholder="请输入邀请人ID" wx:if="{{isYaoqing==1}}" data-eventid="{{'Flf-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iSp-0'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-a14be704 pl30 fz26 pt10 pm10" wx:if="{{isYaoqing==1}}"> 官方邀请人ID：100000 </view>
-    <view class="_view data-v-a14be704 bbm">
-      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="请输入手机号码" data-eventid="{{'dFL-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vWN-1'],$root}}" is="336ad492"></template>
-      <template value="{{form.verifyCode}}" bindchange="handleProxy" type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'xQq-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'VNS-2'],$root}}"
-        is="336ad492"></template>
+<template name="20b6b254">
+  <view class="_view data-v-6ba4e9bd pt20">
+    <template value="{{form.pid}}" bindchange="handleProxy" placeholder="请输入邀请人ID" wx:if="{{isYaoqing==1}}" data-eventid="{{'y4F-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'yoh-0'],$root}}" is="6c94c82d"></template>
+    <view class="_view data-v-6ba4e9bd pl30 fz26 pt10 pm10" wx:if="{{isYaoqing==1}}"> 官方邀请人ID：100000 </view>
+    <view class="_view data-v-6ba4e9bd bbm">
+      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="请输入手机号码" data-eventid="{{'iwX-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ngJ-1'],$root}}" is="6c94c82d"></template>
+      <template value="{{form.verifyCode}}" bindchange="handleProxy" type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'eud-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'UsH-2'],$root}}"
+        is="6c94c82d"></template>
     </view>
-    <view class="_view data-v-a14be704 bbm mt20">
-      <template value="{{form.jpassword}}" bindchange="handleProxy" type="3" placeholder="请输入8-16位密码" data-eventid="{{'WTL-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'sse-3'],$root}}" is="336ad492"></template>
-      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="请确认密码" data-eventid="{{'dCX-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'xsw-4'],$root}}" is="336ad492"></template>
+    <view class="_view data-v-6ba4e9bd bbm mt20">
+      <template value="{{form.jpassword}}" bindchange="handleProxy" type="3" placeholder="请输入8-16位密码" data-eventid="{{'S7Y-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'bnQ-3'],$root}}" is="6c94c82d"></template>
+      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="请确认密码" data-eventid="{{'nx2-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'weS-4'],$root}}" is="6c94c82d"></template>
     </view>
-    <button class="_button data-v-a14be704 ls fz26 mt20 bgff fz32">注册</button>
+    <button class="_button data-v-6ba4e9bd ls fz26 mt20 bgff fz32">注册</button>
   </view>
 </template>

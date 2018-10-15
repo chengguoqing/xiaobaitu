@@ -1,9 +1,9 @@
 <template>
 	<div class="mpvue-picker">
-		<div :class="{'pickerMask':showPicker}" @click="maskClick" catchtouchmove="true"></div>
+		<div :class="{'pickerMask':showPicker}" @click="$emit('close_e')" ></div>
 		<div class="mpvue-picker-content " :class="{'mpvue-picker-view-show':showPicker}">
-			<div class="mpvue-picker__hd pd" catchtouchmove="true">
-				<div class="mpvue-picker__action" @click="pickerCancel">取消</div>
+			<div class="mpvue-picker__hd pd" >
+				<div class="mpvue-picker__action" @click="$emit('close_e')">取消</div>
 				<div class="mpvue-picker__action ls" :style="{color:themeColor}" @click="pickerConfirm">确定</div>
 			</div>
 			<picker-view indicator-style="height: 40px;" class="mpvue-picker-view" :value="pickerValue" @change="pickerChange">
@@ -46,7 +46,7 @@
 		},
 		props: {
 			/* 是否显示控件 */
-			showPicker:false,
+			showPicker:"",
 			/* 默认值 */
 			pickerValueDefault: {
 				type: Array,
@@ -57,19 +57,17 @@
 		},
 		methods: {
 			show() {
-				setTimeout(() => {
-					this.showPicker = true;
-				}, 0);
+			
 			},
 			maskClick() {
 				this.pickerCancel();
 			},
 			pickerCancel() {
 				this.showPicker = false;
-				this._$emit('onCancel');
+				// this._$emit('onCancel');
 			},
 			pickerConfirm(e) {
-				this.showPicker = false;
+				
 				this._$emit('onConfirm');
 			},
 			showPickerView() {

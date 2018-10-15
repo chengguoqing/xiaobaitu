@@ -1,8 +1,8 @@
-<template name="528d3a6e">
-  <view class="_view data-v-1013a076">
-    <view class="_view data-v-1013a076 pt30 pm30 bgff cen">
-      <image src="../../static/img/logo.png" class="_image data-v-1013a076 los_err yj4"></image>
-      <view class="_view data-v-1013a076 mt10 fz26 z9">当前版本9.1.0</view>
+<template name="505e3ace">
+  <view class="_view data-v-67430496">
+    <view class="_view data-v-67430496 pt30 pm30 bgff cen">
+      <image src="../../static/img/logo.png" class="_image data-v-67430496 los_err yj4"></image>
+      <view class="_view data-v-67430496 mt10 fz26 z9">当前版本9.1.0</view>
     </view>
   </view>
 </template>

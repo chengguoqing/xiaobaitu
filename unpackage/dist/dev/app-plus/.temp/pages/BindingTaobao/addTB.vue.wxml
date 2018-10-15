@@ -1,43 +1,62 @@
 <import src="/components/dx_input.vue.wxml" />
 <import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
-<template name="52f42b7b">
-  <view class="_view data-v-5b06336e">
-    <view class="_view data-v-5b06336e pd">
-      <view class="_view data-v-5b06336e zhuyi_dsd pd mt20 b"> 注意事项 </view>
-      <view class="_view data-v-5b06336e fz28 z6 ln pt20 pm20 pd"> 账号审核时间周一至周五账号提交后3个工作日内完成审 核,如遇周末或节假日顺延审核工作人工进行,买手请耐 心等,新手务必看下方的审核要求! </view>
-      <view class="_view data-v-5b06336e dx_btn fz30 bghs cen"> 进入查看绑定要求 </view>
-      <view class="_view data-v-5b06336e pt20 pm20 pd fz30 z3"> 账号信息 </view>
+<template name="49fc8254">
+  <view class="_view data-v-695b324f">
+    <view class="_view data-v-695b324f pd">
+      <view class="_view data-v-695b324f zhuyi_dsd pd mt20 b"> 注意事项 </view>
+      <view class="_view data-v-695b324f fz28 z6 ln pt20 pm20 pd"> 账号审核时间周一至周五账号提交后3个工作日内完成审 核,如遇周末或节假日顺延审核工作人工进行,买手请耐 心等,新手务必看下方的审核要求! </view>
+      <navigator class="_navigator data-v-695b324f dx_btn fz30 bghs cen" url="/pages/BindingTaobao/BindingRequirements"> 进入查看绑定要求 </navigator>
+      <view class="_view data-v-695b324f pt20 pm20 pd fz30 z3"> 账号信息 </view>
     </view>
-    <template placeholder="请输入账号" data="{{...$root['0'], ...$root[$kk+'SSI-0'],$root}}" is="336ad492"></template>
-    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'I37-1'],$root}}" is="336ad492"></template>
-    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'ljy-2'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-5b06336e dx_select btm" bindtap="handleProxy" data-eventid="{{'0yc-0'}}" data-comkey="{{$k}}">
-      <text wx:if="{{!pickerText}}" class="_text data-v-5b06336e z9"> 请选择省份、市、县级市 </text>
-      <text wx:else class="_text data-v-5b06336e z3"> {{pickerText}} </text>
+    <template placeholder="请输入账号" data="{{...$root['0'], ...$root[$kk+'2zj-0'],$root}}" is="6c94c82d"></template>
+    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'ynt-1'],$root}}" is="6c94c82d"></template>
+    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'1XE-2'],$root}}" is="6c94c82d"></template>
+    <view class="_view data-v-695b324f dx_select btm pr" bindtap="handleProxy" data-eventid="{{'u4B-0'}}" data-comkey="{{$k}}">
+      <text wx:if="{{!pickerText}}" class="_text data-v-695b324f z9"> 请选择省份、市、县级市 </text>
+      <text wx:else class="_text data-v-695b324f z3"> {{pickerText}} </text>
     </view>
-    <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'6Hx-3'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-5b06336e pd">
-      <view class="_view data-v-5b06336e pt20 pm20 pd fz30 z3"> 帐号属性(
-        <text class="_text data-v-5b06336e red">与实名认证的身份证信息一致</text>) </view>
+    <view class="_view data-v-695b324f pr">
+      <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'yKp-3'],$root}}" is="6c94c82d"></template>
     </view>
-    <template placeholder="请输入性别" value="男" data="{{...$root['0'], ...$root[$kk+'qFc-4'],$root}}" is="336ad492"></template>
-    <template placeholder="请输入年龄" value="32" data="{{...$root['0'], ...$root[$kk+'pVF-5'],$root}}" is="336ad492"></template>
-    <picker bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'tIh-1'}}" data-comkey="{{$k}}" class="_picker data-v-5b06336e">
-      <view class="_view data-v-5b06336e picker fz30 dx_select btm">
-        <text wx:if="{{index}}" class="_text data-v-5b06336e"> {{array[index].name}} </text>
-        <text wx:else class="_text data-v-5b06336e z9"> 请选择等级 </text>
+    <view class="_view data-v-695b324f pd">
+      <view class="_view data-v-695b324f pt20 pm20 pd fz30 z3"> 帐号属性(
+        <text class="_text data-v-695b324f red">与实名认证的身份证信息一致</text>) </view>
+    </view>
+    <template placeholder="请输入性别" value="男" data="{{...$root['0'], ...$root[$kk+'xZ8-4'],$root}}" is="6c94c82d"></template>
+    <template placeholder="请输入年龄" value="32" data="{{...$root['0'], ...$root[$kk+'Sjg-5'],$root}}" is="6c94c82d"></template>
+    <picker bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'tSS-1'}}" data-comkey="{{$k}}" class="_picker data-v-695b324f">
+      <view class="_view data-v-695b324f picker fz30 dx_select btm">
+        <text wx:if="{{index}}" class="_text data-v-695b324f"> {{array[index].name}} </text>
+        <text wx:else class="_text data-v-695b324f z9"> 请选择等级 </text>
       </view>
     </picker>
-    <view class="_view data-v-5b06336e picker fz30 dx_select btm">
-      <text class="_text data-v-5b06336e z9">请选择分类</text>
+    <view class="_view data-v-695b324f picker fz30 dx_select btm" bindtap="handleProxy" data-eventid="{{'0kR-2'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-695b324f z9" wx:if="{{fenlei_e.length<=0}}">请选择分类</text>
+      <text wx:else class="_text data-v-695b324f">{{fenlei_e}}</text>
     </view>
-    <view class="_view data-v-5b06336e fz28 z9 pd pt20 pm20 ln"> 请任意选择
-      <text class="_text data-v-5b06336e red">三</text>个淘宝号经常购买的商品类目,提交后不可以自 行修改,如需要修改请联系人工客服处理;只有选择了购买类 目的买手才能接受相关要求的任务 </view>
-    <view class="_view data-v-5b06336e pl20 dx_row pt5">
-      <view class="_view data-v-5b06336e dx_col_8 pr20 mb20 pm5" wx:for="{{fenlei}}" wx:for-index="index" wx:for-item="sd">
-        <view class="_view data-v-5b06336e cjg_eyd fz28 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'yzN-2-'+index}}" data-comkey="{{$k}}"> {{sd.name}} </view>
+    <view class="_view data-v-695b324f" wx:if="{{isze_e}}">
+      <view class="_view data-v-695b324f fz28 z9 pd pt20 pm20 ln"> 请任意选择
+        <text class="_text data-v-695b324f red">三</text>个淘宝号经常购买的商品类目,提交后不可以自 行修改,如需要修改请联系人工客服处理;只有选择了购买类 目的买手才能接受相关要求的任务 </view>
+      <view class="_view data-v-695b324f pl20 dx_row pt5">
+        <view class="_view data-v-695b324f dx_col_8 pr20 mb20 pm5" wx:for="{{fenlei}}" wx:for-index="index" wx:for-item="sd">
+          <view class="_view data-v-695b324f cjg_eyd fz28 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'dWp-3-'+index}}" data-comkey="{{$k}}"> {{sd.name}} </view>
+        </view>
       </view>
     </view>
-    <template ref="mpvueCityPicker" bindonConfirm="handleProxy" data-eventid="{{'yAp-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Djv-6'],$root}}" is="5b7d3154"></template>
+    <view class="_view data-v-695b324f pd">
+      <view class="_view data-v-695b324f pt20  pd fz30 z3"> 图片示例(
+        <text class="_text data-v-695b324f red">点击可放大</text>) </view>
+    </view>
+    <view class="_view data-v-695b324f dx_row">
+      <view class="_view data-v-695b324f dx_col_8 pd mt20" wx:for="{{img_d}}" wx:for-index="index" wx:for-item="sd">
+        <image src="{{sd.url}}" mode="scaleToFill" class="_image data-v-695b324f sd_jh_drrt" bindtap="handleProxy" data-eventid="{{'JVR-4-'+index}}" data-comkey="{{$k}}"></image>
+        <view class="_view data-v-695b324f cen fz28 z9 mt10"> {{sd.name}} </view>
+      </view>
+    </view>
+    <view class="_view data-v-695b324f pd pm20">
+      <view class="_view data-v-695b324f dx_btn  cen cf fz32 yj4 bghs cf fz30 mt40" bindtap="handleProxy" data-eventid="{{'1K1-5'}}" data-comkey="{{$k}}"> 一键上传图片 </view>
+      <view class="_view data-v-695b324f mt20 dx_btn cen fz30 bgls"> 提交审核 </view>
+    </view>
+    <template bindclose_e="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'zbD-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ep8-6'],$root}}" is="42c0f9f1"></template>
   </view>
 </template>

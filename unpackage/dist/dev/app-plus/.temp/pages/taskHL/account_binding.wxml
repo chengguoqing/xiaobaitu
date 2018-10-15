@@ -1,0 +1,1 @@
+<import src="/pages/taskHL/account_binding.vue.wxml" /><template is="1134d840" data="{{ ...$root['0'], $root }}"/>

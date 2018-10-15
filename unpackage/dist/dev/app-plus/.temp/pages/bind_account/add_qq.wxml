@@ -1,1 +1,1 @@
-<import src="/pages/bind_account/add_qq.vue.wxml" /><template is="20589ca4" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/bind_account/add_qq.vue.wxml" /><template is="af33a002" data="{{ ...$root['0'], $root }}"/>
