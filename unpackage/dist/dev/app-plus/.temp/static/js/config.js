@@ -169,6 +169,55 @@ exports.config = {
 				break;
 		}
 	},
+	showCategory_json: [{
+		id: 1,
+		name: "服装鞋包",
+		cls: ""
+	}, {
+		id: 2,
+		name: "手机数码",
+		cls: ""
+	}, {
+		id: 3,
+		name: "家用电器",
+		cls: ""
+	}, {
+		id: 4,
+		name: "美妆饰品",
+		cls: ""
+	}, {
+		id: 5,
+		name: "母婴用品",
+		cls: ""
+	}, {
+		id: 6,
+		name: "家居建材",
+		cls: ""
+	}, {
+		id: 7,
+		name: "百货食品",
+		cls: ""
+	}, {
+		id: 8,
+		name: "运动户外",
+		cls: ""
+	}, {
+		id: 9,
+		name: "文化娱乐",
+		cls: ""
+	}, {
+		id: 10,
+		name: "生活服务",
+		cls: ""
+	}, {
+		id: 11,
+		name: "汽摩配件",
+		cls: ""
+	}, {
+		id: 12,
+		name: "游戏话费",
+		cls: ""
+	}, ],
 	complaintStatus: function(id) { //申述状态
 		switch (id) {
 			case 1:
@@ -270,7 +319,7 @@ exports.config = {
 			name: "3钻以上"
 		}
 	],
-	
+
 	bankList: [ //银行列表
 		{
 			id: 1,

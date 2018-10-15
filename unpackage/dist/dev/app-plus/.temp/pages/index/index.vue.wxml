@@ -52,6 +52,6 @@
       <icon class="_icon data-v-33123de0 dx icon-right1 right_dert z9"></icon>
     </navigator>
     <view class="_view data-v-33123de0 jieDanBtn"> 接 单 </view>
-    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'QZG-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'xtl-0'],$root}}" is="77736c6e"></template>
+    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'GU2-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'EU2-0'],$root}}" is="77736c6e"></template>
   </view>
 </template>

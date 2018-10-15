@@ -8,24 +8,36 @@
       <view class="_view data-v-5b06336e dx_btn fz30 bghs cen"> 进入查看绑定要求 </view>
       <view class="_view data-v-5b06336e pt20 pm20 pd fz30 z3"> 账号信息 </view>
     </view>
-    <template placeholder="请输入账号" data="{{...$root['0'], ...$root[$kk+'AF2-0'],$root}}" is="336ad492"></template>
-    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'WaQ-1'],$root}}" is="336ad492"></template>
-    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'ooM-2'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-5b06336e dx_select btm" bindtap="handleProxy" data-eventid="{{'A7u-0'}}" data-comkey="{{$k}}">
+    <template placeholder="请输入账号" data="{{...$root['0'], ...$root[$kk+'SSI-0'],$root}}" is="336ad492"></template>
+    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'I37-1'],$root}}" is="336ad492"></template>
+    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'ljy-2'],$root}}" is="336ad492"></template>
+    <view class="_view data-v-5b06336e dx_select btm" bindtap="handleProxy" data-eventid="{{'0yc-0'}}" data-comkey="{{$k}}">
       <text wx:if="{{!pickerText}}" class="_text data-v-5b06336e z9"> 请选择省份、市、县级市 </text>
       <text wx:else class="_text data-v-5b06336e z3"> {{pickerText}} </text>
     </view>
-    <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'5RE-3'],$root}}" is="336ad492"></template>
+    <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'6Hx-3'],$root}}" is="336ad492"></template>
     <view class="_view data-v-5b06336e pd">
       <view class="_view data-v-5b06336e pt20 pm20 pd fz30 z3"> 帐号属性(
         <text class="_text data-v-5b06336e red">与实名认证的身份证信息一致</text>) </view>
     </view>
-    <template placeholder="请输入性别" value="男" data="{{...$root['0'], ...$root[$kk+'7vr-4'],$root}}" is="336ad492"></template>
-    <template placeholder="请输入年龄" value="32" data="{{...$root['0'], ...$root[$kk+'PAU-5'],$root}}" is="336ad492"></template>
-    <view class="_view data-v-5b06336e dx_select btm">
-      <text wx:if="{{!pickerText}}" class="_text data-v-5b06336e z9"> 等级请选择 </text>
-      <text wx:else class="_text data-v-5b06336e z3"> {{pickerText}} </text>
+    <template placeholder="请输入性别" value="男" data="{{...$root['0'], ...$root[$kk+'qFc-4'],$root}}" is="336ad492"></template>
+    <template placeholder="请输入年龄" value="32" data="{{...$root['0'], ...$root[$kk+'pVF-5'],$root}}" is="336ad492"></template>
+    <picker bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'tIh-1'}}" data-comkey="{{$k}}" class="_picker data-v-5b06336e">
+      <view class="_view data-v-5b06336e picker fz30 dx_select btm">
+        <text wx:if="{{index}}" class="_text data-v-5b06336e"> {{array[index].name}} </text>
+        <text wx:else class="_text data-v-5b06336e z9"> 请选择等级 </text>
+      </view>
+    </picker>
+    <view class="_view data-v-5b06336e picker fz30 dx_select btm">
+      <text class="_text data-v-5b06336e z9">请选择分类</text>
     </view>
-    <template ref="mpvueCityPicker" bindonConfirm="handleProxy" data-eventid="{{'VaJ-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'w1C-6'],$root}}" is="5b7d3154"></template>
+    <view class="_view data-v-5b06336e fz28 z9 pd pt20 pm20 ln"> 请任意选择
+      <text class="_text data-v-5b06336e red">三</text>个淘宝号经常购买的商品类目,提交后不可以自 行修改,如需要修改请联系人工客服处理;只有选择了购买类 目的买手才能接受相关要求的任务 </view>
+    <view class="_view data-v-5b06336e pl20 dx_row pt5">
+      <view class="_view data-v-5b06336e dx_col_8 pr20 mb20 pm5" wx:for="{{fenlei}}" wx:for-index="index" wx:for-item="sd">
+        <view class="_view data-v-5b06336e cjg_eyd fz28 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'yzN-2-'+index}}" data-comkey="{{$k}}"> {{sd.name}} </view>
+      </view>
+    </view>
+    <template ref="mpvueCityPicker" bindonConfirm="handleProxy" data-eventid="{{'yAp-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Djv-6'],$root}}" is="5b7d3154"></template>
   </view>
 </template>

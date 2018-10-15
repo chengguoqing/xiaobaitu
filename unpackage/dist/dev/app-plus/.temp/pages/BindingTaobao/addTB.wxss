@@ -12,6 +12,15 @@
   padding-left: 20rpx !important;
   font-size: 30rpx;
 }
+.cjg_eyd.data-v-5b06336e {
+  line-height: 70rpx;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+.cjg_eyd.act.data-v-5b06336e {
+  border: 1px solid #4DA994;
+  color: #4DA994;
+}
 .mpvue-picker__action.ls {
   color: #4DA994 !important;
 }
