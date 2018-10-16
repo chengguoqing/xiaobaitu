@@ -1,0 +1,98 @@
+<template>
+	<div>
+
+		<div class="media-list df_dertyycx" @click="ckh_drt" v-for="sd in 15">
+			<div class="media-image-right ">
+				<div class="media-title info-text">订单编号：62907145</div>
+				<div class="media-title ">
+					<text class="info_rtext">2018-10-10 12:12</text>
+				</div>
+			</div>
+			<div class="media-image-right dd_jhxdr">
+				<div class="media-title info-text">
+					<text class="z6">1打哈哈file李经理</text>
+				</div>
+				<div class="media-title ">
+					<text class="info_rtext">处理中</text>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</template>
+
+<script>
+	export default {
+		props: {
+			testdf: "",
+			data: {
+				type: Object,
+				default: {},
+
+			}
+		},
+		computed: {
+
+		},
+		methods: {
+			ckh_drt() {
+				uni.navigateTo({
+					url:"/pages/complaint/complaintXq"
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	.list-cell {
+		
+		padding: 0 30px;
+	}
+	.media-list {
+		width: 750px;
+		flex-direction: column;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #c8c7cc;
+		padding: 20px 20px;
+	}
+
+	.media-image-left {
+		flex-direction: row-reverse;
+	}
+
+	.media-image-right {
+		flex-direction: row;
+	}
+
+	.media-title {
+		flex: 1;
+
+	}
+
+	.media-title {
+		lines: 3;
+		text-overflow: ellipsis;
+	}
+
+	.d_jhgh_deer {
+		font-size: 12px;
+		text-align: right;
+		color: #999999;
+	}
+
+	.info_rtext {
+		color: #999999;
+		font-size: 28px;
+		text-align: right;
+	}
+
+	.dd_jhxdr {
+		margin-top: 10px;
+	}
+
+	.z6 {
+		color: #666666;
+	}
+</style>

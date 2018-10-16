@@ -1,1 +1,1 @@
-<import src="/pages/BindingTaobao/addTB.vue.wxml" /><template is="49fc8254" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/BindingTaobao/addTB.vue.wxml" /><template is="52f42b7b" data="{{ ...$root['0'], $root }}"/>

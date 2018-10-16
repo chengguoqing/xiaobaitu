@@ -1,15 +1,15 @@
 <import src="/components/dx_input.vue.wxml" />
-<template name="0d37e426">
-  <view class="_view data-v-1dc5e29f pt20">
-    <view class="_view data-v-1dc5e29f bbm">
-      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="手机号码" data-eventid="{{'YfE-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Tso-0'],$root}}" is="6c94c82d"></template>
-      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="密码" rightText="忘记密码" bindrTextCabat="handleProxy" data-eventid="{{'JpA-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'cZE-1'],$root}}"
-        is="6c94c82d"></template>
+<template name="27b7360b">
+  <view class="_view data-v-e3a6c104 pt20">
+    <view class="_view data-v-e3a6c104 bbm">
+      <template value="{{form.mobile}}" bindchange="handleProxy" type="2" placeholder="手机号码" data-eventid="{{'T7U-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'d3T-0'],$root}}" is="336ad492"></template>
+      <template value="{{form.password}}" bindchange="handleProxy" type="3" placeholder="密码" rightText="忘记密码" bindrTextCabat="handleProxy" data-eventid="{{'MRC-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'gqo-1'],$root}}"
+        is="336ad492"></template>
     </view>
-    <button class="_button data-v-1dc5e29f ls fz32 mt20 bgff">登录</button>
-    <view class="_view data-v-1dc5e29f mt40 cen fz28 pm5" bindtap="handleProxy" data-eventid="{{'91F-2'}}" data-comkey="{{$k}}">
-      <view class="_ins data-v-1dc5e29f z9">还没有注册账号，注册点这里！</view>
+    <button class="_button data-v-e3a6c104 ls fz32 mt20 bgff">登录</button>
+    <view class="_view data-v-e3a6c104 mt40 cen fz28 pm5" bindtap="handleProxy" data-eventid="{{'pKB-2'}}" data-comkey="{{$k}}">
+      <view class="_ins data-v-e3a6c104 z9">还没有注册账号，注册点这里！</view>
     </view>
-    <view class="_view data-v-1dc5e29f cen ls  fz26 mt10">新手咨询群：520043520</view>
+    <view class="_view data-v-e3a6c104 cen ls  fz26 mt10">新手咨询群：520043520</view>
   </view>
 </template>

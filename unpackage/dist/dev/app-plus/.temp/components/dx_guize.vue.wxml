@@ -1,11 +1,11 @@
-<template name="9ec53fee">
-  <view class="_view data-v-a2839c8a sd_jh_deertxe">
-    <view class="_view data-v-a2839c8a guize_der">
-      <icon class="_icon data-v-a2839c8a dx icon-close colos_er fz40 z9" bindtap="handleProxy" data-eventid="{{'B9X-0'}}" data-comkey="{{$k}}"></icon>
-      <view class="_view data-v-a2839c8a ls fz36 cen df_jdf_rt  z9"> -- 活动规则 -- </view>
-      <scroll-view scroll-y="true" class="_scroll-view data-v-a2839c8a sd_jh_deettx ">
-        <view class="_view data-v-a2839c8a pl30 pr30 diy_dertyxd fz26 z3 pr">
-          <view wx:for="{{20}}" wx:for-index="index" wx:for-item="sd" class="_view data-v-a2839c8a"> 活动时间：活动时间活动时间活动时间活动时间活动时间活动时间活动时间活动时间活动时间 </view>
+<template name="77736c6e">
+  <view class="_view data-v-788c361a sd_jh_deertxe">
+    <view class="_view data-v-788c361a guize_der">
+      <icon class="_icon data-v-788c361a dx icon-close colos_er fz40 z9" bindtap="handleProxy" data-eventid="{{'DyM-0'}}" data-comkey="{{$k}}"></icon>
+      <view class="_view data-v-788c361a ls fz36 cen df_jdf_rt  z9"> -- 活动规则 -- </view>
+      <scroll-view scroll-y="true" class="_scroll-view data-v-788c361a sd_jh_deettx ">
+        <view class="_view data-v-788c361a pl30 pr30 diy_dertyxd fz26 z3 pr">
+          <view wx:for="{{20}}" wx:for-index="index" wx:for-item="sd" class="_view data-v-788c361a"> 活动时间：活动时间活动时间活动时间活动时间活动时间活动时间活动时间活动时间活动时间 </view>
         </view>
       </scroll-view>
     </view>

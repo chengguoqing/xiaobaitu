@@ -1,46 +1,32 @@
 <import src="/components/dx_guize.vue.wxml" />
 <import src="/components/dx_input.vue.wxml" />
-<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
-<import src="/components/dx_input.vue.wxml" />
 <import src="/components/dx_wujilu.vue.wxml" />
+<import src="/components/dx_input.vue.wxml" />
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
 <import src="/components/dx_tab.vue.wxml" />
-<template name="data-v-9d1b923a-default-lUL-0">
-  <view class="_view data-v-9d1b923a df_ff_dff" wx:if="{{index_d==idx}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
-    <navigator url="/pages/complaint/complaintXq" class="_navigator data-v-9d1b923a bgff bbm pd pt15 pm15" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
-      <view class="_view data-v-9d1b923a dx_row df_jh_deet">
-        <view class="_view data-v-9d1b923a dx_col_15 fz32 z6"> 订单编号{{sd.id}}：62907145 </view>
-        <view class="_view data-v-9d1b923a dx_col_9 z9  fz26"> 2018-10-06 11:26:50 </view>
-      </view>
-      <view class="_view data-v-9d1b923a dx_row mt5">
-        <view class="_view data-v-9d1b923a dx_col_20 z9 fz26"> [类型]文字文字文字文字文字文字文字文 </view>
-        <view class="_view data-v-9d1b923a dx_col_4 z9 tr fz26 "> 已完结 </view>
-      </view>
-    </navigator>
-  </view>
-</template>
-<template name="data-v-3f207536-default-DNn-0">
-  <view class="_view data-v-3f207536 df_ff_dff" wx:if="{{index_d==idx}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
-    <navigator url class="_navigator data-v-3f207536 bgff bbm pd pt15 pm15" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
-      <image src="../../static/img/logo.png" class="_image data-v-3f207536 u_fenmian"></image>
-      <view class="_view data-v-3f207536 ov pl20">
-        <view class="_view data-v-3f207536 dx_row">
-          <view class="_view data-v-3f207536 dx_col_12 dian z9 fz30">
-            <icon class="_icon data-v-3f207536 dx icon-wangwang z9 fz40 cz"></icon> 就这么恶心麻烦 </view>
-          <view class="_view data-v-3f207536 dx_col_12 z9 fz30 tr"> 2018.10.12 </view>
+<template name="data-v-6ece2e04-default-rRF-0">
+  <view class="_view data-v-6ece2e04 df_ff_dff" wx:if="{{index_d==idx}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd">
+    <navigator url class="_navigator data-v-6ece2e04 bgff bbm pd pt15 pm15" wx:for="{{sd.date_df}}" wx:for-index="idx_e" wx:for-item="sd">
+      <image src="../../static/img/logo.png" class="_image data-v-6ece2e04 u_fenmian"></image>
+      <view class="_view data-v-6ece2e04 ov pl20">
+        <view class="_view data-v-6ece2e04 dx_row">
+          <view class="_view data-v-6ece2e04 dx_col_12 dian z9 fz30">
+            <icon class="_icon data-v-6ece2e04 dx icon-wangwang z9 fz40 cz"></icon> 就这么恶心麻烦 </view>
+          <view class="_view data-v-6ece2e04 dx_col_12 z9 fz30 tr"> 2018.10.12 </view>
         </view>
-        <view class="_view data-v-3f207536 dx_row btm pt10">
-          <view class="_view data-v-3f207536 dx_col_17">
-            <text class="_text data-v-3f207536 fz50 ls">￥5.83</text>
-            <view class="_view data-v-3f207536 fz30 z6 mt10" wx:if="{{type!=2}}"> 垫资118.00元 </view>
-            <view class="_view data-v-3f207536 fz30 red mt10" wx:if="{{type==2}}"> 浏览|收藏商品|加购物车 </view>
+        <view class="_view data-v-6ece2e04 dx_row btm pt10">
+          <view class="_view data-v-6ece2e04 dx_col_17">
+            <text class="_text data-v-6ece2e04 fz50 ls">￥5.83</text>
+            <view class="_view data-v-6ece2e04 fz30 z6 mt10" wx:if="{{type!=2}}"> 垫资118.00元 </view>
+            <view class="_view data-v-6ece2e04 fz30 red mt10" wx:if="{{type==2}}"> 浏览|收藏商品|加购物车 </view>
           </view>
-          <view class="_view data-v-3f207536 dx_col_7 tr">
-            <view class="_view data-v-3f207536 dx_btn fz30 bgls cf yj4 sdf_h_der">待评价</view>
-            <view class="_view data-v-3f207536 red fz30 mt10" wx:if="{{type!=2}}"> 垫付任务 </view>
+          <view class="_view data-v-6ece2e04 dx_col_7 tr">
+            <view class="_view data-v-6ece2e04 dx_btn fz30 bgls cf yj4 sdf_h_der">待评价</view>
+            <view class="_view data-v-6ece2e04 red fz30 mt10" wx:if="{{type!=2}}"> 垫付任务 </view>
           </view>
         </view>
       </view>
-      <view class="_view data-v-3f207536 qc"></view>
+      <view class="_view data-v-6ece2e04 qc"></view>
     </navigator>
   </view>
 </template>

@@ -1,9 +1,9 @@
 @import "../../common/vendor.wxss";
 
-.dfs_jh_dert.data-v-5c38049e {
+.dfs_jh_dert.data-v-00196f60 {
   line-height: 1.4;
 }
-.df_deertxr.data-v-5c38049e {
+.df_deertxr.data-v-00196f60 {
   position: relative;
   top: -6rpx;
 }

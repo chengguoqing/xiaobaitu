@@ -1,30 +1,30 @@
 @import "../../common/vendor.wxss";
 
-.df_jh_dertx.data-v-ee4cac58 {
+.df_jh_dertx.data-v-886e419a {
   position: absolute;
   right: 20rpx;
   top: 0rpx;
 }
-.h_dfg_le.data-v-ee4cac58 {
+.h_dfg_le.data-v-886e419a {
   width: 90rpx;
   height: 90rpx;
   text-align: center;
   line-height: 90rpx;
   background: #FF4500;
 }
-.h_dfg_le.ab.data-v-ee4cac58 {
+.h_dfg_le.ab.data-v-886e419a {
   background: #949494;
 }
-.h_dfg_le icon.data-v-ee4cac58 {
+.h_dfg_le icon.data-v-886e419a {
   font-size: 60rpx;
   top: 0px;
 }
-.dfg_cfrtt.data-v-ee4cac58 {
+.dfg_cfrtt.data-v-886e419a {
   background: #E5F1ED;
 }
-.df_ccrf_rt.data-v-ee4cac58 {
+.df_ccrf_rt.data-v-886e419a {
   background: #F5F7F6;
 }
-.df_right.data-v-ee4cac58 {
+.df_right.data-v-886e419a {
   top: 40rpx;
 }

@@ -1,17 +1,17 @@
-<template name="7f5cab48">
-  <view class="_view data-v-11b7fa1b">
-    <navigator url class="_navigator data-v-11b7fa1b bgff bbm pd pt15 pm15" wx:for="{{20}}" wx:for-index="idx_e" wx:for-item="sd">
-      <image src="../../static/img/logo.png" class="_image data-v-11b7fa1b u_fenmian"></image>
-      <view class="_view data-v-11b7fa1b ov pl20">
-        <view class="_view data-v-11b7fa1b dx_row">
-          <view class="_view data-v-11b7fa1b dx_col_12 dian z9 fz30">
-            <icon class="_icon data-v-11b7fa1b dx icon-wangwang z9 fz40 cz"></icon> 就这么恶心麻烦 </view>
+<template name="38441701">
+  <view class="_view data-v-0362fb3a">
+    <navigator url class="_navigator data-v-0362fb3a bgff bbm pd pt15 pm15" wx:for="{{20}}" wx:for-index="idx_e" wx:for-item="sd">
+      <image src="../../static/img/logo.png" class="_image data-v-0362fb3a u_fenmian"></image>
+      <view class="_view data-v-0362fb3a ov pl20">
+        <view class="_view data-v-0362fb3a dx_row">
+          <view class="_view data-v-0362fb3a dx_col_12 dian z9 fz30">
+            <icon class="_icon data-v-0362fb3a dx icon-wangwang z9 fz40 cz"></icon> 就这么恶心麻烦 </view>
         </view>
-        <view class="_view data-v-11b7fa1b dx_row btm pt10 ln fz30 z6"> 订单编号：22929028
-          <view class="_br data-v-11b7fa1b"></view> 撤销时间：2018.06.03
-          <view class="_br data-v-11b7fa1b"></view> 撤销原因：买手自己撤销 </view>
+        <view class="_view data-v-0362fb3a dx_row btm pt10 ln fz30 z6"> 订单编号：22929028
+          <view class="_br data-v-0362fb3a"></view> 撤销时间：2018.06.03
+          <view class="_br data-v-0362fb3a"></view> 撤销原因：买手自己撤销 </view>
       </view>
-      <view class="_view data-v-11b7fa1b qc"></view>
+      <view class="_view data-v-0362fb3a qc"></view>
     </navigator>
   </view>
 </template>

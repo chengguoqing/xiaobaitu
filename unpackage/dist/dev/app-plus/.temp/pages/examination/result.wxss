@@ -1,9 +1,9 @@
 @import "../../common/vendor.wxss";
 
-.df_deerrty.data-v-4f67d5e2 {
+.df_deerrty.data-v-74bcf410 {
   line-height: 1.5;
 }
-.fg_khj_deer icon.data-v-4f67d5e2 {
+.fg_khj_deer icon.data-v-74bcf410 {
   position: relative;
   top: 4rpx;
 }

@@ -1,57 +1,57 @@
 <import src="/components/dx_guize.vue.wxml" />
-<template name="3eb13178">
-  <view class="_view data-v-32f55e1e">
-    <view class="_view data-v-32f55e1e dd_ijh_der cen pm20">
-      <navigator class="_navigator data-v-32f55e1e cls_2" url="/pages/commission/list?title=佣金账户">
-        <view class="_view data-v-32f55e1e fz32 cf"> 佣金收益(金) </view>
-        <view class="_view data-v-32f55e1e fz70 cf mt30"> 0.00 </view>
+<template name="37f9131d">
+  <view class="_view data-v-33123de0">
+    <view class="_view data-v-33123de0 dd_ijh_der cen pm20">
+      <navigator class="_navigator data-v-33123de0 cls_2" url="/pages/commission/list?title=佣金账户">
+        <view class="_view data-v-33123de0 fz32 cf"> 佣金收益(金) </view>
+        <view class="_view data-v-33123de0 fz70 cf mt30"> 0.00 </view>
       </navigator>
-      <navigator class="_navigator data-v-32f55e1e cls_2" url="/pages/commission/list?title=本金账户">
-        <view class="_view data-v-32f55e1e s_jh_right">
-          <view class="_view data-v-32f55e1e fz32 cf"> 本金收益(金) </view>
-          <view class="_view data-v-32f55e1e fz70 cf mt30"> 0.00 </view>
+      <navigator class="_navigator data-v-33123de0 cls_2" url="/pages/commission/list?title=本金账户">
+        <view class="_view data-v-33123de0 s_jh_right">
+          <view class="_view data-v-33123de0 fz32 cf"> 本金收益(金) </view>
+          <view class="_view data-v-33123de0 fz70 cf mt30"> 0.00 </view>
         </view>
       </navigator>
-      <view class="_view data-v-32f55e1e qc"></view>
+      <view class="_view data-v-33123de0 qc"></view>
     </view>
-    <view class="_view data-v-32f55e1e cf fz26 fg_jgh_drrt cen pt20 pm20">
-      <view class="_view data-v-32f55e1e cls_3"> 今日收入0.00金 </view>
-      <view class="_view data-v-32f55e1e cls_3">
-        <view class="_view data-v-32f55e1e s_jh_right"> 任务收入0.00金 </view>
+    <view class="_view data-v-33123de0 cf fz26 fg_jgh_drrt cen pt20 pm20">
+      <view class="_view data-v-33123de0 cls_3"> 今日收入0.00金 </view>
+      <view class="_view data-v-33123de0 cls_3">
+        <view class="_view data-v-33123de0 s_jh_right"> 任务收入0.00金 </view>
       </view>
-      <view class="_view data-v-32f55e1e cls_3">
-        <view class="_view data-v-32f55e1e s_jh_right"> 推广奖励0.00金 </view>
+      <view class="_view data-v-33123de0 cls_3">
+        <view class="_view data-v-33123de0 s_jh_right"> 推广奖励0.00金 </view>
       </view>
-      <view class="_view data-v-32f55e1e qc"></view>
+      <view class="_view data-v-33123de0 qc"></view>
     </view>
-    <navigator class="_navigator data-v-32f55e1e gonggao pd bgff dian" url="/pages/index/notice">
-      <icon class="_icon data-v-32f55e1e dx icon-systemprompt_fill ye laBa cz"></icon>
-      <text class="_text data-v-32f55e1e ye fz30 cz">公共</text>
-      <text class="_text data-v-32f55e1e z6 fz28 ml10 cz">国庆期间体检，银行处理延迟通知</text>
+    <navigator class="_navigator data-v-33123de0 gonggao pd bgff dian" url="/pages/index/notice">
+      <icon class="_icon data-v-33123de0 dx icon-systemprompt_fill ye laBa cz"></icon>
+      <text class="_text data-v-33123de0 ye fz30 cz">公共</text>
+      <text class="_text data-v-33123de0 z6 fz28 ml10 cz">国庆期间体检，银行处理延迟通知</text>
     </navigator>
-    <navigator class="_navigator data-v-32f55e1e mt20 bgff pd xinShoujiao pt15 pm15 pr" url="/pages/examination/index">
-      <view class="_view data-v-32f55e1e jiao_leyf cz fl mt5 ab">
-        <icon class="_icon data-v-32f55e1e dx icon-zhuyi"></icon>
+    <navigator class="_navigator data-v-33123de0 mt20 bgff pd xinShoujiao pt15 pm15 pr" url="/pages/examination/index">
+      <view class="_view data-v-33123de0 jiao_leyf cz fl mt5 ab">
+        <icon class="_icon data-v-33123de0 dx icon-zhuyi"></icon>
       </view>
-      <view class="_view data-v-32f55e1e ov pl20 df_drrrty">
-        <text class="_text data-v-32f55e1e fz34 cz z6 ">新手任务</text>
-        <view class="_view data-v-32f55e1e fz26 z9"> 完成新手任务，领取新手奖励！ </view>
+      <view class="_view data-v-33123de0 ov pl20 df_drrrty">
+        <text class="_text data-v-33123de0 fz34 cz z6 ">新手任务</text>
+        <view class="_view data-v-33123de0 fz26 z9"> 完成新手任务，领取新手奖励！ </view>
       </view>
-      <view class="_view data-v-32f55e1e qc"></view>
-      <icon class="_icon data-v-32f55e1e dx icon-right1 right_dert z9"></icon>
+      <view class="_view data-v-33123de0 qc"></view>
+      <icon class="_icon data-v-33123de0 dx icon-right1 right_dert z9"></icon>
     </navigator>
-    <navigator class="_navigator data-v-32f55e1e  bgff pd xinShoujiao pt15 pm15 pr btm" url="/pages/tutorial/tutorial?url=http://test.xiaobay.com/api/guide&title=新手教程">
-      <view class="_view data-v-32f55e1e jiao_leyf cz fl mt5">
-        <icon class="_icon data-v-32f55e1e dx icon-remind_fill"></icon>
+    <navigator class="_navigator data-v-33123de0  bgff pd xinShoujiao pt15 pm15 pr btm" url="/pages/tutorial/tutorial?url=http://test.xiaobay.com/api/guide&title=新手教程">
+      <view class="_view data-v-33123de0 jiao_leyf cz fl mt5">
+        <icon class="_icon data-v-33123de0 dx icon-remind_fill"></icon>
       </view>
-      <view class="_view data-v-32f55e1e ov pl20 df_drrrty">
-        <text class="_text data-v-32f55e1e fz34 cz z6 ">新手教学</text>
-        <view class="_view data-v-32f55e1e fz26 z9"> 学习新手教学后在做任务哦！ </view>
+      <view class="_view data-v-33123de0 ov pl20 df_drrrty">
+        <text class="_text data-v-33123de0 fz34 cz z6 ">新手教学</text>
+        <view class="_view data-v-33123de0 fz26 z9"> 学习新手教学后在做任务哦！ </view>
       </view>
-      <view class="_view data-v-32f55e1e qc"></view>
-      <icon class="_icon data-v-32f55e1e dx icon-right1 right_dert z9"></icon>
+      <view class="_view data-v-33123de0 qc"></view>
+      <icon class="_icon data-v-33123de0 dx icon-right1 right_dert z9"></icon>
     </navigator>
-    <navigator url="/pages/taskHL/orderReceiving" class="_navigator data-v-32f55e1e jieDanBtn">接 单</navigator>
-    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'QEV-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'IMf-0'],$root}}" is="9ec53fee"></template>
+    <navigator url="/pages/taskHL/orderReceiving" class="_navigator data-v-33123de0 jieDanBtn">接 单</navigator>
+    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'ybv-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'kcz-0'],$root}}" is="77736c6e"></template>
   </view>
 </template>
