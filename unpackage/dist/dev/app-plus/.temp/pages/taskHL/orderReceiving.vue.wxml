@@ -6,8 +6,8 @@
       <navigator class="_navigator data-v-886e419a dx icon-feedback fr fz50  z9 df_jh_dertx" url="/pages/user_center/percentageComplete"></navigator>
       <view class="_view data-v-886e419a fz26 z6"> 设置好每个平台的模式，可以自由组合多个平台同时接单哦！ </view>
     </view>
-    <navigator class="_navigator data-v-886e419a pd pt20 pm20 dx_row " url="/pages/taskHL/account_binding">
-      <view class="_view data-v-886e419a dx_col_18">
+    <view class="_view data-v-886e419a pd pt20 pm20 dx_row ">
+      <navigator class="_navigator data-v-886e419a dx_col_18" url="/pages/taskHL/account_binding">
         <view class="_view data-v-886e419a h_dfg_le cz yj fl">
           <icon class="_icon data-v-886e419a dx  cz icon-taobao"></icon>
         </view>
@@ -16,11 +16,11 @@
           <view class="_view data-v-886e419a fz26 z9"> 今日已接垫付0/3单 浏览0/100单 </view>
         </view>
         <view class="_view data-v-886e419a qc"></view>
-      </view>
+      </navigator>
       <view class="_view data-v-886e419a dx_col_6 tr pt20">
-        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'J3W-0'}}" data-comkey="{{$k}}" class="_switch data-v-886e419a" />
+        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'iEk-0'}}" data-comkey="{{$k}}" class="_switch data-v-886e419a" />
       </view>
-    </navigator>
+    </view>
     <view class="_view data-v-886e419a pt10 pm10 pd fz26 dfg_cfrtt"> 淘宝任务模式：全部/淘宝/任务 </view>
     <view class="_view data-v-886e419a df_ccrf_rt">
       <view class="_view data-v-886e419a btm pt20 pm20 pd pr" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
@@ -36,6 +36,6 @@
         <view class="_view data-v-886e419a qc"></view>
       </view>
     </view>
-    <navigator url class="_navigator data-v-886e419a jieDanBtn">接 单</navigator>
+    <navigator url="/pages/taskHL/operatingDuty" class="_navigator data-v-886e419a jieDanBtn">接 单</navigator>
   </view>
 </template>

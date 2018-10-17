@@ -316,7 +316,7 @@ page {
   min-width: 1100px;
 }
 .red {
-  color: red !important;
+  color: #F86194 !important;
 }
 .wc {
   width: 1200px;

@@ -3,7 +3,7 @@
   <view class="_view data-v-5cafaf89 page_index">
     <template name="default"></template>
     <view class="_view data-v-5cafaf89 sd_fggrd bgff cen bbm {{da_lef}}">
-      <view class="_view data-v-5cafaf89 thg_sfg fz30 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'Uzs-0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
+      <view class="_view data-v-5cafaf89 thg_sfg fz30 {{sd.cls}}" bindtap="handleProxy" data-eventid="{{'qez-0-'+idx}}" data-comkey="{{$k}}" wx:for="{{title_d}}" wx:for-index="idx" wx:for-item="sd"> {{sd.name}} </view>
       <view class="_view data-v-5cafaf89 qc"></view>
     </view>
     <view class="_view data-v-5cafaf89 df_dertxr">

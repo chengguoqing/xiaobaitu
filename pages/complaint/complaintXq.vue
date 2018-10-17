@@ -39,9 +39,10 @@
 		</view>
 		
 		<view class="mt20 bgff pd pt20 pm20">
-			<view class="yj4 dx_btn cen fz30 df_jh_deet cf">
+		
+			<navigator class="yj4 dx_btn cen fz30 df_jh_deet cf" url="/pages/taskHL/cancelTask">
 				我不想做了，申请取消这个任务
-			</view>
+			</navigator>
 			<view class="pd z9 fz26 ln mt20">
 				注：商家同意后任务取消，平台返款的本金将返回到商家本金账户，任务佣金将扣回或取消
 			</view>

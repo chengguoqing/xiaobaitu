@@ -2,22 +2,32 @@
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/taskHL/operatingDuty",
-			"style": {
-				"navigationBarTitleText": "操作任务"
-			}
-		},{
-			"path": "pages/complaint/complaint",
-			"style": {
-				"navigationBarTitleText": "申诉中心"
-			}
-		}, {
 			"path": "pages/index/index",
 			"style": {
 				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus": {
 					"titleNView": "transparent"
 				}
+			}
+		}, {
+			"path": "pages/taskHL/CancelRules",
+			"style": {
+				"navigationBarTitleText": "取消规则"
+			}
+		}, {
+			"path": "pages/taskHL/cancelTask",
+			"style": {
+				"navigationBarTitleText": "取消任务"
+			}
+		}, {
+			"path": "pages/taskHL/operatingDuty",
+			"style": {
+				"navigationBarTitleText": "操作任务"
+			}
+		}, {
+			"path": "pages/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "申诉中心"
 			}
 		}, {
 			"path": "pages/taskHL/account_binding",

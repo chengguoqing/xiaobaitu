@@ -52,6 +52,6 @@
       <icon class="_icon data-v-33123de0 dx icon-right1 right_dert z9"></icon>
     </navigator>
     <navigator url="/pages/taskHL/orderReceiving" class="_navigator data-v-33123de0 jieDanBtn">接 单</navigator>
-    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'Qx3-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'lyq-0'],$root}}" is="77736c6e"></template>
+    <template wx:if="{{is_guiz}}" bindclose_d="handleProxy" data-eventid="{{'sN0-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'mfB-0'],$root}}" is="77736c6e"></template>
   </view>
 </template>

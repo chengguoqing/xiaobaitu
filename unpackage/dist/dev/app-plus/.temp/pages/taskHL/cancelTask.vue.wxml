@@ -1,0 +1,27 @@
+<template name="2677d6a7">
+  <view class="_view data-v-9b7715c0">
+    <view class="_view data-v-9b7715c0 mt40 cen pd">
+      <image src="../../static/img/xiangku.png" class="_image data-v-9b7715c0 xiangku"></image>
+      <view class="_view data-v-9b7715c0 fz30 mt15"> 本次取消有责，任务取消将扣除相应
+        <text class="_text data-v-9b7715c0 red">完成率</text>
+      </view>
+      <view class="_view data-v-9b7715c0 fz28 ye pd pt15 pm15 df_drt_rt tl mt20"> 接任务后15分钟内取消任务不影响完成率，超过15分钟取消任务将扣除相应任务完成率，请慎重取消哦~ </view>
+    </view>
+    <view class="_view data-v-9b7715c0 mt20">
+      <view class="_view data-v-9b7715c0 pd fz28 z9 pt20 pm20">请选择取消理由</view>
+      <view class="_view data-v-9b7715c0 dx_row pd pt20 pm20 btm" bindtap="handleProxy" data-eventid="{{'HTH-0-'+index}}" data-comkey="{{$k}}" wx:for="{{cancelOrderReason}}" wx:for-index="index" wx:for-item="sd">
+        <view class="_view data-v-9b7715c0 dx_col_20 fz30 z6"> {{sd.name}} </view>
+        <view class="_view data-v-9b7715c0 dx_col_4 tr">
+          <view class="_view data-v-9b7715c0 yj  df_jh_deertcc  {{sd.cls}}"></view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-9b7715c0 mt40 pd pm100">
+      <view class="_view data-v-9b7715c0 yj4 dx_btn fz32 bgls cen"> 取消并派给其他用户 </view>
+      <navigator url="/pages/taskHL/CancelRules" class="_navigator data-v-9b7715c0 cen mt20 fz28 ln z9">
+        <icon class="_icon data-v-9b7715c0 dx icon-order fz40 z9 "></icon>
+        <text class="_text data-v-9b7715c0 ml5">取消规则</text>
+      </navigator>
+    </view>
+  </view>
+</template>

@@ -122,19 +122,75 @@
 			恶意提交与任务无关的图片将根据买手处罚规则进行处
 			罚。
 		</view>
-		
-		
-		
+
+
+
 		<view class="sd_jh_drtx pd">
 			<icon class="dx icon-iconset0136 z6 fz40 cz"></icon>
 			<text class="fz30 z9 ml5">任务步骤</text>
 		</view>
-		
-		
-		
+
+
+
 		<view class="pd pt30 pm20">
 			<view class="fz34 ye">
 				浏览任务 <text class="ls ml20">点击查看示例</text>
+			</view>
+
+			<view class="fz28 ln z9 mt10">
+				.请确认使用<text class="ye">这么麻烦恶心</text> 账号登陆手机淘宝应用。<br>
+				.打开淘宝/天猫手机客户端,手动输入搜索关键词,关键
+				词不得自行修改。<br>
+				.按要求筛选搜索条件,请勿随意增加搜索条件,进入商
+				品自上而下缓缓浏览,至少浏览3分钟,在目标商品的详
+				情中找到以下问题的答案。
+			</view>
+			<view class="pd mt10 pm10 red fz28">
+				进店关键词链接:
+				<text class="ls">如何复制进店关键词链接? </text>
+			</view>
+
+			<view class="dx_row">
+				<view class="dx_col_15 f_jh_drtxc yj4 pd dian fz30 z9">
+					【上手淘搜索“毛衣男2018新
+				</view>
+				<view class="dx_col_5 pl10">
+					<view class="yj4 df_hhg_der">
+						粘贴
+					</view>
+				</view>
+				<view class="dx_col_2 pl10 cen">
+					<icon class="dx icon-success_fill ls fz60"></icon>
+				</view>
+			</view>
+
+			<view class="pd mt20 pm10 red fz28">
+				请在目标商品详情中找到以下答案
+				<text class="ls">如何找答案? </text>
+				<view class="z6 mt10">
+					答案提示:加*加*(一共4个字)
+				</view>
+			</view>
+
+
+			<view class="dx_row">
+				<view class="dx_col_15 f_jh_drtxc yj4 pd dian fz30 z9 pt15">
+					<input class="w100 fz30 cz" placeholder="请输入答案" />
+				</view>
+				<view class="dx_col_5 pl10">
+					<view class="yj4 df_hhg_der bgls">
+						验证
+					</view>
+				</view>
+				<view class="dx_col_2 pl10 cen">
+					<icon class="dx icon-success_fill ls fz60"></icon>
+				</view>
+			</view>
+			<view class="dx_btn ls cen fz32 bgff mt100">
+				提交任务
+			</view>
+			<view class="z9 fz28 mt10 pm100">
+				点击提交任务没有反应?
 			</view>
 		</view>
 
@@ -211,5 +267,20 @@
 	.dx_col_7.red.tr {
 		position: relative;
 		top: 4upx;
+	}
+
+	.f_jh_drtxc {
+		background: #fff;
+		height: 76upx;
+		border: 1px solid #DDDDDD;
+		line-height: 76upx;
+	}
+
+	.df_hhg_der {
+		background: #F86194;
+		color: #fff;
+		height: 74upx;
+		line-height: 74upx;
+		text-align: center;
 	}
 </style>

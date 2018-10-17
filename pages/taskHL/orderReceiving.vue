@@ -1,4 +1,3 @@
-
 <template>
 	<view>
 		<view class="pd bgff pt20 pm20 ln pr">
@@ -10,8 +9,8 @@
 			</view>
 		</view>
 
-		<navigator class="pd pt20 pm20 dx_row " url="/pages/taskHL/account_binding">
-			<view class="dx_col_18">
+		<view class="pd pt20 pm20 dx_row " >
+			<navigator class="dx_col_18" url="/pages/taskHL/account_binding">
 				<view class="h_dfg_le cz yj fl">
 					<icon class="dx  cz icon-taobao"></icon>
 				</view>
@@ -26,12 +25,11 @@
 				<view class="qc">
 
 				</view>
-
-			</view>
+			</navigator>
 			<view class="dx_col_6 tr pt20">
 				<switch :checked="checked" @change="switch1Change" color="#00AB93" />
 			</view>
-		</navigator>
+		</view>
 		<view class="pt10 pm10 pd fz26 dfg_cfrtt">
 			淘宝任务模式：全部/淘宝/任务
 		</view>
@@ -45,7 +43,7 @@
 					<view class="fz34 z6 mt20">
 						{{sd.name}}
 					</view>
-					
+
 				</view>
 				<view class="df_right fz26 z9 ab">
 					<icon class="dx icon-right1 cz fz30 ml10"></icon>
@@ -55,7 +53,7 @@
 				</view>
 			</view>
 		</view>
-<navigator url="" class="jieDanBtn">接 单</navigator>
+		<navigator url="/pages/taskHL/operatingDuty" class="jieDanBtn">接 单</navigator>
 	</view>
 </template>
 <script>
@@ -63,7 +61,7 @@
 		data() {
 			return {
 				checked: true,
-				user_meat: [ {
+				user_meat: [{
 					size: "16",
 					clsss_s: "bb", //class名字
 					jindu: "",
@@ -113,7 +111,8 @@
 		line-height: 90upx;
 		background: #FF4500;
 	}
-	.h_dfg_le.ab{
+
+	.h_dfg_le.ab {
 		background: #949494;
 	}
 
@@ -125,10 +124,12 @@
 	.dfg_cfrtt {
 		background: #E5F1ED;
 	}
-	.df_ccrf_rt{
+
+	.df_ccrf_rt {
 		background: #F5F7F6;
 	}
-	.df_right{
+
+	.df_right {
 		top: 40upx;
 	}
 </style>

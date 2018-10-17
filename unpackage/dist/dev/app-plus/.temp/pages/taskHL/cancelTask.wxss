@@ -1,0 +1,30 @@
+@import "../../common/vendor.wxss";
+
+.xiangku.data-v-9b7715c0 {
+  width: 196rpx;
+  height: 196rpx;
+}
+.df_drt_rt.data-v-9b7715c0 {
+  border: 1px dashed #e0e0e0;
+}
+.df_jh_deertcc.data-v-9b7715c0 {
+  width: 45rpx;
+  height: 45rpx;
+  margin-top: 6rpx;
+  display: inline-block;
+  border: 1px solid #C2C2C2;
+  position: relative;
+}
+.df_jh_deertcc.act.data-v-9b7715c0:after {
+  content: ' ';
+  background: #4DA994;
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}

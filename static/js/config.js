@@ -38,24 +38,37 @@ exports.config = {
 	cancelOrderReason: [ //取消原因 买家撤销任务选项从4-7项
 		{
 			id: 1,
+			cls: "",
 			name: "系统取消"
 		}, {
 			id: 2,
+			cls: "",
+
 			name: "管理员取消"
 		}, {
 			id: 3,
+			cls: "",
+
 			name: "商家撤销任务"
 		}, {
 			id: 4,
+			cls: "",
+
 			name: "商品找不到"
 		}, {
 			id: 5,
+			cls: "",
+
 			name: "达不到商家要求"
 		}, {
 			id: 6,
+			cls: "",
+
 			name: "不想做了"
 		}, {
 			id: 7,
+			cls: "",
+
 			name: "问题任务"
 		}
 	],
