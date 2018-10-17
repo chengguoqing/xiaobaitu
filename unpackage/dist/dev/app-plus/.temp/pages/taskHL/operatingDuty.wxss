@@ -1,0 +1,26 @@
+@import "../../common/vendor.wxss";
+
+.fenming.data-v-4351c746 {
+  width: 200rpx;
+  height: 200rpx;
+}
+.df_jh_derter.data-v-4351c746 {
+  position: absolute;
+  left: 20rpx;
+  bottom: 0;
+}
+.df_jh_dertxf.data-v-4351c746 {
+  height: 200rpx;
+}
+.sd_jh_drtx.data-v-4351c746 {
+  background: #D7D7D7;
+  line-height: 65rpx;
+}
+.sd_jhgh_dert.data-v-4351c746 {
+  display: inline-block;
+  padding: 6rpx 20rpx;
+}
+.dx_col_7.red.tr.data-v-4351c746 {
+  position: relative;
+  top: 4rpx;
+}

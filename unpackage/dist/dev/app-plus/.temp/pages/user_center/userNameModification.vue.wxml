@@ -6,7 +6,7 @@
       <view class="_view data-v-c5f3d8e6 dx_col_12"> 原用户名 </view>
       <view class="_view data-v-c5f3d8e6 dx_col_12 tr"> 185****8998 </view>
     </view>
-    <template type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'meL-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'yaZ-0'],$root}}" is="336ad492"></template>
+    <template type="2" placeholder="请输入验证码" rightText="获取验证码" bindrTextCabat="handleProxy" data-eventid="{{'YUb-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'aup-0'],$root}}" is="336ad492"></template>
     <view class="_view data-v-c5f3d8e6  mt40">
       <navigator class="_navigator data-v-c5f3d8e6 dx_btn ls bgff cen  fz30" url="/pages/user_center/newUserNmae"> 下一步 </navigator>
     </view>

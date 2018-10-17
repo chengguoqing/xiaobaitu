@@ -1,7 +1,7 @@
 <template name="5396a91b">
   <view class="_view data-v-9911a37c">
     <view class="_view data-v-9911a37c fz30 z3 pd pt20 pm20"> 接单账号选择(必选) </view>
-    <picker class="_picker data-v-9911a37c pd bgff pt20 pm20" bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'JD5-0'}}" data-comkey="{{$k}}">
+    <picker class="_picker data-v-9911a37c pd bgff pt20 pm20" bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'bs8-0'}}" data-comkey="{{$k}}">
       <view class="_view data-v-9911a37c h_dfg_le cz yj ">
         <icon class="_icon data-v-9911a37c dx  cz icon-taobao"></icon>
       </view>
@@ -12,7 +12,7 @@
       <view class="_view data-v-9911a37c pd pt10 pm10 z3"> {{sd.title}} </view>
       <view class="_view data-v-9911a37c dx_row bgff pd pt10 pm10">
         <view class="_view data-v-9911a37c dx_col_8" wx:for="{{sd.dete_s}}" wx:for-index="idx" wx:for-item="sf">
-          <text class="_text data-v-9911a37c sd_jh_dertse  {{sf.cls}}" bindtap="handleProxy" data-eventid="{{'XGt-1-'+ix+'-'+idx}}" data-comkey="{{$k}}"> {{sf.name}} </text>
+          <text class="_text data-v-9911a37c sd_jh_dertse  {{sf.cls}}" bindtap="handleProxy" data-eventid="{{'JXr-1-'+ix+'-'+idx}}" data-comkey="{{$k}}"> {{sf.name}} </text>
         </view>
       </view>
     </view>

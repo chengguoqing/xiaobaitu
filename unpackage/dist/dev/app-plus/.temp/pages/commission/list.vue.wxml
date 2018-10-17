@@ -11,6 +11,6 @@
         </view>
       </view>
     </navigator>
-    <template wx:if="{{false}}" data="{{...$root['0'], ...$root[$kk+'mMZ-0'],$root}}" is="a03ba564"></template>
+    <template wx:if="{{false}}" data="{{...$root['0'], ...$root[$kk+'Xyv-0'],$root}}" is="a03ba564"></template>
   </view>
 </template>

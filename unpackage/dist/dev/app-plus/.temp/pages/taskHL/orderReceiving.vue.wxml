@@ -18,7 +18,7 @@
         <view class="_view data-v-886e419a qc"></view>
       </view>
       <view class="_view data-v-886e419a dx_col_6 tr pt20">
-        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'TqF-0'}}" data-comkey="{{$k}}" class="_switch data-v-886e419a" />
+        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'J3W-0'}}" data-comkey="{{$k}}" class="_switch data-v-886e419a" />
       </view>
     </navigator>
     <view class="_view data-v-886e419a pt10 pm10 pd fz26 dfg_cfrtt"> 淘宝任务模式：全部/淘宝/任务 </view>

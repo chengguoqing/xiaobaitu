@@ -1,0 +1,75 @@
+<template name="aad7b742">
+  <view class="_view data-v-4351c746">
+    <view class="_view data-v-4351c746 pd pt20 bgff pm20">
+      <view class="_view data-v-4351c746 ln fz30 z6"> 掌柜名:南*人*士*专*店
+        <view class="_br data-v-4351c746"></view> 店铺名:南*人*士*专*店 </view>
+      <view class="_view data-v-4351c746 mt30 z9 fz30 ln">
+        <text class="_text data-v-4351c746 cz">目标商品</text>
+        <icon class="_icon data-v-4351c746 dx icon-label_fill cz ls ml10"></icon>
+      </view>
+      <view class="_view data-v-4351c746 mt10">
+        <image src="../../static/img/fenming.jpg" class="_image data-v-4351c746 fenming fl"></image>
+        <view class="_view data-v-4351c746 ov pl20 pr df_jh_dertxf">
+          <view class="_view data-v-4351c746 z9 fz30 ln"> 南*人*冬*毛*男*O*8*款*袖*恤*领 绒*厚*士*底*织 </view>
+          <view class="_view data-v-4351c746 fz30 z9 df_jh_derter"> 搜索展示价格:
+            <text class="_text data-v-4351c746 red">98.0元</text>
+          </view>
+        </view>
+        <view class="_view data-v-4351c746 qc"></view>
+      </view>
+    </view>
+    <view class="_view data-v-4351c746 sd_jh_drtx pd">
+      <icon class="_icon data-v-4351c746 dx icon-msnui-protect z6 fz40 cz"></icon>
+      <text class="_text data-v-4351c746 fz30 z9 ml5">任务要点</text>
+    </view>
+    <view class="_view data-v-4351c746 pd">
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 任务类型 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"> 手机浏览(淘宝) </view>
+      </view>
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 搜索关键字 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"> 毛衣男2018新款
+          <view class="_view data-v-4351c746 yj4 bgls sd_jhgh_dert" bindtap="handleProxy" data-eventid="{{'DXR-0'}}" data-comkey="{{$k}}"> 打开淘宝 </view>
+        </view>
+      </view>
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 排序方式 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"> 综合 </view>
+      </view>
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 排序位置 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"> 234人付款 </view>
+      </view>
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 所在地 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"></view>
+      </view>
+      <view class="_view data-v-4351c746 dx_row pt20 pm20 bbm">
+        <view class="_view data-v-4351c746 dx_col_17 z9 fz30"> 价格区间 </view>
+        <view class="_view data-v-4351c746 dx_col_7 fz28 red tr"> 无需筛选价格 </view>
+      </view>
+    </view>
+    <view class="_view data-v-4351c746 sd_jh_drtx pd">
+      <icon class="_icon data-v-4351c746 dx icon-createtask z6 fz40 cz"></icon>
+      <text class="_text data-v-4351c746 fz30 z9 ml5">商家额外要求</text>
+    </view>
+    <view class="_view data-v-4351c746 pd pt20 pm20 fz28 red ln"> 填完关键词,选择天猫搜索,按照综合排序,一定要关键 词进店,找不到可以卡价格,谢谢 </view>
+    <view class="_view data-v-4351c746 sd_jh_drtx pd">
+      <icon class="_icon data-v-4351c746 dx icon-warning_fill z6 fz40 cz"></icon>
+      <text class="_text data-v-4351c746 fz30 z9 ml5">注意事项</text>
+    </view>
+    <view class="_view data-v-4351c746 fz28 z6 ln pd pt20 pm20"> 平台中介操作任务的卖号和在淘宝/天猫客户端中浏览商 品的买号必须一致。
+      <view class="_br data-v-4351c746"></view> 注意查看任务要求,选择正确的排序或搜索方式,请勿 随意增加搜索条件。
+      <view class="_br data-v-4351c746"></view> 恶意提交与任务无关的图片将根据买手处罚规则进行处 罚。 </view>
+    <view class="_view data-v-4351c746 sd_jh_drtx pd">
+      <icon class="_icon data-v-4351c746 dx icon-iconset0136 z6 fz40 cz"></icon>
+      <text class="_text data-v-4351c746 fz30 z9 ml5">任务步骤</text>
+    </view>
+    <view class="_view data-v-4351c746 pd pt30 pm20">
+      <view class="_view data-v-4351c746 fz34 ye"> 浏览任务
+        <text class="_text data-v-4351c746 ls ml20">点击查看示例</text>
+      </view>
+    </view>
+  </view>
+</template>

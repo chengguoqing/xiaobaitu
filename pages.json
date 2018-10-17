@@ -2,11 +2,14 @@
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/taskHL/operatingDuty",
+			"style": {
+				"navigationBarTitleText": "操作任务"
+			}
+		},{
 			"path": "pages/complaint/complaint",
-
 			"style": {
 				"navigationBarTitleText": "申诉中心"
-
 			}
 		}, {
 			"path": "pages/index/index",

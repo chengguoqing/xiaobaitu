@@ -10,8 +10,8 @@
     </view>
     <view class="_view data-v-4efa30b6 mt20 bgff dx_btn pd fz30 z6"> 银行：招商银行 </view>
     <view class="_view data-v-4efa30b6 mt20">
-      <template type="2" placeholder="佣金提现金额" data="{{...$root['0'], ...$root[$kk+'Pkb-0'],$root}}" is="336ad492"></template>
-      <template type="3" placeholder="输入登录密码" data="{{...$root['0'], ...$root[$kk+'Ujy-1'],$root}}" is="336ad492"></template>
+      <template type="2" placeholder="佣金提现金额" data="{{...$root['0'], ...$root[$kk+'Nvq-0'],$root}}" is="336ad492"></template>
+      <template type="3" placeholder="输入登录密码" data="{{...$root['0'], ...$root[$kk+'RlP-1'],$root}}" is="336ad492"></template>
     </view>
     <view class="_view data-v-4efa30b6 mt40 dx_btn cen fz32 ls bgff"> 确认 </view>
   </view>

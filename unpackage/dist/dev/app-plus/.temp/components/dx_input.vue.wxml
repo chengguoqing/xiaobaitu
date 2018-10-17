@@ -1,9 +1,9 @@
 <template name="336ad492">
   <view class="_view data-v-34839e3e bgff btm df_hh_ddr pr">
-    <input type="text" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{!type}}" data-eventid="{{'Qgg-0'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
-    <input type="number" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==2}}" data-eventid="{{'ls9-1'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
-    <input type="text" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==3}}" data-eventid="{{'bGA-2'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
-    <input type="search" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==4}}" data-eventid="{{'fG4-3'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
-    <view class="_view data-v-34839e3e rigt_dfg ls" wx:if="{{rightText}}" bindtap="handleProxy" data-eventid="{{'W6t-4'}}" data-comkey="{{$k}}"> {{rightText}} </view>
+    <input type="text" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{!type}}" data-eventid="{{'RsK-0'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="number" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==2}}" data-eventid="{{'9lS-1'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="text" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==3}}" data-eventid="{{'C1G-2'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="search" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==4}}" data-eventid="{{'zRW-3'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <view class="_view data-v-34839e3e rigt_dfg ls" wx:if="{{rightText}}" bindtap="handleProxy" data-eventid="{{'CYd-4'}}" data-comkey="{{$k}}"> {{rightText}} </view>
   </view>
 </template>
