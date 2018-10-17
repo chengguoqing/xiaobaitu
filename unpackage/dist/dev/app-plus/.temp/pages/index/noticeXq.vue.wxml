@@ -1,8 +1,8 @@
-<template name="d0cbe714">
-  <view class="_view data-v-599b95a3">
-    <view class="_view data-v-599b95a3 pd pt20 pm20 fz32 z3"> 标题标题标题标题标题标题标题标题标题标题标题标题标题标
-      <view class="_view data-v-599b95a3 mt20 fz26 z9"> 发布时间 2018-0810 </view>
+<template name="b0c96f46">
+  <view class="_view data-v-e2dd01b0">
+    <view class="_view data-v-e2dd01b0 pd pt20 pm20 fz32 z3"> 标题标题标题标题标题标题标题标题标题标题标题标题标题标
+      <view class="_view data-v-e2dd01b0 mt20 fz26 z9"> 发布时间 2018-0810 </view>
     </view>
-    <view class="_view data-v-599b95a3 pd btm  pd pt20"> 内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 </view>
+    <view class="_view data-v-e2dd01b0 pd btm  pd pt20"> 内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 </view>
   </view>
 </template>

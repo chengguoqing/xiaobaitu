@@ -1,49 +1,49 @@
-<template name="cea31930">
-  <view class="_view data-v-d01747ca">
-    <view class="_view data-v-d01747ca pd  z6 df_jh_deer">
-      <icon class="_icon data-v-d01747ca dx icon-shenfenzheng fz38 cz "></icon>
-      <text class="_text data-v-d01747ca fz30 ml5 cz">申诉详情</text>
+<template name="571455a1">
+  <view class="_view data-v-819aba14">
+    <view class="_view data-v-819aba14 pd  z6 df_jh_deer">
+      <icon class="_icon data-v-819aba14 dx icon-shenfenzheng fz38 cz "></icon>
+      <text class="_text data-v-819aba14 fz30 ml5 cz">申诉详情</text>
     </view>
-    <view class="_view data-v-d01747ca bgff pt20 pm20 dx_row pd">
-      <image src="../../static/img/logo.png" class="_image data-v-d01747ca fengmian_dr fl"></image>
-      <view class="_view data-v-d01747ca ov pl20">
-        <view class="_view data-v-d01747ca df_hg_der bbm dx_row">
-          <view class="_view data-v-d01747ca dx_col_8 fz30"> 任务编号 </view>
-          <view class="_view data-v-d01747ca dx_col_16 fz30 tr"> 2016843
-            <text class="_text data-v-d01747ca red">[详情]</text>
+    <view class="_view data-v-819aba14 bgff pt20 pm20 dx_row pd">
+      <image src="../../static/img/logo.png" class="_image data-v-819aba14 fengmian_dr fl"></image>
+      <view class="_view data-v-819aba14 ov pl20">
+        <view class="_view data-v-819aba14 df_hg_der bbm dx_row">
+          <view class="_view data-v-819aba14 dx_col_8 fz30"> 任务编号 </view>
+          <view class="_view data-v-819aba14 dx_col_16 fz30 tr"> 2016843
+            <text class="_text data-v-819aba14 red">[详情]</text>
           </view>
         </view>
-        <view class="_view data-v-d01747ca df_hg_der bbm dx_row">
-          <view class="_view data-v-d01747ca dx_col_8 fz30"> QQ号码： </view>
-          <view class="_view data-v-d01747ca dx_col_16 fz30 tr"> 1780312516 </view>
+        <view class="_view data-v-819aba14 df_hg_der bbm dx_row">
+          <view class="_view data-v-819aba14 dx_col_8 fz30"> QQ号码： </view>
+          <view class="_view data-v-819aba14 dx_col_16 fz30 tr"> 1780312516 </view>
         </view>
-        <view class="_view data-v-d01747ca df_hg_der bbm dx_row">
-          <view class="_view data-v-d01747ca  fz30 tr z9"> 如需要获取更多信息申请平台介入 </view>
+        <view class="_view data-v-819aba14 df_hg_der bbm dx_row">
+          <view class="_view data-v-819aba14  fz30 tr z9"> 如需要获取更多信息申请平台介入 </view>
         </view>
       </view>
     </view>
-    <view class="_view data-v-d01747ca mt20 bgff pd pt20 pm20">
-      <navigator class="_navigator data-v-d01747ca yj4 dx_btn cen fz30 df_jh_deet cf" url="/pages/taskHL/cancelTask"> 我不想做了，申请取消这个任务 </navigator>
-      <view class="_view data-v-d01747ca pd z9 fz26 ln mt20"> 注：商家同意后任务取消，平台返款的本金将返回到商家本金账户，任务佣金将扣回或取消 </view>
+    <view class="_view data-v-819aba14 mt20 bgff pd pt20 pm20">
+      <navigator class="_navigator data-v-819aba14 yj4 dx_btn cen fz30 df_jh_deet cf" url="/pages/taskHL/cancelTask"> 我不想做了，申请取消这个任务 </navigator>
+      <view class="_view data-v-819aba14 pd z9 fz26 ln mt20"> 注：商家同意后任务取消，平台返款的本金将返回到商家本金账户，任务佣金将扣回或取消 </view>
     </view>
-    <view class="_view data-v-d01747ca pd  z6 df_jh_deer">
-      <icon class="_icon data-v-d01747ca dx icon-shijian fz40 cz "></icon>
-      <text class="_text data-v-d01747ca fz30 ml5 cz">状态详情</text>
+    <view class="_view data-v-819aba14 pd  z6 df_jh_deer">
+      <icon class="_icon data-v-819aba14 dx icon-shijian fz40 cz "></icon>
+      <text class="_text data-v-819aba14 fz30 ml5 cz">状态详情</text>
     </view>
-    <view class="_view data-v-d01747ca pd ouy_tilte fz30 z3"> 投诉内容 2018-10-06 </view>
-    <view class="_view data-v-d01747ca pd pm20 bgff">
-      <view class="_view data-v-d01747ca pt20 ln z6 fz30"> 类型:其他问题 </view>
-      <view class="_view data-v-d01747ca pt20 ln z6 fz30"> 原因:我用错账号了这个账号不对 </view>
+    <view class="_view data-v-819aba14 pd ouy_tilte fz30 z3"> 投诉内容 2018-10-06 </view>
+    <view class="_view data-v-819aba14 pd pm20 bgff">
+      <view class="_view data-v-819aba14 pt20 ln z6 fz30"> 类型:其他问题 </view>
+      <view class="_view data-v-819aba14 pt20 ln z6 fz30"> 原因:我用错账号了这个账号不对 </view>
     </view>
-    <view class="_view data-v-d01747ca pd ouy_tilte fz30 z3"> 协调处理 </view>
-    <view class="_view data-v-d01747ca pd ln pt20 pm20 bgff fz30">
-      <view class="_view data-v-d01747ca z6"> 2018-10-06 </view>
-      <view class="_view data-v-d01747ca z6"> 申诉人:我用错账号了这个账号不对 </view>
+    <view class="_view data-v-819aba14 pd ouy_tilte fz30 z3"> 协调处理 </view>
+    <view class="_view data-v-819aba14 pd ln pt20 pm20 bgff fz30">
+      <view class="_view data-v-819aba14 z6"> 2018-10-06 </view>
+      <view class="_view data-v-819aba14 z6"> 申诉人:我用错账号了这个账号不对 </view>
     </view>
-    <view class="_view data-v-d01747ca btm dx_row fz30 foyu_jhg_drrt bgff">
-      <navigator class="_navigator data-v-d01747ca dx_col_8 ls" url="/pages/complaint/reply"> 回复申诉 </navigator>
-      <view class="_view data-v-d01747ca dx_col_8 ls blm"> 完结申诉 </view>
-      <view class="_view data-v-d01747ca dx_col_8 ls blm"> 申请平台介入 </view>
+    <view class="_view data-v-819aba14 btm dx_row fz30 foyu_jhg_drrt bgff">
+      <navigator class="_navigator data-v-819aba14 dx_col_8 ls" url="/pages/complaint/reply"> 回复申诉 </navigator>
+      <view class="_view data-v-819aba14 dx_col_8 ls blm"> 完结申诉 </view>
+      <view class="_view data-v-819aba14 dx_col_8 ls blm"> 申请平台介入 </view>
     </view>
   </view>
 </template>

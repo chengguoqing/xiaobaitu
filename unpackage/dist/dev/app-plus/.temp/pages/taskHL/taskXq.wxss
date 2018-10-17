@@ -1,0 +1,7 @@
+@import "../../common/vendor.wxss";
+
+.df_f_renwyu.data-v-3d51578c {
+  line-height: 60rpx;
+  display: inline-block;
+  padding: 0px 30rpx;
+}

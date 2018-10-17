@@ -1,16 +1,16 @@
 @import "../../common/vendor.wxss";
 
-.sd_jh_derterter.data-v-c971a7e4 {
+.sd_jh_derterter.data-v-6ce928da {
   border-top: 2px solid #000;
   padding-left: 8px;
   padding-right: 8px;
 }
-.sd_jh_derterter text.data-v-c971a7e4 {
+.sd_jh_derterter text.data-v-6ce928da {
   background: #fff;
   position: relative;
   bottom: 25rpx;
 }
-.bgff_dert.data-v-c971a7e4 {
+.bgff_dert.data-v-6ce928da {
   position: fixed;
   left: 0;
   top: 0;
@@ -18,6 +18,6 @@
   height: 100%;
   background: #fff;
 }
-.dfg_jfrrtt.data-v-c971a7e4 {
+.dfg_jfrrtt.data-v-6ce928da {
   line-height: 1.5;
 }

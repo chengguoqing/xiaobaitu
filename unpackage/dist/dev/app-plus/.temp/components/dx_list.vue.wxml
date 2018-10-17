@@ -1,15 +1,15 @@
-<template name="bdcd01f4">
-  <view class="_view data-v-7baa604c bgff">
-    <view class="_view data-v-7baa604c fz28  bbm pd da_list" wx:if="{{!isjt&&!rtext}}"> {{title}} </view>
-    <view class="_view data-v-7baa604c fz28  bbm pd da_list" wx:if="{{isjt&&rtext}}"> {{title}}
-      <view class="_view data-v-7baa604c right_ert">
-        <text class="_text data-v-7baa604c z9 cz jieao_er fz24">{{rtext}}</text>
-        <icon class="_icon data-v-7baa604c dx_ic icon-i-right sdf_jh_Dert"></icon>
+<template name="043688ad">
+  <view class="_view data-v-f7b152c2 bgff">
+    <view class="_view data-v-f7b152c2 fz28  bbm pd da_list" wx:if="{{!isjt&&!rtext}}"> {{title}} </view>
+    <view class="_view data-v-f7b152c2 fz28  bbm pd da_list" wx:if="{{isjt&&rtext}}"> {{title}}
+      <view class="_view data-v-f7b152c2 right_ert">
+        <text class="_text data-v-f7b152c2 z9 cz jieao_er fz24">{{rtext}}</text>
+        <icon class="_icon data-v-f7b152c2 dx_ic icon-i-right sdf_jh_Dert"></icon>
       </view>
     </view>
-    <view class="_view data-v-7baa604c fz28  bbm pd da_list" wx:if="{{!isjt&&rtext}}"> {{title}}
-      <view class="_view data-v-7baa604c right_ert">
-        <text class="_text data-v-7baa604c z9 cz jieao_er ab fz24">{{rtext}}</text>
+    <view class="_view data-v-f7b152c2 fz28  bbm pd da_list" wx:if="{{!isjt&&rtext}}"> {{title}}
+      <view class="_view data-v-f7b152c2 right_ert">
+        <text class="_text data-v-f7b152c2 z9 cz jieao_er ab fz24">{{rtext}}</text>
       </view>
     </view>
   </view>

@@ -1,26 +1,26 @@
-<template name="62fda28b">
-  <view class="_view data-v-e1262c84">
-    <view class="_view data-v-e1262c84 dd_ijh_der cen pm20">
-      <image src="../../static/img/user_icon.png" class="_image data-v-e1262c84 user_icon"></image>
-      <view class="_view data-v-e1262c84 fz28 cf"> ID:134646 </view>
+<template name="1f73da84">
+  <view class="_view data-v-3f96344e">
+    <view class="_view data-v-3f96344e dd_ijh_der cen pm20">
+      <image src="../../static/img/user_icon.png" class="_image data-v-3f96344e user_icon"></image>
+      <view class="_view data-v-3f96344e fz28 cf"> ID:134646 </view>
     </view>
-    <view class="_view data-v-e1262c84 cf fz25 fg_jgh_drrt cen pt20 pm20">
-      <navigator class="_navigator data-v-e1262c84 cls_2" url="/pages/user_center/userNameModification">
-        <view class="_view data-v-e1262c84 fz30">账号：135****0372</view>
-        <view class="_view data-v-e1262c84 fz24 mt5"> (点击可修改用户名) </view>
+    <view class="_view data-v-3f96344e cf fz25 fg_jgh_drrt cen pt20 pm20">
+      <navigator class="_navigator data-v-3f96344e cls_2" url="/pages/user_center/userNameModification">
+        <view class="_view data-v-3f96344e fz30">账号：135****0372</view>
+        <view class="_view data-v-3f96344e fz24 mt5"> (点击可修改用户名) </view>
       </navigator>
-      <view class="_view data-v-e1262c84 cls_2 blm">
-        <view class="_view data-v-e1262c84 fz30">等级：铜牌会员</view>
-        <view class="_view data-v-e1262c84 fz24 mt5"> (等级根据接单次数) </view>
+      <view class="_view data-v-3f96344e cls_2 blm">
+        <view class="_view data-v-3f96344e fz30">等级：铜牌会员</view>
+        <view class="_view data-v-3f96344e fz24 mt5"> (等级根据接单次数) </view>
       </view>
-      <view class="_view data-v-e1262c84 qc"></view>
+      <view class="_view data-v-3f96344e qc"></view>
     </view>
-    <view class="_view data-v-e1262c84 bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'FHY-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-e1262c84 h_dfg_le cz">
-        <icon class="_icon data-v-e1262c84 dx  cz {{sd.icon}}"></icon>
+    <view class="_view data-v-3f96344e bgff sd_lh_der pd bbm pr {{sd.clsss_s}}" bindtap="handleProxy" data-eventid="{{'Eda-0-'+index}}" data-comkey="{{$k}}" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-3f96344e h_dfg_le cz">
+        <icon class="_icon data-v-3f96344e dx  cz {{sd.icon}}"></icon>
       </view>
-      <text class="_text data-v-e1262c84 ml10 fz30 z6">{{sd.name}}</text>
-      <text class="_text data-v-e1262c84 sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
+      <text class="_text data-v-3f96344e ml10 fz30 z6">{{sd.name}}</text>
+      <text class="_text data-v-3f96344e sd_dfth fz26" wx:if="{{sd.jindu}}">{{sd.jindu}}</text>
     </view>
   </view>
 </template>

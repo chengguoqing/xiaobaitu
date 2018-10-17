@@ -1,6 +1,6 @@
 <import src="/components/slots" />
-<template name="50018170">
-  <view class="_view data-v-1c52f818 dx_col {{'dx_col_' + num}}" style=" {{(  'padding-left:' +  (gutter + 'px') +  ';' +  'padding-right:' +  (gutter + 'px') +  ';')}}">
+<template name="6fd6e4c1">
+  <view class="_view data-v-f708dee2 dx_col {{'dx_col_' + num}}" style=" {{(  'padding-left:' +  (gutter + 'px') +  ';' +  'padding-right:' +  (gutter + 'px') +  ';')}}">
     <template name="default"></template>
     <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
   </view>

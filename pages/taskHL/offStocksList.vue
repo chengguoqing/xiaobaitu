@@ -1,7 +1,7 @@
 <!-- 已完成 列表-->
 <template>
 	<view>
-		<navigator url="" class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in 20">
+		<navigator url="/pages/taskHL/taskXq" class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in 20">
 			<image src="../../static/img/logo.png" class="u_fenmian"></image>
 			<view class="ov pl20">
 				<view class="dx_row">

@@ -10,7 +10,7 @@
 
 				<icon class="dx icon-label_fill cz ls ml10"></icon>
 
-			</view>
+			</view> 
 
 			<view class="mt10">
 				<image src="../../static/img/fenming.jpg" class="fenming fl"></image>
@@ -239,10 +239,7 @@
 <style scoped>
 	.sd_jhg_der icon {}
 
-	.fenming {
-		width: 200upx;
-		height: 200upx;
-	}
+	
 
 	.df_jh_derter {
 		position: absolute;

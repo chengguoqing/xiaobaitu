@@ -4,13 +4,13 @@
 		<dx_tab :title_d="title_d">
 
 			<view class="df_ff_dff" v-for="(sd,idx) in title_d" v-if="index_d==idx">
-				<navigator url="" class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in sd.date_df">
+				<navigator  class="bgff bbm pd pt15 pm15" v-for="(sd,idx_e) in sd.date_df">
 					<image src="../../static/img/logo.png" class="u_fenmian"></image>
 					<view class="ov pl20">
 						<view class="dx_row">
 							<view class="dx_col_12 dian z9 fz30">
 								<icon class="dx icon-wangwang z9 fz40 cz"></icon>
-								就这么恶心麻烦
+								就这么恶心麻烦2
 							</view>
 							<view class="dx_col_12 z9 fz30 tr">
 								2018.10.12

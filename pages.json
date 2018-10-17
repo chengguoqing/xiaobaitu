@@ -10,6 +10,22 @@
 				}
 			}
 		}, {
+			"path": "pages/complaint/tijiaocomplaint",
+			"style": {
+				"navigationBarTitleText": "申述"
+			}
+		},
+		{
+			"path": "pages/taskHL/taskXq",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		}, {
+			"path": "pages/taskHL/orderReceiving",
+			"style": {
+				"navigationBarTitleText": "接任务"
+			}
+		}, {
 			"path": "pages/taskHL/CancelRules",
 			"style": {
 				"navigationBarTitleText": "取消规则"
@@ -33,11 +49,6 @@
 			"path": "pages/taskHL/account_binding",
 			"style": {
 				"navigationBarTitleText": "淘宝账号绑定"
-			}
-		}, {
-			"path": "pages/taskHL/orderReceiving",
-			"style": {
-				"navigationBarTitleText": "接任务"
 			}
 		}, {
 			"path": "pages/complaint/reply",

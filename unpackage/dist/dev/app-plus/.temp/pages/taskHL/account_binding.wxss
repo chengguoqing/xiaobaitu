@@ -1,9 +1,9 @@
 @import "../../common/vendor.wxss";
 
-.h_dfg_le.data-v-9911a37c {
+.h_dfg_le.data-v-7401c2c7 {
   background: #FF4500;
 }
-.sd_jh_dertse.data-v-9911a37c {
+.sd_jh_dertse.data-v-7401c2c7 {
   display: block;
   width: 100px;
   height: 60rpx;
@@ -13,11 +13,11 @@
   border-radius: 4px;
   border: 1px solid #fff;
 }
-.sd_jh_dertse.act.data-v-9911a37c {
+.sd_jh_dertse.act.data-v-7401c2c7 {
   border: 1px solid #00AC92;
   color: #00AC92;
 }
-.sdf_jh_baoc.data-v-9911a37c {
+.sdf_jh_baoc.data-v-7401c2c7 {
   position: fixed;
   left: 0;
   bottom: 40rpx;

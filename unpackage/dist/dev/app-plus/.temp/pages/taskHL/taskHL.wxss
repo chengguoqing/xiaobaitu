@@ -1,10 +1,10 @@
 @import "../../common/vendor.wxss";
 
-.title_df.data-v-466c12ca {
+.title_df.data-v-77ff36b6 {
   line-height: 60rpx;
   font-size: 26rpx;
 }
-.sd_drrrtty.data-v-466c12ca {
+.sd_drrrtty.data-v-77ff36b6 {
   width: 110rpx;
   height: 110rpx;
 }

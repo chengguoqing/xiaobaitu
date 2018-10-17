@@ -1,23 +1,23 @@
-<template name="5396a91b">
-  <view class="_view data-v-9911a37c">
-    <view class="_view data-v-9911a37c fz30 z3 pd pt20 pm20"> 接单账号选择(必选) </view>
-    <picker class="_picker data-v-9911a37c pd bgff pt20 pm20" bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'sfl-0'}}" data-comkey="{{$k}}">
-      <view class="_view data-v-9911a37c h_dfg_le cz yj ">
-        <icon class="_icon data-v-9911a37c dx  cz icon-taobao"></icon>
+<template name="61ed0e02">
+  <view class="_view data-v-7401c2c7">
+    <view class="_view data-v-7401c2c7 fz30 z3 pd pt20 pm20"> 接单账号选择(必选) </view>
+    <picker class="_picker data-v-7401c2c7 pd bgff pt20 pm20" bindchange="handleProxy" range="{{array}}" range-key="name" data-eventid="{{'6e8-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7401c2c7 h_dfg_le cz yj ">
+        <icon class="_icon data-v-7401c2c7 dx  cz icon-taobao"></icon>
       </view>
-      <text class="_text data-v-9911a37c ml10">{{array[index].name}}</text>
-      <view class="_i data-v-9911a37c dx icon-down ls fr mt15"></view>
+      <text class="_text data-v-7401c2c7 ml10">{{array[index].name}}</text>
+      <view class="_i data-v-7401c2c7 dx icon-down ls fr mt15"></view>
     </picker>
-    <view wx:for="{{xsd_eer}}" wx:for-index="ix" wx:for-item="sd" class="_view data-v-9911a37c">
-      <view class="_view data-v-9911a37c pd pt10 pm10 z3"> {{sd.title}} </view>
-      <view class="_view data-v-9911a37c dx_row bgff pd pt10 pm10">
-        <view class="_view data-v-9911a37c dx_col_8" wx:for="{{sd.dete_s}}" wx:for-index="idx" wx:for-item="sf">
-          <text class="_text data-v-9911a37c sd_jh_dertse  {{sf.cls}}" bindtap="handleProxy" data-eventid="{{'Id3-1-'+ix+'-'+idx}}" data-comkey="{{$k}}"> {{sf.name}} </text>
+    <view wx:for="{{xsd_eer}}" wx:for-index="ix" wx:for-item="sd" class="_view data-v-7401c2c7">
+      <view class="_view data-v-7401c2c7 pd pt10 pm10 z3"> {{sd.title}} </view>
+      <view class="_view data-v-7401c2c7 dx_row bgff pd pt10 pm10">
+        <view class="_view data-v-7401c2c7 dx_col_8" wx:for="{{sd.dete_s}}" wx:for-index="idx" wx:for-item="sf">
+          <text class="_text data-v-7401c2c7 sd_jh_dertse  {{sf.cls}}" bindtap="handleProxy" data-eventid="{{'exh-1-'+ix+'-'+idx}}" data-comkey="{{$k}}"> {{sf.name}} </text>
         </view>
       </view>
     </view>
-    <view class="_view data-v-9911a37c pd sdf_jh_baoc">
-      <view class="_view data-v-9911a37c dx_btn ls bgff fz30 cen br yj4"> 保存 </view>
+    <view class="_view data-v-7401c2c7 pd sdf_jh_baoc">
+      <view class="_view data-v-7401c2c7 dx_btn ls bgff fz30 cen br yj4"> 保存 </view>
     </view>
   </view>
 </template>
