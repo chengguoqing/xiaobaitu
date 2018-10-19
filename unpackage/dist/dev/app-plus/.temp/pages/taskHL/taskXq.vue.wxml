@@ -1,41 +1,41 @@
-<template name="2ffe6a9f">
-  <view class="_view data-v-3d51578c">
-    <view class="_view data-v-3d51578c bgff">
-      <view class="_view data-v-3d51578c pt20 pd">
-        <image src="../../static/img/fenming.jpg" class="_image data-v-3d51578c fenming fl"></image>
-        <view class="_view data-v-3d51578c ov pl20 pr df_jh_dertxf">
-          <view class="_view data-v-3d51578c z3 fz30 ln"> 商品成交价格:
-            <text class="_text data-v-3d51578c red">￥149.00</text>
-            <view class="_view data-v-3d51578c"> 件数和规格:
-              <text class="_text data-v-3d51578c red">1</text>
+<template name="2f7a3f66">
+  <view class="_view data-v-63c3025f">
+    <view class="_view data-v-63c3025f bgff">
+      <view class="_view data-v-63c3025f pt20 pd">
+        <image src="../../static/img/fenming.jpg" class="_image data-v-63c3025f fenming fl"></image>
+        <view class="_view data-v-63c3025f ov pl20 pr df_jh_dertxf">
+          <view class="_view data-v-63c3025f z3 fz30 ln"> 商品成交价格:
+            <text class="_text data-v-63c3025f red">￥149.00</text>
+            <view class="_view data-v-63c3025f"> 件数和规格:
+              <text class="_text data-v-63c3025f red">1</text>
             </view>
           </view>
         </view>
-        <view class="_view data-v-3d51578c qc"></view>
+        <view class="_view data-v-63c3025f qc"></view>
       </view>
-      <view class="_view data-v-3d51578c pt20 pm20 z3 btm mt20 fz28 pd"> 任务状态:已取消 </view>
-      <view class="_view data-v-3d51578c pt20 pm20  btm red fz28 pd"> 商家要求:无特殊要求 </view>
-      <view class="_view data-v-3d51578c pt20 pm20  btm red fz28 pd"> 订单留言:无特殊要求 </view>
-      <view class="_view data-v-3d51578c pt10 pm10 pd btm">
-        <navigator class="_navigator data-v-3d51578c bgls yj4 df_f_renwyu fz30" url="/pages/complaint/tijiaocomplaint"> 申述任务 </navigator>
+      <view class="_view data-v-63c3025f pt20 pm20 z3 btm mt20 fz28 pd"> 任务状态:已取消 </view>
+      <view class="_view data-v-63c3025f pt20 pm20  btm red fz28 pd"> 商家要求:无特殊要求 </view>
+      <view class="_view data-v-63c3025f pt20 pm20  btm red fz28 pd"> 订单留言:无特殊要求 </view>
+      <view class="_view data-v-63c3025f pt10 pm10 pd btm">
+        <navigator class="_navigator data-v-63c3025f bgls yj4 df_f_renwyu fz30" url="/pages/complaint/tijiaocomplaint"> 申述任务 </navigator>
       </view>
     </view>
-    <view class="_view data-v-3d51578c pd dx_row fz28 z9 pt20 pm20">
-      <view class="_view data-v-3d51578c dx_col_12 "> 接受任务 </view>
-      <view class="_view data-v-3d51578c dx_col_12 tr"> 2018-10-02 </view>
+    <view class="_view data-v-63c3025f pd dx_row fz28 z9 pt20 pm20">
+      <view class="_view data-v-63c3025f dx_col_12 "> 接受任务 </view>
+      <view class="_view data-v-63c3025f dx_col_12 tr"> 2018-10-02 </view>
     </view>
-    <view class="_view data-v-3d51578c bgff pd">
-      <view class="_view data-v-3d51578c dx_row fz30 z3 btm pt20 pm20">
-        <view class="_view data-v-3d51578c dx_col_12">订单编号</view>
-        <view class="_view data-v-3d51578c dx_col_12 tr ls">150822</view>
+    <view class="_view data-v-63c3025f bgff pd">
+      <view class="_view data-v-63c3025f dx_row fz30 z3 btm pt20 pm20">
+        <view class="_view data-v-63c3025f dx_col_12">订单编号</view>
+        <view class="_view data-v-63c3025f dx_col_12 tr ls">150822</view>
       </view>
-      <view class="_view data-v-3d51578c dx_row fz30 z3 btm pt20 pm20">
-        <view class="_view data-v-3d51578c dx_col_12">买号</view>
-        <view class="_view data-v-3d51578c dx_col_12 tr ls">就这么恶心麻烦</view>
+      <view class="_view data-v-63c3025f dx_row fz30 z3 btm pt20 pm20">
+        <view class="_view data-v-63c3025f dx_col_12">买号</view>
+        <view class="_view data-v-63c3025f dx_col_12 tr ls">就这么恶心麻烦</view>
       </view>
-      <view class="_view data-v-3d51578c dx_row fz30 z3 btm pt20 pm20">
-        <view class="_view data-v-3d51578c dx_col_12">商品金额</view>
-        <view class="_view data-v-3d51578c dx_col_12 tr ls">149.00</view>
+      <view class="_view data-v-63c3025f dx_row fz30 z3 btm pt20 pm20">
+        <view class="_view data-v-63c3025f dx_col_12">商品金额</view>
+        <view class="_view data-v-63c3025f dx_col_12 tr ls">149.00</view>
       </view>
     </view>
   </view>

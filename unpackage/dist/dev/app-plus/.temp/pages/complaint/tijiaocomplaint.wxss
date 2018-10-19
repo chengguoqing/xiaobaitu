@@ -1,11 +1,11 @@
 @import "../../common/vendor.wxss";
 
-.doh_deert.data-v-d96f588a {
+.doh_deert.data-v-548ef260 {
   position: absolute;
   right: 20rpx;
   top: 0;
 }
-.sheng_rtde.data-v-d96f588a {
+.sheng_rtde.data-v-548ef260 {
   background: #fff;
   border: 1px solid #E0E0E0;
   height: 160rpx;

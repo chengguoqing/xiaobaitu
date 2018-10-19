@@ -1,9 +1,9 @@
-<template name="33eeffcb">
-  <view class="_view data-v-9bd01fce bgff btm df_hh_ddr pr">
-    <input type="text" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{!type}}" data-eventid="{{'1wT-0'}}" data-comkey="{{$k}}" class="_input data-v-9bd01fce" />
-    <input type="number" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==2}}" data-eventid="{{'uRx-1'}}" data-comkey="{{$k}}" class="_input data-v-9bd01fce" />
-    <input type="text" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==3}}" data-eventid="{{'9nV-2'}}" data-comkey="{{$k}}" class="_input data-v-9bd01fce" />
-    <input type="search" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==4}}" data-eventid="{{'zZB-3'}}" data-comkey="{{$k}}" class="_input data-v-9bd01fce" />
-    <view class="_view data-v-9bd01fce rigt_dfg ls" wx:if="{{rightText}}" bindtap="handleProxy" data-eventid="{{'F2p-4'}}" data-comkey="{{$k}}"> {{rightText}} </view>
+<template name="336ad492">
+  <view class="_view data-v-34839e3e bgff btm df_hh_ddr pr">
+    <input type="text" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{!type}}" data-eventid="{{'uIn-0'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="number" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==2}}" data-eventid="{{'O8l-1'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="text" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==3}}" data-eventid="{{'GSO-2'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <input type="search" password="true" placeholder="{{placeholder}}" value="{{value}}" bindinput="handleProxy" wx:if="{{type==4}}" data-eventid="{{'8II-3'}}" data-comkey="{{$k}}" class="_input data-v-34839e3e" />
+    <view class="_view data-v-34839e3e rigt_dfg ls" wx:if="{{rightText}}" bindtap="handleProxy" data-eventid="{{'MBj-4'}}" data-comkey="{{$k}}"> {{rightText}} </view>
   </view>
 </template>

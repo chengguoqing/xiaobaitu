@@ -1,0 +1,206 @@
+<template>
+	<div>
+		<tabs @change="changeTab" :index="tabIndex">
+			<tab-bar class="br ds_jhh_deerrt">
+				<div class="tab-bar-item" v-for="(tabBar, t) in tabBars" :key="t" :ref="tabBar.id + t">
+					<text class="tab-bar-title" :class="[tabIndex === t ? 'active' : '']">{{tabBar.name}}</text>
+				</div>
+			</tab-bar>
+			<tab-content >
+				<list class="list" @loadmore="loadMore(index1)" loadmoreoffset="10" v-for="(tab,index1) in newsitems" :key="index1">
+					<refresh class="refresh" @refresh="onrefresh" @pullingdown="onpullingdown" :display="refreshing ? 'show' : 'hide'">
+						<text class="refresh-text">{{refreshText}}</text>
+					</refresh> 
+		
+					 
+					<cell>
+						<media-list  testdf="55" v-for="sd in 20"></media-list>
+					
+					</cell>
+					
+					<cell class="loadmore">
+						<text class="loadmore-text">{{tab.loadingText}}</text>
+					</cell>
+				</list>
+			
+			</tab-content> 
+		</tabs> 
+	</div>
+</template>
+
+<script>
+	import tabContent from '@/components/tab-nvue/tabContent.nvue'
+	import tabBar from '@/components/tab-nvue/tabBar.nvue'
+	import tabs from '@/components/tab-nvue/tabs.nvue'
+	import mediaList from '@/components/tab-nvue/mediaList_er.nvue'
+	const dom = weex.requireModule('dom')
+	export default {
+		components: {
+			tabContent,
+			tabBar,
+			tabs,
+			mediaList
+		},
+		created() {
+			setTimeout(() => {
+				this.newsitems = this.randomfn();
+			},150)
+		},
+		data() {
+			return {
+				refreshing: false,
+				current_rotate:0,
+				refreshText:"下拉可以刷新",
+				tabIndex: 0,
+				newsitems: [],
+				tabBars: [{
+					name: '待操作',
+					id: 'guanzhu'
+				}, {
+					name: '待返款',
+					id: 'tuijian'
+				}, {
+					name: '发货中',
+					id: 'tuijian'
+				}, {
+					name: '待确认',
+					id: 'tuijian'
+				}]
+			}
+		},
+		methods: {
+			goDetail(e){
+				uni.navigateTo({
+					url: './detail?data=' + e.title
+				})
+			},
+			onrefresh(event) {
+				uni.showToast({
+					title: "refresh",
+					icon:"none"
+				});
+				this.refreshText = "正在刷新...";
+				this.refreshing = true;
+				setTimeout(() => {
+					console.log("刷新结束")
+					this.refreshing = false
+				}, 2000)
+			},
+			onpullingdown(event) {
+				if(this.refreshing){
+					return;
+				}
+				if(Math.abs(event.pullingDistance) > Math.abs(event.viewHeight)){
+				  this.refreshText = "释放立即刷新";
+				}else{
+				  this.refreshText = "下拉可以刷新";
+				}
+			},
+			loadMore(e) { 
+				setTimeout(() => {
+					this.addData(e);
+				}, 1000);
+			},
+			addData(e) {
+				console.log("加载更多...");
+				if (this.newsitems[e].data.length > 30) {
+					this.newsitems[e].loadingText = '没有更多了';
+					return;
+				}
+				for (let i = 1; i <= 10; i++) {
+					this.newsitems[e].data.push(this['data' + Math.floor(Math.random()*5)]);
+				}
+			},
+		
+			async changeTab(e) {
+				this.tabIndex = e.index;
+				const el = this.$refs[this.tabBars[e.index].id + e.index][0]
+				let elSize = await this.getElSize(el);
+				if (elSize.left + elSize.width > 750) {
+					let index = e.index - 4;
+					let newEl = this.$refs[this.tabBars[index].id + index][0]
+					dom.scrollToElement(newEl, {});
+					return;
+				}
+				if (elSize.left < 0) {
+					dom.scrollToElement(el, {});
+				}
+			},
+			getElSize(el) { //得到元素的size
+				return new Promise((res, rej) => {
+					const result = dom.getComponentRect(el, option => {
+						res(option.size);
+					})
+				})
+			},
+			randomfn() {
+				let ary = [];
+				for (let i = 0, length = this.tabBars.length; i < length; i++) {
+					let aryItem = {
+						loadingText: "加载更多...",
+						data: []
+					};
+					for (let j = 1; j <= 10; j++) {
+						aryItem.data.push(this['data' + Math.floor(Math.random()*5)]);
+					}
+					ary.push(aryItem);
+				}
+				return ary;
+			}
+		}
+	}
+</script>
+
+<style>
+	.quingf-sdfr{
+	
+	}
+	.tab-bar-item {
+		width: 187.5px; 
+		height: 100px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.ds_jhh_deerrt{
+		background: #000000;
+	}
+
+	.tab-bar-title {
+		height: 100px;
+		line-height: 100px;
+		font-size: 30px;
+		color: #555;
+	}
+
+	.active {
+		color: #4DA994;
+		border-bottom: 2px solid #4DA994 !important;
+	}
+	
+	.loadmore {
+		height: 70px;
+		width: 750px;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.loadmore-text {
+		font-size: 30px;
+		text-align: center;
+		color: #999999;
+	}
+
+	.refresh {
+		width: 750px;
+		height: 70px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.refresh-text{
+		text-align: center;
+		font-size: 28px;
+		color: #999999;
+	}
+</style>

@@ -1,20 +1,20 @@
-<template name="286ab8e6">
-  <view class="_view data-v-d96f588a">
-    <view class="_view data-v-d96f588a pd pt30 pm30 z6 fz30"> 第一步，选择申述类型 </view>
-    <picker class="_picker data-v-d96f588a picker-item dx_btn bgff cen fz30 pr" mode="selector" range="{{textList}}" range-key="name" bindchange="handleProxy" data-eventid="{{'6EV-0'}}" data-comkey="{{$k}}"> {{textValue||'请选择申述原因'}}
-      <icon class="_icon data-v-d96f588a dx icon-down doh_deert"></icon>
+<template name="9ebac9a6">
+  <view class="_view data-v-548ef260">
+    <view class="_view data-v-548ef260 pd pt30 pm30 z6 fz30"> 第一步，选择申述类型 </view>
+    <picker class="_picker data-v-548ef260 picker-item dx_btn bgff cen fz30 pr" mode="selector" range="{{textList}}" range-key="name" bindchange="handleProxy" data-eventid="{{'fqk-0'}}" data-comkey="{{$k}}"> {{textValue||'请选择申述原因'}}
+      <icon class="_icon data-v-548ef260 dx icon-down doh_deert"></icon>
     </picker>
-    <view class="_view data-v-d96f588a pd pt30 pm30 z6 fz30"> 请填写申述说明并添加图片 </view>
-    <textarea placeholder="申述说明...." class="_textarea data-v-d96f588a sheng_rtde " />
-    <view class="_view data-v-d96f588a dx_row mt20">
-      <view class="_view data-v-d96f588a dx_col_8 pd mt20" wx:for="{{tu_pdf}}" wx:for-index="idx" wx:for-item="sd">
-        <view class="_view data-v-d96f588a pr">
-          <image src="{{sd}}" mode="scaleToFill" class="_image data-v-d96f588a sd_jh_drrt" bindtap="handleProxy" data-eventid="{{'DcS-1-'+idx}}" data-comkey="{{$k}}"></image>
-          <icon class="_icon data-v-d96f588a dx icon-delete_fill fz60 dsf_colise z9" bindtap="handleProxy" data-eventid="{{'q3Q-2-'+idx}}" data-comkey="{{$k}}"></icon>
+    <view class="_view data-v-548ef260 pd pt30 pm30 z6 fz30"> 请填写申述说明并添加图片 </view>
+    <textarea placeholder="申述说明...." class="_textarea data-v-548ef260 sheng_rtde " />
+    <view class="_view data-v-548ef260 dx_row mt20">
+      <view class="_view data-v-548ef260 dx_col_8 pd mt20" wx:for="{{tu_pdf}}" wx:for-index="idx" wx:for-item="sd">
+        <view class="_view data-v-548ef260 pr">
+          <image src="{{sd}}" mode="scaleToFill" class="_image data-v-548ef260 sd_jh_drrt" bindtap="handleProxy" data-eventid="{{'RNE-1-'+idx}}" data-comkey="{{$k}}"></image>
+          <icon class="_icon data-v-548ef260 dx icon-delete_fill fz60 dsf_colise z9" bindtap="handleProxy" data-eventid="{{'bYJ-2-'+idx}}" data-comkey="{{$k}}"></icon>
         </view>
       </view>
     </view>
-    <view class="_view data-v-d96f588a dx_btn bgff cen fz30 pr mt40" bindtap="handleProxy" data-eventid="{{'xXG-3'}}" data-comkey="{{$k}}"> 上传图片 </view>
-    <view class="_view data-v-d96f588a dx_btn bgff cen fz30 pr mt40"> 提交申述 </view>
+    <view class="_view data-v-548ef260 dx_btn bgff cen fz30 pr mt40" bindtap="handleProxy" data-eventid="{{'aEL-3'}}" data-comkey="{{$k}}"> 上传图片 </view>
+    <view class="_view data-v-548ef260 dx_btn bgff cen fz30 pr mt40"> 提交申述 </view>
   </view>
 </template>

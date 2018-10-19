@@ -1,6 +1,0 @@
-<import src="/components/dx_tab.vue.wxml" />
-<template name="19d08644">
-  <view class="_view data-v-4ed515c2 page_index">
-    <template data="{{...$root['0'], ...$root[$kk+'PFf-0'],$root, $slotdefault:'data-v-4ed515c2-default-PFf-0'}}" is="4a9fdf54"></template>
-  </view>
-</template>

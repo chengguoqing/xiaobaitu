@@ -1,6 +1,6 @@
 @import "../../common/vendor.wxss";
 
-.user_icon.data-v-3f96344e {
+.user_icon.data-v-e1262c84 {
   width: 160rpx;
   height: 160rpx;
 }

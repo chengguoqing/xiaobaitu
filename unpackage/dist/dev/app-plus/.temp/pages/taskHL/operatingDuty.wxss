@@ -1,32 +1,32 @@
 @import "../../common/vendor.wxss";
 
-.df_jh_derter.data-v-3411b90b {
+.df_jh_derter.data-v-4351c746 {
   position: absolute;
   left: 20rpx;
   bottom: 0;
 }
-.df_jh_dertxf.data-v-3411b90b {
+.df_jh_dertxf.data-v-4351c746 {
   height: 200rpx;
 }
-.sd_jh_drtx.data-v-3411b90b {
+.sd_jh_drtx.data-v-4351c746 {
   background: #D7D7D7;
   line-height: 65rpx;
 }
-.sd_jhgh_dert.data-v-3411b90b {
+.sd_jhgh_dert.data-v-4351c746 {
   display: inline-block;
   padding: 6rpx 20rpx;
 }
-.dx_col_7.red.tr.data-v-3411b90b {
+.dx_col_7.red.tr.data-v-4351c746 {
   position: relative;
   top: 4rpx;
 }
-.f_jh_drtxc.data-v-3411b90b {
+.f_jh_drtxc.data-v-4351c746 {
   background: #fff;
   height: 76rpx;
   border: 1px solid #DDDDDD;
   line-height: 76rpx;
 }
-.df_hhg_der.data-v-3411b90b {
+.df_hhg_der.data-v-4351c746 {
   background: #F86194;
   color: #fff;
   height: 74rpx;

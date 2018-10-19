@@ -1,73 +1,73 @@
-<template name="098ff11a">
-  <view class="_view data-v-39f1b3e4">
-    <view class="_view data-v-39f1b3e4 pd bgff pt20 pm20 ln pr">
-      <text class="_text data-v-39f1b3e4 fz32 z3">ID:176297 |0</text>
-      <text class="_text data-v-39f1b3e4 fz26"> 完成率：50%</text>
-      <navigator class="_navigator data-v-39f1b3e4 dx icon-feedback fr fz50  z9 df_jh_dertx" url="/pages/user_center/percentageComplete"></navigator>
-      <view class="_view data-v-39f1b3e4 fz26 z6"> 设置好每个平台的模式，可以自由组合多个平台同时接单哦！ </view>
+<template name="3cd2253a">
+  <view class="_view data-v-886e419a">
+    <view class="_view data-v-886e419a pd bgff pt20 pm20 ln pr">
+      <text class="_text data-v-886e419a fz32 z3">ID:176297 |0</text>
+      <text class="_text data-v-886e419a fz26"> 完成率：50%</text>
+      <navigator class="_navigator data-v-886e419a dx icon-feedback fr fz50  z9 df_jh_dertx" url="/pages/user_center/percentageComplete"></navigator>
+      <view class="_view data-v-886e419a fz26 z6"> 设置好每个平台的模式，可以自由组合多个平台同时接单哦！ </view>
     </view>
-    <view class="_view data-v-39f1b3e4 pd pt20 pm20 dx_row ">
-      <navigator class="_navigator data-v-39f1b3e4 dx_col_18" url="/pages/taskHL/account_binding">
-        <view class="_view data-v-39f1b3e4 h_dfg_le cz yj fl">
-          <icon class="_icon data-v-39f1b3e4 dx  cz icon-taobao"></icon>
+    <view class="_view data-v-886e419a pd pt20 pm20 dx_row ">
+      <navigator class="_navigator data-v-886e419a dx_col_18" url="/pages/taskHL/account_binding">
+        <view class="_view data-v-886e419a h_dfg_le cz yj fl">
+          <icon class="_icon data-v-886e419a dx  cz icon-taobao"></icon>
         </view>
-        <view class="_view data-v-39f1b3e4 ov pl20 ln">
-          <view class="_view data-v-39f1b3e4 fz32 z6 mt10"> 这么恶心麻烦 </view>
-          <view class="_view data-v-39f1b3e4 fz26 z9"> 今日已接垫付0/3单 浏览0/100单 </view>
+        <view class="_view data-v-886e419a ov pl20 ln">
+          <view class="_view data-v-886e419a fz32 z6 mt10"> 这么恶心麻烦 </view>
+          <view class="_view data-v-886e419a fz26 z9"> 今日已接垫付0/3单 浏览0/100单 </view>
         </view>
-        <view class="_view data-v-39f1b3e4 qc"></view>
+        <view class="_view data-v-886e419a qc"></view>
       </navigator>
-      <view class="_view data-v-39f1b3e4 dx_col_6 tr pt20">
-        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'Hvb-0'}}" data-comkey="{{$k}}" class="_switch data-v-39f1b3e4" />
+      <view class="_view data-v-886e419a dx_col_6 tr pt20">
+        <switch checked="{{checked}}" bindchange="handleProxy" color="#00AB93" data-eventid="{{'AT7-0'}}" data-comkey="{{$k}}" class="_switch data-v-886e419a" />
       </view>
     </view>
-    <view class="_view data-v-39f1b3e4 pt10 pm10 pd fz26 dfg_cfrtt"> 淘宝任务模式：全部/淘宝/任务 </view>
-    <view class="_view data-v-39f1b3e4 df_ccrf_rt">
-      <view class="_view data-v-39f1b3e4 btm pt20 pm20 pd pr" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
-        <view class="_view data-v-39f1b3e4 h_dfg_le cz yj fl ab">
-          <icon class="_icon data-v-39f1b3e4 dx  cz {{sd.icon}}"></icon>
+    <view class="_view data-v-886e419a pt10 pm10 pd fz26 dfg_cfrtt"> 淘宝任务模式：全部/淘宝/任务 </view>
+    <view class="_view data-v-886e419a df_ccrf_rt">
+      <view class="_view data-v-886e419a btm pt20 pm20 pd pr" wx:for="{{user_meat}}" wx:for-index="index" wx:for-item="sd">
+        <view class="_view data-v-886e419a h_dfg_le cz yj fl ab">
+          <icon class="_icon data-v-886e419a dx  cz {{sd.icon}}"></icon>
         </view>
-        <view class="_view data-v-39f1b3e4 ov pl20 ln">
-          <view class="_view data-v-39f1b3e4 fz34 z6 mt20"> {{sd.name}} </view>
+        <view class="_view data-v-886e419a ov pl20 ln">
+          <view class="_view data-v-886e419a fz34 z6 mt20"> {{sd.name}} </view>
         </view>
-        <view class="_view data-v-39f1b3e4 df_right fz26 z9 ab">
-          <icon class="_icon data-v-39f1b3e4 dx icon-right1 cz fz30 ml10"></icon>
+        <view class="_view data-v-886e419a df_right fz26 z9 ab">
+          <icon class="_icon data-v-886e419a dx icon-right1 cz fz30 ml10"></icon>
         </view>
-        <view class="_view data-v-39f1b3e4 qc"></view>
+        <view class="_view data-v-886e419a qc"></view>
       </view>
     </view>
-    <view class="_view data-v-39f1b3e4 sjgh_dfge cz_w" wx:if="{{is_pup}}">
-      <view class="_view data-v-39f1b3e4   cz_a ">
-        <view class="_view data-v-39f1b3e4 df_jh_deetxe yj4 bgff tl pt30 pd">
-          <view class="_view data-v-39f1b3e4  cen">
-            <view class="_view data-v-39f1b3e4 d_hgh_dfg yj4 bgls cz">
-              <icon class="_icon data-v-39f1b3e4 dx icon-zhuyi cf fz40 cz"></icon>
+    <view class="_view data-v-886e419a sjgh_dfge cz_w" wx:if="{{is_pup}}">
+      <view class="_view data-v-886e419a   cz_a ">
+        <view class="_view data-v-886e419a df_jh_deetxe yj4 bgff tl pt30 pd">
+          <view class="_view data-v-886e419a  cen">
+            <view class="_view data-v-886e419a d_hgh_dfg yj4 bgls cz">
+              <icon class="_icon data-v-886e419a dx icon-zhuyi cf fz40 cz"></icon>
             </view>
-            <text class="_text data-v-39f1b3e4 fz34 ls ml10">来任务啦</text>
+            <text class="_text data-v-886e419a fz34 ls ml10">来任务啦</text>
           </view>
-          <view class="_view data-v-39f1b3e4 btm mt20 z6 pm20">
-            <view class="_view data-v-39f1b3e4 dx_row pt20 pm20 fz26">
-              <view class="_view data-v-39f1b3e4 dx_col_6"> 任务类型 </view>
-              <view class="_view data-v-39f1b3e4 dx_col_18 tr"> 手机淘宝普通好评 </view>
+          <view class="_view data-v-886e419a btm mt20 z6 pm20">
+            <view class="_view data-v-886e419a dx_row pt20 pm20 fz26">
+              <view class="_view data-v-886e419a dx_col_6"> 任务类型 </view>
+              <view class="_view data-v-886e419a dx_col_18 tr"> 手机淘宝普通好评 </view>
             </view>
-            <view class="_view data-v-39f1b3e4 dx_row pt20 pm20 fz26 btm">
-              <view class="_view data-v-39f1b3e4 dx_col_6"> 任务佣金 </view>
-              <view class="_view data-v-39f1b3e4 dx_col_18 tr"> 7.74金 </view>
+            <view class="_view data-v-886e419a dx_row pt20 pm20 fz26 btm">
+              <view class="_view data-v-886e419a dx_col_6"> 任务佣金 </view>
+              <view class="_view data-v-886e419a dx_col_18 tr"> 7.74金 </view>
             </view>
-            <view class="_view data-v-39f1b3e4 dx_row pt20 pm20 fz26 btm">
-              <view class="_view data-v-39f1b3e4 dx_col_6"> 时间限制 </view>
-              <view class="_view data-v-39f1b3e4 dx_col_18 tr"> 2小时 </view>
+            <view class="_view data-v-886e419a dx_row pt20 pm20 fz26 btm">
+              <view class="_view data-v-886e419a dx_col_6"> 时间限制 </view>
+              <view class="_view data-v-886e419a dx_col_18 tr"> 2小时 </view>
             </view>
           </view>
         </view>
       </view>
     </view>
-    <view class="_view data-v-39f1b3e4 jieDanBtn" bindtap="handleProxy" data-eventid="{{'iAp-1'}}" data-comkey="{{$k}}">
-      <view class="_view data-v-39f1b3e4 cen fz28 z9 dsf_deertx" wx:if="{{is_jiedan}}"> {{jishi_d}} </view> 接 单
-      <image src="../../static/img/huangs_as.png" class="_image data-v-39f1b3e4 huangs_as" wx:if="{{is_jiedan}}"></image>
+    <view class="_view data-v-886e419a jieDanBtn" bindtap="handleProxy" data-eventid="{{'XDV-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-886e419a cen fz28 z9 dsf_deertx" wx:if="{{is_jiedan}}"> {{jishi_d}} </view> 接 单
+      <image src="../../static/img/huangs_as.png" class="_image data-v-886e419a huangs_as" wx:if="{{is_jiedan}}"></image>
     </view>
-    <view class="_view data-v-39f1b3e4 sdf_jgh_sdf yj  cf fz34" wx:if="{{is_jiedan}}" bindtap="handleProxy" data-eventid="{{'ghb-2'}}" data-comkey="{{$k}}">
-      <text class="_text data-v-39f1b3e4">停 止</text>
+    <view class="_view data-v-886e419a sdf_jgh_sdf yj  cf fz34" wx:if="{{is_jiedan}}" bindtap="handleProxy" data-eventid="{{'OoK-2'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-886e419a">停 止</text>
     </view>
   </view>
 </template>

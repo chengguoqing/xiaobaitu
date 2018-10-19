@@ -1,1 +1,1 @@
-<import src="/pages/taskHL/cancelTask.vue.wxml" /><template is="b3dc8540" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/taskHL/cancelTask.vue.wxml" /><template is="2677d6a7" data="{{ ...$root['0'], $root }}"/>

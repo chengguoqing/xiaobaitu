@@ -1,0 +1,212 @@
+<template>
+	<div>
+
+		<div class="sd_jh_rrtxc" @click="ckh_drt">
+			<image src="../../static/img/fenming.jpg" class="fenming "></image>
+			<div class="sdfsdfgy ">
+				<div class="row">
+					<div class="media-title row">
+						<image src="../../static/img/ali_ww.png " class="ali_ww ">
+							<text class="z6"> 这么恶心麻烦</text>
+					</div>
+					<div class="media-title fg_jh_dertxc">
+						<text class="z6 tr"> 2018.10.10</text>
+					</div>
+				</div>
+				<div class="row d_jhhg_dtrx">
+						<div class="media-title  ">
+							<text class="sd_jhg_dnum_d ">￥5.83</text>
+						</div>
+						<div class="fg_jh_dertxc  duiqi_eri">
+							<text class="daipingjia">待评价</text>
+						</div>
+				</div>
+				
+				<div class="row df_jh_dedert">
+					<div class="media-title row">
+						
+							<text class="z6">垫资69.00元</text>
+					</div>
+					<div class="media-title ">
+						<text class="red_drrt tr">垫付任务</text>
+					</div>
+				</div>
+				
+
+			</div>
+
+
+
+
+
+		</div>
+
+
+	</div>
+</template>
+
+<script>
+	export default {
+		props: {
+			testdf: "",
+			data: {
+				type: Object,
+				default: {},
+
+			}
+		},
+		computed: {
+
+		},
+		methods: {
+			ckh_drt() {
+				uni.navigateTo({
+					url: "/pages/taskHL/taskXq"
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	.list-cell {
+
+		padding: 0 30px;
+	}
+
+	.media-list {
+		width: 750px;
+		flex-direction: column;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #c8c7cc;
+		padding: 20px 20px;
+	}
+
+	.media-image-left {
+		flex-direction: row-reverse;
+	}
+
+	.media-image-right {
+		flex-direction: row;
+	}
+
+	.media-title {
+		flex: 1;
+
+	}
+
+	.media-title {
+		lines: 3;
+		text-overflow: ellipsis;
+	}
+
+	.d_jhgh_deer {
+		font-size: 12px;
+		text-align: right;
+		color: #999999;
+	}
+
+	.info_rtext {
+		color: #999999;
+		font-size: 28px;
+		text-align: right;
+	}
+
+	.info_rtext_ab {
+		color: #999999;
+		font-size: 28px;
+	}
+
+
+	.z6 {
+		color: #666666;
+	}
+
+	.fenming {
+		width: 200px;
+		height: 200px;
+	}
+
+	.sf_jh_drrt {
+		text-align: left;
+	}
+
+	.df_jh_derett {
+		width: 550px;
+	}
+
+	.image-section {
+		margin-top: 20px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.sdfsdfgy {
+		width: 510px;
+		padding-left: 20px;
+	}
+
+	.ali_ww {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+	}
+
+	.sd_jh_rrtxc {
+		padding: 20px;
+		width: 750px;
+		flex-direction: row;
+	}
+
+	.row {
+		flex-direction: row;
+	}
+
+	.tr {
+		text-align: right;
+	}
+
+	.fg_jh_dertxc {
+		margin-top: 5px;
+	}
+
+	.sd_jhg_dnum_d {
+		color: #01C09F;
+		font-size: 60px;
+	}
+
+	.d_jhhg_dtrx {
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #c8c7cc;
+		margin-top: 10px;
+
+	}
+	.sd_jh_rrtxc{
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #c8c7cc;
+	}
+
+	.daipingjia {
+		background-color: #01C09F;
+		border-radius: 4px;
+		width: 150px;
+		height: 60px;
+		text-align: center;
+		line-height: 60px;
+		color: #FFFFFF;
+		position: relative;
+		top: -10px;
+	}
+	.duiqi_eri{
+		justify-content:flex-end
+	}
+	.red_drrt{ 
+		color: red;
+	}
+	.df_jh_dedert{
+		margin-top: 10px;
+	}
+</style>

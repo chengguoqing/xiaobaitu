@@ -1,11 +1,11 @@
-<template name="3369cc80">
-  <view class="_view data-v-f6066356">
-    <navigator class="_navigator data-v-f6066356 bgff pd pt10 pm15 bbm" url="/pages/message/messageXq" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
-      <view class="_view data-v-f6066356  df_df_drertt">
-        <icon class="_icon data-v-f6066356 dx icon-systemprompt z9  fz34 cz"></icon>
-        <text class="_text data-v-f6066356 z9 fz26 ml5 cz">2018-10-05 16:04:02</text>
+<template name="43438b87">
+  <view class="_view data-v-1b35873a">
+    <navigator class="_navigator data-v-1b35873a bgff pd pt10 pm15 bbm" url="/pages/message/messageXq" wx:for="{{20}}" wx:for-index="index" wx:for-item="sd">
+      <view class="_view data-v-1b35873a  df_df_drertt">
+        <icon class="_icon data-v-1b35873a dx icon-systemprompt z9  fz34 cz"></icon>
+        <text class="_text data-v-1b35873a z9 fz26 ml5 cz">2018-10-05 16:04:02</text>
       </view>
-      <view class="_view data-v-f6066356 fz30 z6  df_deeettxc"> 很遗憾，很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾 </view>
+      <view class="_view data-v-1b35873a fz30 z6  df_deeettxc"> 很遗憾，很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾很遗憾 </view>
     </navigator>
   </view>
 </template>

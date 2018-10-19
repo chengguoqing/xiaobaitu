@@ -1,32 +1,32 @@
-<template name="ffafc0ec">
-  <view class="_view data-v-01e89315">
-    <view class="_view data-v-01e89315 cen fz32 pt40 z3"> 很抱歉，你没有通过考试哦 </view>
-    <view class="_view data-v-01e89315 pd mt20 fg_khj_deer">
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-delete_fill red fz40"></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml10">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+<template name="0c852f23">
+  <view class="_view data-v-74bcf410">
+    <view class="_view data-v-74bcf410 cen fz32 pt40 z3"> 很抱歉，你没有通过考试哦 </view>
+    <view class="_view data-v-74bcf410 pd mt20 fg_khj_deer">
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-delete_fill red fz40"></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml10">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-success_fill ls fz40"></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml5">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-success_fill ls fz40"></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml5">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-delete_fill red fz40"></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml5">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-delete_fill red fz40"></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml5">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-success_fill ls fz40"></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml5">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-success_fill ls fz40"></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml5">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-delete_fill red fz40"></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml5">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-delete_fill red fz40"></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml5">1.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <view class="_view data-v-01e89315 pt20 pm20 bbm">
-        <icon class="_icon data-v-01e89315 dx icon-success_fill ls fz40 "></icon>
-        <text class="_text data-v-01e89315 fz32 z9 df_deerrty ml5 ">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
+      <view class="_view data-v-74bcf410 pt20 pm20 bbm">
+        <icon class="_icon data-v-74bcf410 dx icon-success_fill ls fz40 "></icon>
+        <text class="_text data-v-74bcf410 fz32 z9 df_deerrty ml5 ">2.蜜桃吧官方QQ1群号码是_____,在公告里就可以看到。</text>
       </view>
-      <navigator class="_navigator data-v-01e89315 dx_btn ls cen fz32 mt80 bgff" url="/pages/examination/statrExamination"> 重新考试 </navigator>
+      <navigator class="_navigator data-v-74bcf410 dx_btn ls cen fz32 mt80 bgff" url="/pages/examination/statrExamination"> 重新考试 </navigator>
     </view>
   </view>
 </template>

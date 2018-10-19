@@ -10,6 +10,16 @@
 				}
 			}
 		}, {
+			"path": "pages/taskHL/taskList",
+			"style": {
+				"navigationBarTitleText": "任务列表"
+			}
+		}, {
+			"path": "pages/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "申诉中心"
+			}
+		}, {
 			"path": "pages/complaint/tijiaocomplaint",
 			"style": {
 				"navigationBarTitleText": "申述"
@@ -39,11 +49,6 @@
 			"path": "pages/taskHL/operatingDuty",
 			"style": {
 				"navigationBarTitleText": "操作任务"
-			}
-		}, {
-			"path": "pages/complaint/complaint",
-			"style": {
-				"navigationBarTitleText": "申诉中心"
 			}
 		}, {
 			"path": "pages/taskHL/account_binding",
@@ -84,11 +89,6 @@
 			"path": "pages/taskHL/offStocksList",
 			"style": {
 				"navigationBarTitleText": "已完成任务列表"
-			}
-		}, {
-			"path": "pages/taskHL/taskList",
-			"style": {
-				"navigationBarTitleText": "任务列表"
 			}
 		}, {
 			"path": "pages/user_center/newUserNmae",

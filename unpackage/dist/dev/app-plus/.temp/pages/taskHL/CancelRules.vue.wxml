@@ -1,18 +1,18 @@
-<template name="5cea388c">
-  <view class="_view data-v-643a17d1">
-    <view class="_view data-v-643a17d1 pd pr">
-      <image src="../../static/img/xiaols_bg.png" class="_image data-v-643a17d1 w100" mode="widthFix"></image>
-      <view class="_view data-v-643a17d1 mt60 cen">
-        <text class="_text data-v-643a17d1 sd_jh_derterter">
-          <text class="_text data-v-643a17d1 z3 fz32">取消规则</text>
+<template name="2d716fb6">
+  <view class="_view data-v-51e30e68">
+    <view class="_view data-v-51e30e68 pd pr">
+      <image src="../../static/img/xiaols_bg.png" class="_image data-v-51e30e68 w100" mode="widthFix"></image>
+      <view class="_view data-v-51e30e68 mt60 cen">
+        <text class="_text data-v-51e30e68 sd_jh_derterter">
+          <text class="_text data-v-51e30e68 z3 fz32">取消规则</text>
         </text>
       </view>
-      <view class="_view data-v-643a17d1 z6 fz30 dfg_jfrrtt ln"> 平台中有如下几种取消类型及规则:
-        <view class="_br data-v-643a17d1"></view> 1.超时未提交系统自动取消(普通垫付任务2小时,普通浏览任务1小时 特别任务时间以商家实际设置时间为准):垫付单扣1金,浏览单扣0.2 金,计入完成率;任务佣金将取消
-        <view class="_br data-v-643a17d1"></view> 2.用户自己取消:15分钟内取消无责,超过15分钟取消不扣金,计入完成 率;任务佣金将取消
-        <view class="_br data-v-643a17d1"></view> 3申诉协商取消:不扣金,计入完成率;已返款或已完成的任务撤销成功 后平台返款的本金将返还到商家本金账户,任务佣金将扣回
-        <view class="_br data-v-643a17d1"></view> 4.平台管理员取消:取消不扣金,计入完成率;已返款或已完成的任务撤 销成功后平台返款的本金将返还到商家本金账户,任务佣金将扣回 完成率是系统派单参考的其中一个因素,用户尽量不要随意取消任务,以 免影响到完成率,从而降低系统派单给你的优先级。 </view>
+      <view class="_view data-v-51e30e68 z6 fz30 dfg_jfrrtt ln"> 平台中有如下几种取消类型及规则:
+        <view class="_br data-v-51e30e68"></view> 1.超时未提交系统自动取消(普通垫付任务2小时,普通浏览任务1小时 特别任务时间以商家实际设置时间为准):垫付单扣1金,浏览单扣0.2 金,计入完成率;任务佣金将取消
+        <view class="_br data-v-51e30e68"></view> 2.用户自己取消:15分钟内取消无责,超过15分钟取消不扣金,计入完成 率;任务佣金将取消
+        <view class="_br data-v-51e30e68"></view> 3申诉协商取消:不扣金,计入完成率;已返款或已完成的任务撤销成功 后平台返款的本金将返还到商家本金账户,任务佣金将扣回
+        <view class="_br data-v-51e30e68"></view> 4.平台管理员取消:取消不扣金,计入完成率;已返款或已完成的任务撤 销成功后平台返款的本金将返还到商家本金账户,任务佣金将扣回 完成率是系统派单参考的其中一个因素,用户尽量不要随意取消任务,以 免影响到完成率,从而降低系统派单给你的优先级。 </view>
     </view>
-    <view class="_view data-v-643a17d1 bgff_dert"></view>
+    <view class="_view data-v-51e30e68 bgff_dert"></view>
   </view>
 </template>

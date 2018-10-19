@@ -1,20 +1,20 @@
 <import src="/components/dx_input.vue.wxml" />
 <import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
-<template name="8250369e">
-  <view class="_view data-v-e43508f4">
-    <view class="_view data-v-e43508f4 pt20 pm20 pd fz30 z3"> 账号信息 </view>
-    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'19v-0'],$root}}" is="33eeffcb"></template>
-    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'dpQ-1'],$root}}" is="33eeffcb"></template>
-    <view class="_view data-v-e43508f4 dx_select btm pr" bindtap="handleProxy" data-eventid="{{'ePl-0'}}" data-comkey="{{$k}}">
-      <text wx:if="{{!pickerText}}" class="_text data-v-e43508f4 z9"> 请选择省份、市、县级市 </text>
-      <text wx:else class="_text data-v-e43508f4 z3"> {{pickerText}} </text>
+<template name="6f916910">
+  <view class="_view data-v-107b80aa">
+    <view class="_view data-v-107b80aa pt20 pm20 pd fz30 z3"> 账号信息 </view>
+    <template placeholder="收货人" data="{{...$root['0'], ...$root[$kk+'7WD-0'],$root}}" is="336ad492"></template>
+    <template type="2" placeholder="收货人手机" data="{{...$root['0'], ...$root[$kk+'bVq-1'],$root}}" is="336ad492"></template>
+    <view class="_view data-v-107b80aa dx_select btm pr" bindtap="handleProxy" data-eventid="{{'odE-0'}}" data-comkey="{{$k}}">
+      <text wx:if="{{!pickerText}}" class="_text data-v-107b80aa z9"> 请选择省份、市、县级市 </text>
+      <text wx:else class="_text data-v-107b80aa z3"> {{pickerText}} </text>
     </view>
-    <view class="_view data-v-e43508f4 pr">
-      <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'qka-2'],$root}}" is="33eeffcb"></template>
+    <view class="_view data-v-107b80aa pr">
+      <template placeholder="详细地址" data="{{...$root['0'], ...$root[$kk+'k3h-2'],$root}}" is="336ad492"></template>
     </view>
-    <view class="_view data-v-e43508f4 pd pm20 mt60">
-      <view class="_view data-v-e43508f4 mt20 dx_btn cen fz30 bgls"> 提交审核 </view>
+    <view class="_view data-v-107b80aa pd pm20 mt60">
+      <view class="_view data-v-107b80aa mt20 dx_btn cen fz30 bgls"> 提交审核 </view>
     </view>
-    <template bindclose_e="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'Qfv-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'nh3-3'],$root}}" is="1275b78f"></template>
+    <template bindclose_e="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'iHF-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'PbP-3'],$root}}" is="5b7d3154"></template>
   </view>
 </template>

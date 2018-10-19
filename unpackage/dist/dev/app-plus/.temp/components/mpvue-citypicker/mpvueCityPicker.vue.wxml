@@ -1,21 +1,21 @@
-<template name="1275b78f">
-  <view class="_div data-v-70136f2a mpvue-picker">
-    <view bindtap="handleProxy" data-eventid="{{'Aff-0'}}" data-comkey="{{$k}}" class="_div data-v-70136f2a {{[showPicker ? 'pickerMask' : '']}}"></view>
-    <view class="_div data-v-70136f2a mpvue-picker-content  {{[showPicker ? 'mpvue-picker-view-show' : '']}}">
-      <view class="_div data-v-70136f2a mpvue-picker__hd pd">
-        <view class="_div data-v-70136f2a mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'94k-1'}}" data-comkey="{{$k}}">取消</view>
-        <view class="_div data-v-70136f2a mpvue-picker__action ls" bindtap="handleProxy" data-eventid="{{'JXh-2'}}" data-comkey="{{$k}}" style=" {{('color:' + themeColor + ';')}}">确定</view>
+<template name="5b7d3154">
+  <view class="_div data-v-10d03e4f mpvue-picker">
+    <view bindtap="handleProxy" data-eventid="{{'IDS-0'}}" data-comkey="{{$k}}" class="_div data-v-10d03e4f {{[showPicker ? 'pickerMask' : '']}}"></view>
+    <view class="_div data-v-10d03e4f mpvue-picker-content  {{[showPicker ? 'mpvue-picker-view-show' : '']}}">
+      <view class="_div data-v-10d03e4f mpvue-picker__hd pd">
+        <view class="_div data-v-10d03e4f mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'B7T-1'}}" data-comkey="{{$k}}">取消</view>
+        <view class="_div data-v-10d03e4f mpvue-picker__action ls" bindtap="handleProxy" data-eventid="{{'aoT-2'}}" data-comkey="{{$k}}" style=" {{('color:' + themeColor + ';')}}">确定</view>
       </view>
-      <picker-view indicator-style="height: 40px;" class="_picker-view data-v-70136f2a mpvue-picker-view" value="{{pickerValue}}" bindchange="handleProxy" data-eventid="{{'zUe-3'}}" data-comkey="{{$k}}">
+      <picker-view indicator-style="height: 40px;" class="_picker-view data-v-10d03e4f mpvue-picker-view" value="{{pickerValue}}" bindchange="handleProxy" data-eventid="{{'H8o-3'}}" data-comkey="{{$k}}">
         <block>
-          <picker-view-column class="_picker-view-column data-v-70136f2a">
-            <view class="_div data-v-70136f2a picker-item" wx:key="index" key="{{index}}" wx:for="{{provinceDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          <picker-view-column class="_picker-view-column data-v-10d03e4f">
+            <view class="_div data-v-10d03e4f picker-item" wx:key="index" key="{{index}}" wx:for="{{provinceDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
           </picker-view-column>
-          <picker-view-column class="_picker-view-column data-v-70136f2a">
-            <view class="_div data-v-70136f2a picker-item" wx:key="index" key="{{index}}" wx:for="{{cityDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          <picker-view-column class="_picker-view-column data-v-10d03e4f">
+            <view class="_div data-v-10d03e4f picker-item" wx:key="index" key="{{index}}" wx:for="{{cityDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
           </picker-view-column>
-          <picker-view-column class="_picker-view-column data-v-70136f2a">
-            <view class="_div data-v-70136f2a picker-item" wx:key="index" key="{{index}}" wx:for="{{areaDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          <picker-view-column class="_picker-view-column data-v-10d03e4f">
+            <view class="_div data-v-10d03e4f picker-item" wx:key="index" key="{{index}}" wx:for="{{areaDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
           </picker-view-column>
         </block>
       </picker-view>

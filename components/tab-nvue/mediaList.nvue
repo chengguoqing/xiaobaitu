@@ -10,7 +10,7 @@
 			</div>
 			<div class="media-image-right dd_jhxdr">
 				<div class="media-title info-text">
-					<text class="z6">1打哈哈file李经理</text>
+					<text class="info_rtext_ab">打哈哈file李经理</text>
 				</div>
 				<div class="media-title ">
 					<text class="info_rtext">处理中</text>
@@ -87,9 +87,12 @@
 		font-size: 28px;
 		text-align: right;
 	}
+	.info_rtext_ab{
+		color: #999999;
+		font-size: 28px;
+	}
 
 	.dd_jhxdr {
-		margin-top: 10px;
 	}
 
 	.z6 {

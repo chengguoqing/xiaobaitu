@@ -1,54 +1,54 @@
-<template name="12a77b0a">
-  <view class="_view data-v-77ff36b6">
-    <view class="_view data-v-77ff36b6 renWU_row bgff">
-      <view class="_view data-v-77ff36b6 title_df z3 pd"> 已接垫付任务 </view>
-      <view class="_view data-v-77ff36b6 btm pt20 pm20">
-        <view class="_view data-v-77ff36b6 cen ">
-          <navigator class="_navigator data-v-77ff36b6 cls_3" url="/pages/taskHL/taskList">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 未完成 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task1.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+<template name="12234fd1">
+  <view class="_view data-v-466c12ca">
+    <view class="_view data-v-466c12ca renWU_row bgff">
+      <view class="_view data-v-466c12ca title_df z3 pd"> 已接垫付任务 </view>
+      <view class="_view data-v-466c12ca btm pt20 pm20">
+        <view class="_view data-v-466c12ca cen ">
+          <navigator class="_navigator data-v-466c12ca cls_3" url="/pages/taskHL/taskList">
+            <view class="_view data-v-466c12ca fz28 z6"> 未完成 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task1.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <navigator class="_navigator data-v-77ff36b6 blm cls_3" url="/pages/taskHL/offStocksList">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 已完成 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task2.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+          <navigator class="_navigator data-v-466c12ca blm cls_3" url="/pages/taskHL/offStocksList">
+            <view class="_view data-v-466c12ca fz28 z6"> 已完成 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task2.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <navigator class="_navigator data-v-77ff36b6 blm cls_3" url="/pages/taskHL/HadWithdrawn">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 已撤销 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task3.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+          <navigator class="_navigator data-v-466c12ca blm cls_3" url="/pages/taskHL/HadWithdrawn">
+            <view class="_view data-v-466c12ca fz28 z6"> 已撤销 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task3.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <view class="_view data-v-77ff36b6 qc"></view>
+          <view class="_view data-v-466c12ca qc"></view>
         </view>
       </view>
     </view>
-    <view class="_view data-v-77ff36b6 renWU_row bgff mt20">
-      <view class="_view data-v-77ff36b6 title_df z3 pd"> 已接浏览任务 </view>
-      <view class="_view data-v-77ff36b6 btm pt20 pm20">
-        <view class="_view data-v-77ff36b6 cen ">
-          <navigator class="_navigator data-v-77ff36b6 cls_3" url="/pages/taskHL/taskList?type=2">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 未完成 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task1.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+    <view class="_view data-v-466c12ca renWU_row bgff mt20">
+      <view class="_view data-v-466c12ca title_df z3 pd"> 已接浏览任务 </view>
+      <view class="_view data-v-466c12ca btm pt20 pm20">
+        <view class="_view data-v-466c12ca cen ">
+          <navigator class="_navigator data-v-466c12ca cls_3" url="/pages/taskHL/taskList?type=2">
+            <view class="_view data-v-466c12ca fz28 z6"> 未完成 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task1.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <navigator class="_navigator data-v-77ff36b6 blm cls_3" url="/pages/taskHL/offStocksList?type=2">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 已完成 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task2.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+          <navigator class="_navigator data-v-466c12ca blm cls_3" url="/pages/taskHL/offStocksList?type=2">
+            <view class="_view data-v-466c12ca fz28 z6"> 已完成 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task2.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <navigator class="_navigator data-v-77ff36b6 blm cls_3" url="/pages/taskHL/HadWithdrawn">
-            <view class="_view data-v-77ff36b6 fz28 z6"> 已撤销 </view>
-            <view class="_view data-v-77ff36b6 mt20">
-              <image src="../../static/img/task3.png" class="_image data-v-77ff36b6 sd_drrrtty"></image>
+          <navigator class="_navigator data-v-466c12ca blm cls_3" url="/pages/taskHL/HadWithdrawn">
+            <view class="_view data-v-466c12ca fz28 z6"> 已撤销 </view>
+            <view class="_view data-v-466c12ca mt20">
+              <image src="../../static/img/task3.png" class="_image data-v-466c12ca sd_drrrtty"></image>
             </view>
           </navigator>
-          <view class="_view data-v-77ff36b6 qc"></view>
+          <view class="_view data-v-466c12ca qc"></view>
         </view>
       </view>
     </view>

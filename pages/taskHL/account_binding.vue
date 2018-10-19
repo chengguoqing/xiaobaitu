@@ -13,13 +13,6 @@
 			<i class="dx icon-down ls fr mt15"></i>
 		</picker>
 
-
-
-
-
-
-
-
 		<view v-for="(sd,ix) in xsd_eer">
 			<view class="pd pt10 pm10 z3">
 				{{sd.title}}
